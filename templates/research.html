@@ -11,6 +11,17 @@
     {% for t in themes %}<a href="#{{ t.id }}">{{ t.name }} <span aria-hidden="true">&rarr;</span></a>{% endfor %}
   </div>
 </div>
+<section class="wrap section trend-sec">
+  <h3 class="sub">Share of our papers on each theme</h3>
+  <ul class="trend-key">{% for t in themes %}<li class="t-{{ t.id }}"><span></span>{{ t.name }}</li>{% endfor %}</ul>
+  <div class="donuts">{% for d in trend[0] %}{{ d }}{% endfor %}</div>
+  <p class="trend-note">The latest period runs to date. A paper on two themes counts half to each.</p>
+  <div class="sr-only">
+    <table><caption>Share of themed papers on each theme, by period</caption><thead><tr><th>Years</th>{% for t in themes %}<th>{{ t.name }}</th>{% endfor %}</tr></thead>
+    <tbody>{% for r in trend[1] %}<tr><td>{{ r.window }}</td>{% for t in themes %}<td>{{ r[t.id] }}</td>{% endfor %}</tr>{% endfor %}</tbody></table>
+  </div>
+</section>
+
 {% for t in themes %}
 <section class="wrap section theme-block t-{{ t.id }}" id="{{ t.id }}">
   <h2>{{ t.name }}</h2>

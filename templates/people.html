@@ -29,6 +29,19 @@
   </div>
 </section>
 
+{% if site.mascots %}
+<section class="wrap section mascot-sec">
+  <div class="mascots">
+    {% for m in site.mascots %}
+    <div class="mascot">
+      <img src="{{ m.photo }}" alt="{{ m.name }}" width="120" height="120" loading="lazy">
+      <div><p class="op-type">{{ m.title }}</p><div class="cc-head">{{ m.name }}</div><p class="cc-meta">{{ m.bio }}</p></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if openings %}
 <section class="wrap section" id="openings">
   <h2>Openings</h2>

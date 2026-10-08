@@ -19,6 +19,7 @@ Date: 2026-10-08
 """
 
 import json
+import math
 import re
 import shutil
 import sys
@@ -62,6 +63,83 @@ def merge_alumni(team):
         m["sort"] = max(m["sort"], str(a.get("years", "")))
     return sorted(merged.values(), key=lambda m: m["sort"], reverse=True)
 
+
+def theme_trend(pubs, themes, first=2005, eras=3):
+    """Share of the lab's themed papers on each theme in three equal eras
+    ending this year, as one donut per era. A paper on two themes counts half to
+    each, so the shares in every window add to 100%."""
+    this_year = date.today().year
+    total = this_year - first + 1
+    starts = [first + round(k * total / eras) for k in range(eras)]
+    ids = [t["id"] for t in themes]
+    rows = []
+    for k, s0 in enumerate(starts):
+        span = (starts[k + 1] if k + 1 < len(starts) else this_year + 1) - s0
+        w = {i: 0.0 for i in ids}
+        n = 0
+        for p in pubs:
+            th = [i for i in p["themes"] if i in w]
+            if th and p["year"] and s0 <= p["year"] < s0 + span:
+                n += 1
+                for i in th:
+                    w[i] += 1 / len(th)
+        tot = sum(w.values()) or 1
+        end = s0 + span - 1
+        rows.append({"label": f"{s0}–{str(end)[2:]}" if end > s0 else str(s0),
+                     "window": (f"{s0}–{end}" if end > s0 else str(s0)) + (" (to date)" if end == this_year else ""),
+                     "n": n, **{i: 100 * w[i] / tot for i in ids}})
+    # One donut per window, segments clockwise from twelve o'clock in theme order.
+    R, r_in, gap = 70, 44, 0.025
+    cells = []
+    for row in rows:
+        segs, a0 = [], -math.pi / 2
+        for t in themes:
+            frac = row[t["id"]] / 100
+            if frac <= 0:
+                continue
+            a1 = a0 + 2 * math.pi * frac
+            s0, s1 = a0 + gap / 2, max(a1 - gap / 2, a0 + gap / 2 + 1e-3)
+            big = 1 if s1 - s0 > math.pi else 0
+            pt = lambda rad, ang: (90 + rad * math.cos(ang), 90 + rad * math.sin(ang))
+            (x0, y0), (x1, y1) = pt(R, s0), pt(R, s1)
+            (x2, y2), (x3, y3) = pt(r_in, s1), pt(r_in, s0)
+            d = (f"M{x0:.2f},{y0:.2f} A{R},{R} 0 {big} 1 {x1:.2f},{y1:.2f} L{x2:.2f},{y2:.2f} "
+                 f"A{r_in},{r_in} 0 {big} 0 {x3:.2f},{y3:.2f} Z")
+            tip = f'{row["window"]}: {t["name"]}, {row[t["id"]]:.0f}%'
+            segs.append(f'<path class="tr-seg t-{t["id"]}" d="{d}"><title>{tip}</title></path>')
+            if frac >= 0.08:
+                mx, my = pt((R + r_in) / 2, (a0 + a1) / 2)
+                segs.append(f'<text class="tr-in" x="{mx:.1f}" y="{my + 4:.1f}">{row[t["id"]]:.0f}%</text>')
+            a0 = a1
+        segs.append(f'<text class="tr-c" x="90" y="95">{row["label"]}</text>')
+        cells.append(Markup(f'<svg class="donut" viewBox="0 0 180 180" role="img" aria-label="Share of '
+                            f'themed papers on each theme, {row["window"]}">{"".join(segs)}</svg>'))
+    svg = cells
+    table = [{"window": r["window"], **{i: f"{r[i]:.0f}%" for i in ids}} for r in rows]
+    return svg, table
+
+def share_donut(pct, label):
+    """A single-value donut: the share filled in red, the rest in grey,
+    the percentage in the centre."""
+    R, r_in, cx = 54, 36, 60
+    a1 = -math.pi / 2 + 2 * math.pi * pct / 100
+    big = 1 if pct > 50 else 0
+    pt = lambda rad, ang: (cx + rad * math.cos(ang), cx + rad * math.sin(ang))
+    (x0, y0), (x1, y1) = pt(R, -math.pi / 2), pt(R, a1)
+    (x2, y2), (x3, y3) = pt(r_in, a1), pt(r_in, -math.pi / 2)
+    seg = (f'<path class="sd-on" d="M{x0:.2f},{y0:.2f} A{R},{R} 0 {big} 1 {x1:.2f},{y1:.2f} '
+           f'L{x2:.2f},{y2:.2f} A{r_in},{r_in} 0 {big} 0 {x3:.2f},{y3:.2f} Z"/>')
+    return Markup(f'<svg class="share-donut" viewBox="0 0 120 120" role="img" aria-label="{label}: about {pct}%">'
+                  f'<circle class="sd-off" cx="{cx}" cy="{cx}" r="{(R + r_in) / 2}" stroke-width="{R - r_in}"/>'
+                  f'{seg}<text x="{cx}" y="{cx + 7}">{pct}%</text></svg>')
+
+
+def lab_shares(pubs):
+    """Share of papers with an open-access copy, rounded to 5% to avoid
+    false precision, for the publications page."""
+    oa = sum(1 for p in pubs if p.get("oa_url"))
+    op = 5 * round(20 * oa / (len(pubs) or 1))
+    return {"open": op, "open_donut": share_donut(op, "Papers free to read")}
 
 def main():
     site = load(_paths.CONTENT / "site.json")
@@ -131,7 +209,7 @@ def main():
     common = {"site": site, "themes": themes, "openings": openings, "art": art, "art_wide": art_wide, "art_band": art_band,
               "banner": _art.dna_banner(w=1030, h=270),
               "banner_short": _art.dna_banner(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
-              "paper_count": len(pubs)}
+              "paper_count": len(pubs), "shares": lab_shares(pubs)}
 
     if _paths.BUILD.exists():
         shutil.rmtree(_paths.BUILD)
@@ -139,7 +217,7 @@ def main():
 
     pages = {
         "index.html": {"team": team},  # bands use art_wide and theme descriptions
-        "research.html": {"featured": featured, "rotation": rotation,
+        "research.html": {"featured": featured, "rotation": rotation, "trend": theme_trend(pubs, themes),
                           "counts": {k: len(v) for k, v in by_theme.items()}},
         "publications.html": {"pubs": pubs, "years": years,
                               "pubs_json": Markup(json.dumps(

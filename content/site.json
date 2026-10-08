@@ -53,5 +53,19 @@
  "tagline": "Genetics and genomics for efficient, healthy, and diverse livestock",
  "rotation_exclude_last_authors": [
   "Jicai Jiang"
+ ],
+ "mascots": [
+  {
+   "name": "Norah",
+   "title": "Lab Superintendent",
+   "bio": "PhD, Barkeley",
+   "photo": "static/img/norah.jpg"
+  },
+  {
+   "name": "Manny",
+   "title": "Chief of Bacon Quality Control",
+   "bio": "PhD, Dogsford",
+   "photo": "static/img/manny.jpg"
+  }
  ]
 }
