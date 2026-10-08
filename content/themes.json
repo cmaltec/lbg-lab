@@ -4,10 +4,10 @@
   {
    "id": "breeding",
    "name": "Genomic selection and breeding design",
-   "summary": "Prediction models and genome mapping for complex traits, and the design of breeding programmes that act on them.",
+   "summary": "Using genomic and phenotypic information in practice, and designing breeding programmes that turn predictions into lasting genetic gain.",
    "description": [
-    "Genomic selection has changed how livestock are improved, and much of our work asks how to make the best use of it. We develop and test prediction models for complex traits in dairy and beef cattle and in pigs, from single-step genomic evaluation to neural networks, and we map the genomic regions behind those traits with genome-wide association and fine-mapping methods adapted to related individuals.",
-    "Prediction is useful only when a breeding programme can act on it, so we also study programme design: how mating, germplasm exchange and selection strategies trade genetic gain against the loss of genetic variation. Much of this work draws on large routinely recorded datasets, including producer-recorded health events and national genotype collections."
+    "Genomic selection has changed how livestock are improved, and much of our work asks how to make the best use of it in practice: which genotypes and phenotypes are worth collecting, what additional information such as microbiome data adds to predictions, and how well predictions hold across populations and production systems, for traits from meat quality and carcass composition in pigs to longevity and fertility in cattle. Work on statistical methods for genomic prediction and fine-mapping is carried out in close collaboration with colleagues in statistical genomics at NC State.",
+    "Prediction is useful only when a breeding programme can act on it, so we also study programme design: how genotyping strategies, mating, germplasm exchange and selection decisions trade genetic gain against the loss of genetic variation. Much of this work draws on large routinely recorded datasets, including producer-recorded health events and national genotype collections."
    ],
    "keywords": [
     "algorithm",
@@ -68,8 +68,8 @@
     "variance component"
    ],
    "featured": [
-    "10.1093/bib/bbaf614",
-    "10.3389/fgene.2025.1618891",
+    "10.1186/s12711-022-00736-4",
+    "10.3168/jds.2023-23250",
     "10.3168/jds.2024-24992"
    ]
   },
