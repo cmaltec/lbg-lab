@@ -64,7 +64,7 @@ def merge_alumni(team):
     return sorted(merged.values(), key=lambda m: m["sort"], reverse=True)
 
 
-def theme_trend(pubs, themes, first=2005, eras=3):
+def theme_trend(pubs, themes, first=2008, eras=3):  # 2008: lab started at NC State
     """Share of the lab's themed papers on each theme in three equal eras
     ending this year, as one donut per era. A paper on two themes counts half to
     each, so the shares in every window add to 100%."""
