@@ -57,12 +57,12 @@
  "mascots": [
   {
    "name": "Norah",
-   "title": "Lab Superintendent",
+   "title": "Head of Squirrel Surveillance",
    "bio": "PhD, Barkeley",
    "photo": "static/img/norah.jpg"
   },
   {
-   "name": "Manny",
+   "name": "Manchester",
    "title": "Chief of Bacon Quality Control",
    "bio": "PhD, Dogsford",
    "photo": "static/img/manny.jpg"
