@@ -6,8 +6,8 @@
    "name": "Genomic selection and breeding design",
    "summary": "How genomic and phenotypic information can be used to predict genetic merit, and how breeding programs can be designed to turn those predictions into sustained genetic gain.",
    "description": [
-    "The advent of genomic selection has accelerated genetic progress in dairy cattle and other livestock species, and much of our work concerns how that progress can be sustained in practice. We evaluate which genotyping and phenotyping strategies are worth their cost, whether additional information such as gut microbiome composition improves the prediction of complex traits, and how well predictions hold across populations and production systems. The traits we study range from meat quality and carcass composition in pigs to longevity and fertility in dairy and beef cattle. Statistical methods for genomic prediction and fine-mapping are developed in close collaboration with colleagues in statistical genomics at NC State.",
-    "Prediction is useful only when a breeding program can act on it. We therefore also study program design, including how genotyping strategies, mating plans, germplasm exchange, and selection decisions balance genetic gain against the loss of genetic variation. Much of this work relies on large, routinely recorded datasets, such as producer-recorded health events and national genotype collections."
+    "Genomic selection has accelerated genetic progress in livestock, but the value of a genomic prediction depends on the information behind it and on the breeding program that acts on it. Our work in this area asks how genomic tools can be used most effectively in practice. It spans the choice of animals to genotype and traits to record, the information included in prediction models, and the design of programs that turn predicted merit into genetic gain without exhausting the genetic variation on which future selection depends.",
+    "Much of this work draws on routinely recorded data from commercial and national populations of dairy cattle, beef cattle, and pigs. The statistical methods it relies on are developed in close collaboration with colleagues in statistical genomics at NC State."
    ],
    "keywords": [
     "algorithm",
@@ -78,8 +78,8 @@
    "name": "Inbreeding and genetic diversity",
    "summary": "How inbreeding can be measured from genomic data, what it costs in performance, health, and fertility, and how selection can be managed to preserve genetic variation.",
    "description": [
-    "Preserving genetic diversity is necessary if livestock populations are to remain responsive to future breeding goals, yet intense selection concentrates genetic contributions on a limited number of families. We use genomic data, and runs of homozygosity in particular, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds.",
-    "A second line of work concerns the cost of inbreeding. We estimate inbreeding depression for production, fertility, health, and longevity, separate the effects of recent and ancient inbreeding, and look for the genomic regions responsible. These estimates inform the mating and selection strategies we evaluate, such as genomic inbreeding penalties and planned germplasm exchange, which aim to sustain genetic gain while curtailing the loss of variation."
+    "Selection concentrates genetic contributions on a limited number of families, and genomic selection can accelerate that process. Our work on inbreeding asks how this concentration can be measured, what it costs, and how it can be managed. Genomic data, and runs of homozygosity in particular, describe inbreeding more precisely than pedigrees and separate recent from ancient inbreeding, which can differ in their consequences for production, fertility, health, and longevity.",
+    "Estimates of inbreeding depression obtained in this way provide the basis for the mating and selection strategies we evaluate, which aim to sustain genetic gain while curtailing the loss of genetic variation."
    ],
    "keywords": [
     "conservation",
@@ -106,8 +106,8 @@
    "name": "Host genome, microbiome, and resilience",
    "summary": "How the host genome and the gut microbiome jointly shape performance, and how animals respond to heat stress under a changing climate.",
    "description": [
-    "The performance of an animal reflects both its own genome and the microbial communities it carries, and the host genome contributes to shaping those communities. Working mainly in pigs, we estimate how much of the variation in gut microbiome composition is under host genetic control and how much of the variation in growth, feed efficiency, and carcass traits the microbiome accounts for. We also test whether microbial information improves the prediction of those traits alongside genomic data.",
-    "Heat stress poses a growing threat to livestock production and welfare, a problem exacerbated by climate change. In sows genomically selected for heat tolerance, we combine automatically recorded body temperature, time-resolved microbiome and other omics data, and genomic information to characterize how animals respond to heat and how selection can improve their resilience."
+    "The performance of an animal, and its capacity to cope with environmental challenges, reflect both its own genome and the microbial communities it carries, and the two are linked because the host genome contributes to shaping those communities. Working mainly in pigs, we examine how host genetics and the gut microbiome jointly influence growth, feed efficiency, and carcass traits, and whether microbial information can improve the prediction of those traits.",
+    "The same perspective extends to resilience. Heat stress poses a growing threat to livestock production under climate change. In sows genomically selected for heat tolerance, we combine body temperature records, time-resolved microbiome and other omics data, and genomics to understand how animals respond to heat and how selection can make them more robust."
    ],
    "keywords": [
     "16s",
