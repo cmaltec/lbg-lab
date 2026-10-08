@@ -97,7 +97,7 @@ h3.sub { font: 700 15px var(--sans); text-transform: uppercase; letter-spacing: 
 .band-flip .band-text { order: 2; }
 .band-text { display: flex; flex-direction: column; justify-content: center; padding: 44px clamp(24px, 4.5vw, 64px); }
 .band-text h2 { font: 700 clamp(26px, 2.6vw, 34px)/1.2 var(--slab); color: #fff; margin: 0 0 16px; }
-.band-text p { font: 400 18px/1.6 var(--slab); margin: 0 0 24px; max-width: 30em; }
+.band-text p { font: 400 18px/1.6 var(--sans); margin: 0 0 24px; max-width: 32em; }
 .band-text .btn-outline { align-self: flex-start; }
 .band-art { background: #fff; border: 12px solid var(--c); border-left: 0; overflow: hidden; min-height: 240px; }
 .band-flip .band-art { border-left: 12px solid var(--c); border-right: 0; }
@@ -206,10 +206,10 @@ footer a, footer a:hover { color: #fff; }
   .band-text h2 { font-size: 28px; }
 }
 
-/* Bands hold a steady height on wide screens; the drawing fills its panel
-   instead of setting the height from its own proportions. */
+/* On wide screens the band takes its height from the text (at least 300 px);
+   the drawing is laid over its panel so it never sets the height itself. */
 @media (min-width: 861px) {
-  .band { height: 320px; min-height: 0; }
-  .band-art { min-height: 0; }
-  .band-art .art { height: 100%; }
+  .band { min-height: 300px; height: auto; }
+  .band-art { position: relative; min-height: 0; }
+  .band-art .art { position: absolute; inset: 0; }
 }
