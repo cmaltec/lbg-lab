@@ -1,5 +1,5 @@
 <li class="paper" data-themes="{{ p.themes|join(' ') }}" data-year="{{ p.year }}">
   <a class="ptitle" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
   <div class="pauth">{{ p.authors|authors }}</div>
-  <div class="pmeta"><em>{{ p.venue }}</em>{% if p.year %} · {{ p.year }}{% endif %}{% if p.oa_url %} · <a class="oa" href="{{ p.oa_url }}">open access</a>{% endif %}</div>
+  <div class="pmeta"><em>{{ p.venue }}</em>{% if p.year %} · {{ p.year }}{% endif %}{% if p.oa_url %} · <a class="oa" href="{{ p.oa_url }}">Open access</a>{% endif %}</div>
 </li>

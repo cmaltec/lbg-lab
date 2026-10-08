@@ -27,9 +27,9 @@ def _svg(w, h, body, label):
 
 
 def haplotype_band(w=1200, h=180):
-    """Rows of haplotype blocks: the home-page banner."""
+    """Rows of haplotype blocks: the hero panels."""
     rng = random.Random(SEED)
-    rows, out = 9, []
+    rows, out = max(6, round(h / 22)), []
     rh = h / rows
     for r in range(rows):
         x = 0.0
@@ -45,8 +45,8 @@ def haplotype_band(w=1200, h=180):
 def genotype_matrix(w=360, h=150):
     """Genomic selection: a genotype matrix with one highlighted marker column."""
     rng = random.Random(SEED + 1)
-    rows, out = 12, []
-    cols = max(12, round(w / (h / rows)))     # square cells at any width
+    rows, out = max(10, round(h / 14)), []    # ~14 px cells at any size
+    cols = max(12, round(w / (h / rows)))
     cw, ch = w / cols, h / rows
     hot = round(cols * 0.63)
     for c in range(cols):

@@ -88,7 +88,10 @@ def main():
     env.filters["authors"] = authors
     art = {k: f() for k, f in _art.THEME_ART.items()}
     art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}
-    common = {"site": site, "themes": themes, "art": art, "art_wide": art_wide, "banner": _art.haplotype_band(), "updated": date.today().strftime("%B %-d, %Y"),
+    art_band = {k: f(w=620, h=420) for k, f in _art.THEME_ART.items()}
+    common = {"site": site, "themes": themes, "art": art, "art_wide": art_wide, "art_band": art_band,
+              "banner": _art.haplotype_band(w=640, h=380),
+              "banner_short": _art.haplotype_band(w=640, h=210), "updated": date.today().strftime("%B %-d, %Y"),
               "paper_count": len(pubs)}
 
     if _paths.BUILD.exists():
@@ -96,7 +99,7 @@ def main():
     shutil.copytree(_paths.STATIC, _paths.BUILD / "static")
 
     pages = {
-        "index.html": {"team": team},
+        "index.html": {"team": team},  # bands use art_wide and theme descriptions
         "research.html": {"featured": featured,
                           "counts": {k: len(v) for k, v in by_theme.items()}},
         "publications.html": {"pubs": pubs, "years": years,

@@ -1,32 +1,38 @@
 {% extends "base.html" %}
 {% block main %}
-<section class="hero">
-  <div class="hero-art">{{ banner }}</div>
-  <div class="hero-text">
-    <h1>{{ site.name }}</h1>
-    <p class="lede">{{ site.mission }}</p>
+<section class="split-hero">
+  <div class="sh-text"><h1>{{ site.tagline }}</h1></div>
+  <div class="sh-art">{{ banner }}</div>
+</section>
+
+<section class="wrap section">
+  <h2>About the lab</h2>
+  <div class="overview">
+    <div class="prose">
+      <p class="lede">{{ site.mission }}</p>
+      <p>We work across three connected themes, in dairy and beef cattle and in pigs, using large genomic and phenotypic datasets.</p>
+    </div>
+    <aside class="callout">
+      <h3>Join us</h3>
+      <p>{{ site.join }}</p>
+      <a href="people.html#join">How to get in touch <span aria-hidden="true">&rarr;</span></a>
+    </aside>
+  </div>
+  <div class="bold-links">
+    {% for t in themes %}<a href="research.html#{{ t.id }}">{{ t.name }} <span aria-hidden="true">&rarr;</span></a>{% endfor %}
+    <a href="publications.html">Publications <span aria-hidden="true">&rarr;</span></a>
+    <a href="people.html">People <span aria-hidden="true">&rarr;</span></a>
   </div>
 </section>
 
-<section>
-  <h2>Research</h2>
-  <div class="themes">
-    {% for t in themes %}
-    <a class="theme t-{{ t.id }}" href="research.html#{{ t.id }}">
-      <div class="theme-art">{{ art[t.id] }}</div>
-      <div class="theme-body">
-        <h3>{{ t.name }}</h3>
-        <p>{{ t.summary }}</p>
-        <span class="count">Read more &rarr;</span>
-      </div>
-    </a>
-    {% endfor %}
+{% for t in themes %}
+<section class="band t-{{ t.id }}{% if loop.index is even %} band-flip{% endif %}">
+  <div class="band-text">
+    <h2>{{ t.name }}</h2>
+    <p>{{ t.description[0] }}</p>
+    <a class="btn-outline" href="research.html#{{ t.id }}">Explore this theme <span aria-hidden="true">&rarr;</span></a>
   </div>
+  <div class="band-art">{{ art_band[t.id] }}</div>
 </section>
-
-<section>
-  <h2>Team and publications</h2>
-  <p>{{ team.current|length + 1 }} current members, {{ team.alumni|length }} past students and postdocs and {{ team.visitors|length }} visiting scholars. <a href="people.html">People &rarr;</a></p>
-  <p>{{ paper_count }} peer-reviewed papers, books and chapters, searchable by theme and year. <a href="publications.html">Publications &rarr;</a></p>
-</section>
+{% endfor %}
 {% endblock %}

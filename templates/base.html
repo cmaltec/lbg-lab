@@ -7,23 +7,21 @@
 <meta name="description" content="{{ site.mission }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap">
 <link rel="stylesheet" href="static/site.css">
 </head>
 <body>
 <div id="ncstate-utility-bar" data-prop-show-brick="1" data-prop-cse-id="00578865650663686:7xmauxacbr4"></div>
 <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/v3/ncstate-utility-bar.js"></script>
-<header class="top">
-  <div class="wrap top-inner">
-    <a class="brand" href="index.html">{{ site.name }}<span>{{ site.affiliation }}</span></a>
-    <nav aria-label="Site">
-      {% for href, label in [("index.html","Home"),("research.html","Research"),("publications.html","Publications"),("people.html","People")] %}
-      <a href="{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
-      {% endfor %}
-    </nav>
-  </div>
+<header class="site-head">
+  <a class="site-title" href="index.html">{{ site.name }}</a>
+  <nav aria-label="Site">
+    {% for href, label in [("index.html","Home"),("research.html","Research"),("publications.html","Publications"),("people.html","People")] %}
+    <a href="{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
+    {% endfor %}
+  </nav>
 </header>
-<main class="wrap">
+<main>
 {% block main %}{% endblock %}
 </main>
 <footer>
@@ -33,7 +31,7 @@
       {{ site.affiliation }}<br>{{ site.address }}
       <ul class="links">{% for l in site.links %}<li><a href="{{ l.url }}">{{ icon(l.icon) }}<span>{{ l.label }}</span></a></li>{% endfor %}</ul>
     </div>
-    <div class="muted">Publications are refreshed weekly from ORCID and OpenAlex.<br>Last built {{ updated }}.</div>
+    <div class="foot-note">Publications are refreshed weekly from ORCID and OpenAlex.<br>Last built {{ updated }}.</div>
   </div>
 </footer>
 </body>

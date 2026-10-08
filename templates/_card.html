@@ -1,0 +1,6 @@
+<article class="content-card">
+  <a class="cc-head" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
+  <p class="cc-teaser">{{ p.authors|authors }}</p>
+  <p class="cc-meta"><em>{{ p.venue }}</em> · {{ p.year }}</p>
+  <a class="cc-cta" href="{{ p.oa_url or ('https://doi.org/' ~ p.doi) }}">Read the paper <span aria-hidden="true">&rarr;</span></a>
+</article>

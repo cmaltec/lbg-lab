@@ -1,23 +1,26 @@
 {% extends "base.html" %}
 {% block title %}Research · {{ site.name }}{% endblock %}
 {% block main %}
-<h1>Research</h1>
-<p class="lede">{{ site.mission }}</p>
-<nav class="toc" aria-label="Themes">
-  {% for t in themes %}<a href="#{{ t.id }}">{{ t.name }}</a>{% endfor %}
-</nav>
+<section class="split-hero split-hero-short">
+  <div class="sh-text"><h1>Research</h1></div>
+  <div class="sh-art">{{ banner_short }}</div>
+</section>
+<div class="wrap section">
+  <div class="prose"><p class="lede">{{ site.mission }}</p></div>
+  <div class="bold-links">
+    {% for t in themes %}<a href="#{{ t.id }}">{{ t.name }} <span aria-hidden="true">&rarr;</span></a>{% endfor %}
+  </div>
+</div>
 {% for t in themes %}
-<section class="theme-block t-{{ t.id }}" id="{{ t.id }}">
+<section class="wrap section theme-block t-{{ t.id }}" id="{{ t.id }}">
   <h2>{{ t.name }}</h2>
   <div class="block-art">{{ art_wide[t.id] }}</div>
-  {% for para in t.description %}<p>{{ para }}</p>{% endfor %}
+  <div class="prose">{% for para in t.description %}<p>{{ para }}</p>{% endfor %}</div>
   {% if featured[t.id] %}
   <h3 class="sub">Selected papers</h3>
-  <ul class="papers">
-    {% for p in featured[t.id] %}{% include "_paper.html" %}{% endfor %}
-  </ul>
+  <div class="cards3">{% for p in featured[t.id] %}{% include "_card.html" %}{% endfor %}</div>
   {% endif %}
-  <p><a class="more" href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme &rarr;</a></p>
+  <p class="bold-links single"><a href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme <span aria-hidden="true">&rarr;</span></a></p>
 </section>
 {% endfor %}
 {% endblock %}

@@ -1,26 +1,28 @@
 {% extends "base.html" %}
 {% block title %}Publications · {{ site.name }}{% endblock %}
 {% block main %}
-<h1>Publications</h1>
-<p class="muted">Peer-reviewed papers, books and chapters, newest first. Lab members are in bold.</p>
-
-<div class="filters" role="search">
-  <input id="q" type="search" placeholder="Search titles, authors, journals" aria-label="Search publications">
-  <select id="year" aria-label="Year">
-    <option value="">All years</option>
-    {% for y in years %}<option>{{ y }}</option>{% endfor %}
-  </select>
-  <div class="chips" id="chips">
-    <button class="chip" data-theme="" aria-pressed="true">All themes</button>
-    {% for t in themes %}<button class="chip" data-theme="{{ t.id }}" aria-pressed="false">{{ t.name }}</button>{% endfor %}
+<section class="split-hero split-hero-short">
+  <div class="sh-text"><h1>Publications</h1></div>
+  <div class="sh-art">{{ banner_short }}</div>
+</section>
+<div class="wrap section">
+  <div class="prose"><p>Peer-reviewed papers, books and chapters, newest first. Lab members are in bold.</p></div>
+  <div class="filters" role="search">
+    <input id="q" type="search" placeholder="Search titles, authors, journals" aria-label="Search publications">
+    <select id="year" aria-label="Year">
+      <option value="">All years</option>
+      {% for y in years %}<option>{{ y }}</option>{% endfor %}
+    </select>
+    <div class="chips" id="chips">
+      <button class="chip" data-theme="" aria-pressed="true">All themes</button>
+      {% for t in themes %}<button class="chip" data-theme="{{ t.id }}" aria-pressed="false">{{ t.name }}</button>{% endfor %}
+    </div>
+    <p class="muted" id="shown"></p>
   </div>
-  <p class="muted" id="shown"></p>
+  <ul class="papers" id="list">
+    {% for p in pubs %}{% include "_paper.html" %}{% endfor %}
+  </ul>
 </div>
-
-<ul class="papers" id="list">
-  {% for p in pubs %}{% include "_paper.html" %}{% endfor %}
-</ul>
-
 <script id="pubdata" type="application/json">{{ pubs_json }}</script>
 <script>
 (function () {
@@ -29,7 +31,6 @@
   var q = document.getElementById("q"), year = document.getElementById("year");
   var chips = document.querySelectorAll(".chip"), shown = document.getElementById("shown");
   var theme = new URLSearchParams(location.search).get("theme") || "";
-
   function apply() {
     var text = q.value.trim().toLowerCase(), y = year.value, n = 0;
     data.forEach(function (d, i) {

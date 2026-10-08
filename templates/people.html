@@ -2,9 +2,12 @@
 {% from "_icons.html" import icon %}
 {% block title %}People · {{ site.name }}{% endblock %}
 {% block main %}
-<h1>People</h1>
+<section class="split-hero split-hero-short">
+  <div class="sh-text"><h1>People</h1></div>
+  <div class="sh-art">{{ banner_short }}</div>
+</section>
 
-<section class="pi">
+<section class="wrap section">
   <h2>Principal investigator</h2>
   <div class="pi-card">
     <div class="cname">{{ team.pi.name }}</div>
@@ -13,40 +16,51 @@
   </div>
 </section>
 
-<section>
+<section class="wrap section">
   <h2>Current team</h2>
-  <div class="cards">
+  <div class="cards4">
     {% for m in team.current %}
-    <div class="card">
-      <div class="cname">{{ m.name }}</div>
-      <div class="crole">{{ m.role }}{% if m.co_advised %} (co-advised){% endif %}</div>
-      {% if m.topic %}<div class="ctopic">{{ m.topic }}</div>{% endif %}
-    </div>
+    <article class="content-card person">
+      <div class="cc-head">{{ m.name }}</div>
+      <p class="cc-meta">{{ m.role }}{% if m.co_advised %} (co-advised){% endif %}</p>
+      {% if m.topic %}<p class="cc-teaser">{{ m.topic }}</p>{% endif %}
+    </article>
     {% endfor %}
   </div>
 </section>
 
-<section>
+<section class="wrap section" id="join">
   <h2>Join us</h2>
-  <p>{{ site.join }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <div class="overview">
+    <div class="prose"><p>{{ site.join }}</p></div>
+    <aside class="callout">
+      <h3>Get in touch</h3>
+      <p>Prospective students, postdocs and visiting scientists.</p>
+      <a href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">&rarr;</span></a>
+    </aside>
+  </div>
 </section>
 
-<section>
-  <h2>Alumni</h2>
-  <ul class="alumni">
-    {% for a in alumni %}
-    <li><span class="aname">{{ a.name }}</span> <span class="muted">{{ a.roles|join(" · ") }}</span>
-      {% if a.topics %}<div class="atopic">{{ a.topics|join("; ") }}</div>{% endif %}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section>
-  <h2>Visiting scholars</h2>
-  <ul class="visitors">
-    {% for v in team.visitors %}
-    <li><span class="aname">{{ v.name }}</span> <span class="muted">{{ v.from }}{% if v.years %} · {{ v.years }}{% endif %}</span></li>
-    {% endfor %}
-  </ul>
+<section class="wrap section">
+  <h2>Former members and visitors</h2>
+  <div class="accordion">
+    <details>
+      <summary>Alumni ({{ alumni|length }})</summary>
+      <ul class="alumni">
+        {% for a in alumni %}
+        <li><span class="aname">{{ a.name }}</span> <span class="muted">{{ a.roles|join(" · ") }}</span>
+          {% if a.topics %}<div class="atopic">{{ a.topics|join("; ") }}</div>{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    <details>
+      <summary>Visiting scholars ({{ team.visitors|length }})</summary>
+      <ul class="visitors">
+        {% for v in team.visitors %}
+        <li><span class="aname">{{ v.name }}</span> <span class="muted">{{ v.from }}{% if v.years %} · {{ v.years }}{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </details>
+  </div>
 </section>
 {% endblock %}

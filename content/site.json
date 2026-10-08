@@ -1,5 +1,5 @@
 {
- "_note": "Site text. The mission line and the join paragraph are drafts to edit.",
+ "_note": "Site text. The tagline, mission line and join paragraph are drafts to edit.",
  "name": "Livestock Breeding and Genomics Lab",
  "affiliation": "Department of Animal Science, NC State University",
  "mission": "We study how genetic and genomic information can improve livestock populations: their efficiency, health and resilience, and the genetic diversity they depend on.",
@@ -34,5 +34,6 @@
    "url": "mailto:cmaltec@ncsu.edu",
    "icon": "mail"
   }
- ]
+ ],
+ "tagline": "Genetics and genomics for efficient, healthy and diverse livestock"
 }
