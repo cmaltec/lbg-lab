@@ -5,6 +5,13 @@
   <div class="sh-art">{{ banner }}</div>
 </section>
 
+{% if openings %}
+<div class="wrap"><a class="opening-notice" href="people.html#openings">
+  <span class="on-label">Open {{ "position" if openings|length == 1 else "positions" }}</span>
+  <span class="on-text">{{ openings|map(attribute="title")|join(" · ") }}</span>
+  <span aria-hidden="true">&rarr;</span></a></div>
+{% endif %}
+
 <section class="wrap section">
   <h2>About the lab</h2>
   <div class="overview">

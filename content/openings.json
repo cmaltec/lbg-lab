@@ -1,0 +1,4 @@
+{
+ "_note": "Open positions. Add one object per opening to 'openings'; leave the list empty when there are none. 'closes' (YYYY-MM-DD) is optional: past that date the opening is hidden at the next build. 'link' is optional (an ad or application page); 'contact' defaults to the lab e-mail. Example: {\"title\": \"PhD position in genomic selection\", \"type\": \"PhD\", \"summary\": \"One or two sentences.\", \"start\": \"Fall 2027\", \"closes\": \"2027-03-01\", \"link\": \"\", \"contact\": \"\"}",
+ "openings": []
+}

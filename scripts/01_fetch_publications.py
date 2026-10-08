@@ -123,7 +123,8 @@ def main():
         abstract = abstract_text(w.get("abstract_inverted_index"))
         keywords = " ".join(k.get("display_name", "") for k in w.get("keywords") or [])
         papers.append({
-            "title": w.get("title") or "",
+            # some journals append a footnote marker to the title ("…in pigs1")
+            "title": re.sub(r"(?<=[a-z])\d$", "", (w.get("title") or "").strip()),
             "authors": [a["author"]["display_name"] for a in w.get("authorships", [])],
             "year": w.get("publication_year"),
             "date": w.get("publication_date"),

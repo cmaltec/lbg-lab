@@ -29,6 +29,26 @@
   </div>
 </section>
 
+<section class="wrap section" id="openings">
+  <h2>Openings</h2>
+  {% if openings %}
+  <div class="cards3">
+    {% for o in openings %}
+    <article class="content-card opening">
+      {% if o.type %}<p class="op-type">{{ o.type }}</p>{% endif %}
+      <div class="cc-head">{{ o.title }}</div>
+      {% if o.summary %}<p class="cc-teaser">{{ o.summary }}</p>{% endif %}
+      <p class="cc-meta">{% if o.start %}Start: {{ o.start }}{% endif %}{% if o.start and o.closes %} · {% endif %}{% if o.closes %}Apply by {{ o.closes|longdate }}{% endif %}</p>
+      {% if o.link %}<a class="cc-cta" href="{{ o.link }}">Details and how to apply <span aria-hidden="true">&rarr;</span></a>
+      {% else %}<a class="cc-cta" href="mailto:{{ o.contact or site.email }}">Contact {{ o.contact or site.email }} <span aria-hidden="true">&rarr;</span></a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="prose"><p>There are no advertised positions at the moment. Inquiries about graduate study, postdoctoral work, and research visits are welcome at any time.</p></div>
+  {% endif %}
+</section>
+
 <section class="wrap section" id="join">
   <h2>Join us</h2>
   <div class="overview">

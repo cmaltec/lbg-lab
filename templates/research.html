@@ -16,11 +16,21 @@
   <h2>{{ t.name }}</h2>
   <div class="block-art">{{ art_wide[t.id] }}</div>
   <div class="prose">{% for para in t.description %}<p>{{ para }}</p>{% endfor %}</div>
-  {% if featured[t.id] %}
+  {% if rotation[t.id] %}
   <h3 class="sub">Selected papers</h3>
-  <div class="cards3">{% for p in featured[t.id] %}{% include "_card.html" %}{% endfor %}</div>
+  <div class="cards3 rotate">{% for p in rotation[t.id] %}<div class="rot"{% if loop.index > 3 %} hidden{% endif %}>{% include "_card.html" %}</div>{% endfor %}</div>
   {% endif %}
   <p class="bold-links single"><a href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme <span aria-hidden="true">&rarr;</span></a></p>
 </section>
 {% endfor %}
+<script>
+// Show three papers drawn at random from each theme's pool on every visit.
+document.querySelectorAll(".rotate").forEach(function (box) {
+  var cards = Array.prototype.slice.call(box.children);
+  for (var i = cards.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1)), t = cards[i]; cards[i] = cards[j]; cards[j] = t;
+  }
+  cards.forEach(function (c, k) { c.hidden = k >= 3; box.appendChild(c); });
+});
+</script>
 {% endblock %}

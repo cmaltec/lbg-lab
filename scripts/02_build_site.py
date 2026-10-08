@@ -31,6 +31,9 @@ from markupsafe import Markup, escape
 import _art
 import _paths
 
+ROTATION_POOL = 12      # papers per theme the research page rotates through
+ROTATION_YEARS = 10     # only papers from the last ten years join the pool
+
 
 
 def load(path):
@@ -66,6 +69,12 @@ def main():
     pubs = load(_paths.PUBLICATIONS)["papers"]
     team = load(_paths.PEOPLE / "team.json")
 
+    # Openings past their closing date drop off at the next build.
+    today = date.today().isoformat()
+    openings_file = _paths.CONTENT / "openings.json"
+    openings = [o for o in (load(openings_file)["openings"] if openings_file.exists() else [])
+                if not o.get("closes") or o["closes"] >= today]
+
     members = {name_key(team["pi"]["name"])}
     members |= {name_key(p["name"]) for p in team["current"]}
     members |= {name_key(p["name"]) for p in team["alumni"]}
@@ -81,15 +90,45 @@ def main():
     by_theme = {t["id"]: [p for p in pubs if t["id"] in p["themes"]] for t in themes}
     by_doi = {p["doi"]: p for p in pubs}
     featured = {t["id"]: [by_doi[d] for d in t.get("featured", []) if d in by_doi] for t in themes}
+
+    # Rotation pool per theme: the hand-picked papers first, then recent papers
+    # on the theme with a lab member as first or last author. The research page
+    # shows three at random on each visit; without JavaScript, the first three.
+    # Each paper joins one pool only, its most specific theme (themes.json
+    # lists the broadest first), and work led by a listed collaborator stays out.
+    recent_year = date.today().year - ROTATION_YEARS
+    excluded_seniors = {name_key(n) for n in site.get("rotation_exclude_last_authors", [])}
+    order = [t["id"] for t in themes][::-1]
+
+    def primary_theme(p):
+        return next((tid for tid in order if tid in p["themes"]), None)
+
+    def lab_led(p):
+        a = p["authors"]
+        if not a or name_key(a[-1]) in excluded_seniors:
+            return False
+        return name_key(a[0]) in members or name_key(a[-1]) in members
+
+    rotation = {}
+    for t in themes:
+        pool = list(featured[t["id"]])
+        for p in by_theme[t["id"]]:
+            if len(pool) >= ROTATION_POOL:
+                break
+            if (p not in pool and (p["year"] or 0) >= recent_year and lab_led(p)
+                    and primary_theme(p) == t["id"]):
+                pool.append(p)
+        rotation[t["id"]] = pool
     years = sorted({p["year"] for p in pubs if p["year"]}, reverse=True)
 
     env = Environment(loader=FileSystemLoader(_paths.TEMPLATES),
                       autoescape=select_autoescape(["html"]))
     env.filters["authors"] = authors
+    env.filters["longdate"] = lambda iso: date.fromisoformat(iso).strftime("%B %-d, %Y") if iso else ""
     art = {k: f() for k, f in _art.THEME_ART.items()}
     art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}
     art_band = {k: f(w=620, h=420) for k, f in _art.THEME_ART.items()}
-    common = {"site": site, "themes": themes, "art": art, "art_wide": art_wide, "art_band": art_band,
+    common = {"site": site, "themes": themes, "openings": openings, "art": art, "art_wide": art_wide, "art_band": art_band,
               "banner": _art.haplotype_band(w=1030, h=270),
               "banner_short": _art.haplotype_band(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
               "paper_count": len(pubs)}
@@ -100,7 +139,7 @@ def main():
 
     pages = {
         "index.html": {"team": team},  # bands use art_wide and theme descriptions
-        "research.html": {"featured": featured,
+        "research.html": {"featured": featured, "rotation": rotation,
                           "counts": {k: len(v) for k, v in by_theme.items()}},
         "publications.html": {"pubs": pubs, "years": years,
                               "pubs_json": Markup(json.dumps(

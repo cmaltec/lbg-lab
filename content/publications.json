@@ -1,6 +1,6 @@
 {
  "orcid": "0000-0002-9996-4680",
- "count": 163,
+ "count": 161,
  "papers": [
   {
    "title": "Phenotypic profile of in utero heat stressed grow-finish pigs divergently selected for thermotolerance or thermosensitivity in the F2 generation",
@@ -1591,7 +1591,7 @@
    ]
   },
   {
-   "title": "Genome-wide association study for carcass quality traits and growth in purebred and crossbred pigs1",
+   "title": "Genome-wide association study for carcass quality traits and growth in purebred and crossbred pigs",
    "authors": [
     "Matteo Bergamaschi",
     "Christian Maltecca",
@@ -1860,7 +1860,7 @@
    ]
   },
   {
-   "title": "The relationship between different measures of feed efficiency and feeding behavior traits in Duroc pigs1",
+   "title": "The relationship between different measures of feed efficiency and feeding behavior traits in Duroc pigs",
    "authors": [
     "Duc Lu",
     "Shihui Jiao",
@@ -1936,7 +1936,7 @@
    "themes": []
   },
   {
-   "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments1",
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments",
    "authors": [
     "John B. Cole",
     "J. M. Bormann",
@@ -1975,27 +1975,6 @@
    ]
   },
   {
-   "title": "The relationship between different measures of feed efficiency and feeding behavior traits in Duroc pigs",
-   "authors": [
-    "D. Lu",
-    "S. Jiao",
-    "Francesco Tiezzi",
-    "M. Knauer",
-    "Yijian Huang",
-    "Kent A. Gray",
-    "Christian Maltecca"
-   ],
-   "year": 2017,
-   "date": "2017-01-01",
-   "venue": "Journal of Animal Science",
-   "type": "article",
-   "doi": "10.2527/jas2017.1509",
-   "oa_url": "https://flore.unifi.it/bitstream/2158/1258634/2/lu2017jas.pdf",
-   "themes": [
-    "breeding"
-   ]
-  },
-  {
    "title": "Genetic Data Analysis for Plant and Animal Breeding",
    "authors": [
     "Fikret Işik",
@@ -2009,27 +1988,6 @@
    "doi": "10.1007/978-3-319-55177-7",
    "oa_url": null,
    "themes": []
-  },
-  {
-   "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments",
-   "authors": [
-    "John Cole",
-    "J. M. Bormann",
-    "Clare A. Gill",
-    "H. Khatib",
-    "J.E. Koltes",
-    "Christian Maltecca",
-    "F. Miglior"
-   ],
-   "year": 2017,
-   "date": "2017-01-01",
-   "venue": "Journal of Animal Science",
-   "type": "article",
-   "doi": "10.2527/jas2017.1402",
-   "oa_url": null,
-   "themes": [
-    "microbiome"
-   ]
   },
   {
    "title": "Characterization and management of long runs of homozygosity in parental nucleus lines and their associated crossbred progeny",
@@ -2551,7 +2509,7 @@
    ]
   },
   {
-   "title": "BREEDING AND GENETICS SYMPOSIUM: Systems biology in animal breeding: Identifying relationships among markers, genes, and phenotypes1",
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Systems biology in animal breeding: Identifying relationships among markers, genes, and phenotypes",
    "authors": [
     "John B. Cole",
     "R. M. Lewis",
@@ -2801,7 +2759,7 @@
    ]
   },
   {
-   "title": "Application of multiple shrinkage methods to genomic predictions1",
+   "title": "Application of multiple shrinkage methods to genomic predictions",
    "authors": [
     "Christian Maltecca",
     "Kristen L. Parker",
@@ -3123,7 +3081,7 @@
    "themes": []
   },
   {
-   "title": "The fibroblast growth factor 2 gene is associated with embryonic mortality in cattle1",
+   "title": "The fibroblast growth factor 2 gene is associated with embryonic mortality in cattle",
    "authors": [
     "Hasan Khatib",
     "Christian Maltecca",

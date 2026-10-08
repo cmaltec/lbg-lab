@@ -213,3 +213,17 @@ footer a, footer a:hover { color: #fff; }
   .band-art { position: relative; min-height: 0; }
   .band-art .art { position: absolute; inset: 0; }
 }
+
+/* --- Openings --- */
+.opening-notice { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; margin: 18px 0 0;
+  padding: 12px 20px; background: var(--red); color: #fff; text-decoration: none; font: 400 16px/1.4 var(--sans); }
+.opening-notice:hover { background: var(--red-dark); color: #fff; }
+.on-label { font: 700 14px var(--sans); text-transform: uppercase; letter-spacing: .06em; }
+.on-text { flex: 1; }
+.opening { border-top: 4px solid var(--red); }
+.op-type { font: 700 13px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; }
+
+/* rotating paper cards: each wrapper is a grid item holding one card */
+.rotate .rot { display: flex; }
+.rotate .rot[hidden] { display: none; }
+.rotate .rot > .content-card { flex: 1; }
