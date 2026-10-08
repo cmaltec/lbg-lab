@@ -1,18 +1,24 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="hero">
-  <h1>{{ site.name }}</h1>
-  <p class="lede">{{ site.mission }}</p>
+  <div class="hero-art">{{ banner }}</div>
+  <div class="hero-text">
+    <h1>{{ site.name }}</h1>
+    <p class="lede">{{ site.mission }}</p>
+  </div>
 </section>
 
 <section>
   <h2>Research</h2>
   <div class="themes">
     {% for t in themes %}
-    <a class="theme" href="research.html#{{ t.id }}">
-      <h3>{{ t.name }}</h3>
-      <p>{{ t.summary }}</p>
-      <span class="count">Read more &rarr;</span>
+    <a class="theme t-{{ t.id }}" href="research.html#{{ t.id }}">
+      <div class="theme-art">{{ art[t.id] }}</div>
+      <div class="theme-body">
+        <h3>{{ t.name }}</h3>
+        <p>{{ t.summary }}</p>
+        <span class="count">Read more &rarr;</span>
+      </div>
     </a>
     {% endfor %}
   </div>

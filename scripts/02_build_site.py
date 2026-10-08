@@ -28,6 +28,7 @@ from datetime import date
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup, escape
 
+import _art
 import _paths
 
 
@@ -85,7 +86,9 @@ def main():
     env = Environment(loader=FileSystemLoader(_paths.TEMPLATES),
                       autoescape=select_autoescape(["html"]))
     env.filters["authors"] = authors
-    common = {"site": site, "themes": themes, "updated": date.today().strftime("%B %-d, %Y"),
+    art = {k: f() for k, f in _art.THEME_ART.items()}
+    art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}
+    common = {"site": site, "themes": themes, "art": art, "art_wide": art_wide, "banner": _art.haplotype_band(), "updated": date.today().strftime("%B %-d, %Y"),
               "paper_count": len(pubs)}
 
     if _paths.BUILD.exists():

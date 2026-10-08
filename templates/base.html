@@ -1,4 +1,4 @@
-<!doctype html>
+{% from "_icons.html" import icon %}<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -23,7 +23,9 @@
 </main>
 <footer>
   <div class="wrap foot">
-    <div>{{ site.name }} · {{ site.affiliation }}<br>{{ site.address }}</div>
+    <div>{{ site.name }} · {{ site.affiliation }}<br>{{ site.address }}
+      <ul class="links">{% for l in site.links %}<li><a href="{{ l.url }}">{{ icon(l.icon) }}<span>{{ l.label }}</span></a></li>{% endfor %}</ul>
+    </div>
     <div class="muted">Publications are refreshed weekly from ORCID and OpenAlex.<br>Last built {{ updated }}.</div>
   </div>
 </footer>

@@ -7,5 +7,32 @@
  "email": "cmaltec@ncsu.edu",
  "orcid": "0000-0002-9996-4680",
  "address": "Campus Box 7621, Raleigh, NC 27695, USA",
- "pi_title": "William Neal Reynolds Distinguished Professor, Department of Animal Science"
+ "pi_title": "William Neal Reynolds Distinguished Professor, Department of Animal Science",
+ "links": [
+  {
+   "label": "ORCID",
+   "url": "https://orcid.org/0000-0002-9996-4680",
+   "icon": "orcid"
+  },
+  {
+   "label": "Google Scholar",
+   "url": "https://scholar.google.com/citations?user=pDTk0yAAAAAJ",
+   "icon": "scholar"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/cmaltec",
+   "icon": "code"
+  },
+  {
+   "label": "Department of Animal Science",
+   "url": "https://cals.ncsu.edu/animal-science/",
+   "icon": "building"
+  },
+  {
+   "label": "cmaltec@ncsu.edu",
+   "url": "mailto:cmaltec@ncsu.edu",
+   "icon": "mail"
+  }
+ ]
 }

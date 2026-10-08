@@ -7,8 +7,9 @@
   {% for t in themes %}<a href="#{{ t.id }}">{{ t.name }}</a>{% endfor %}
 </nav>
 {% for t in themes %}
-<section class="theme-block" id="{{ t.id }}">
+<section class="theme-block t-{{ t.id }}" id="{{ t.id }}">
   <h2>{{ t.name }}</h2>
+  <div class="block-art">{{ art_wide[t.id] }}</div>
   {% for para in t.description %}<p>{{ para }}</p>{% endfor %}
   {% if featured[t.id] %}
   <h3 class="sub">Selected papers</h3>

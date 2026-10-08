@@ -112,3 +112,58 @@ footer { margin-top: 64px; border-top: 1px solid var(--rule); }
 .themes { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
 .pi-card { padding: 16px 18px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 3px; max-width: 34em; }
 .pi-card .cname { font-size: 18px; }
+
+/* --- Theme accents and illustrations ---
+ * Each theme has its own muted accent (--c); the drawings mix it with the
+ * page background, so they follow light and dark mode. */
+:root { --c: var(--accent); }
+.t-breeding   { --c: #45648a; }
+.t-diversity  { --c: #5e7d66; }
+.t-microbiome { --c: #9a6a4c; }
+@media (prefers-color-scheme: dark) {
+  .t-breeding   { --c: #8faacb; }
+  .t-diversity  { --c: #9dbba4; }
+  .t-microbiome { --c: #d3a283; }
+}
+.art { display: block; width: 100%; height: 100%; }
+.art-0 { fill: color-mix(in srgb, var(--c) 10%, var(--bg)); }
+.art-1 { fill: color-mix(in srgb, var(--c) 22%, var(--bg)); }
+.art-2 { fill: color-mix(in srgb, var(--c) 40%, var(--bg)); }
+.art-3 { fill: color-mix(in srgb, var(--c) 65%, var(--bg)); }
+.art-hot { fill: var(--c); }
+.art-host { fill: var(--c); stroke: var(--bg); stroke-width: 3; }
+.art-edge { stroke: color-mix(in srgb, var(--c) 35%, var(--bg)); stroke-width: 1; }
+.art-frame { fill: none; stroke: var(--c); stroke-width: 1.5; }
+
+/* Hero: haplotype band behind the lab name */
+.hero { position: relative; margin: 28px 0 8px; border-radius: 4px; overflow: hidden; }
+.hero-art { position: absolute; inset: 0; opacity: .55; }
+.hero-text { position: relative; padding: 36px 32px 30px;
+  background: linear-gradient(90deg, var(--bg) 0%, color-mix(in srgb, var(--bg) 88%, transparent) 55%, transparent 100%); }
+.hero h1 { margin-top: 0; }
+.hero .lede { margin-bottom: 0; }
+
+/* Theme cards with art on top */
+.theme { padding: 0; overflow: hidden; border-top: 3px solid var(--c); background: color-mix(in srgb, var(--c) 6%, var(--bg)); }
+.theme-art { height: 120px; border-bottom: 1px solid color-mix(in srgb, var(--c) 18%, var(--bg)); }
+.theme-body { display: flex; flex-direction: column; flex: 1; padding: 14px 18px 16px; }
+.theme h3 { color: var(--c); }
+.theme:hover { outline: 1px solid var(--c); }
+
+/* Research sections */
+.theme-block h2 { color: var(--c); border-bottom-color: color-mix(in srgb, var(--c) 30%, var(--bg)); }
+.block-art { height: 150px; margin: 4px 0 18px; border-radius: 4px; overflow: hidden;
+             background: color-mix(in srgb, var(--c) 5%, var(--bg)); }
+.theme-block .more, .theme-block .ptitle:hover { color: var(--c); }
+
+/* Links */
+.links { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.links a { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font: 500 13.5px var(--sans); }
+.links a:hover span { text-decoration: underline; }
+.ic { width: 17px; height: 17px; flex: none; }
+.pi-card .links { margin-top: 8px; }
+
+@media (max-width: 560px) {
+  .hero-text { padding: 26px 18px 22px; }
+  .hero h1 { font-size: 30px; }
+}
