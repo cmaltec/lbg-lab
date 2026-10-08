@@ -1,38 +1,86 @@
 {
- "_note": "Summaries are drafts to edit. Keywords decide which papers appear under each theme (matched in title, abstract and keywords).",
+ "_note": "Three research themes. 'description' paragraphs and 'summary' are edited by hand; 'keywords' decide which papers appear under each theme; 'featured' are the DOIs shown on the research page.",
  "themes": [
   {
-   "id": "prediction",
-   "name": "Genomic prediction and breeding design",
-   "summary": "How genomic and phenotypic information can be combined to predict genetic merit, and how breeding programmes can be designed to turn those predictions into sustained genetic gain.",
+   "id": "breeding",
+   "name": "Genomic selection and breeding design",
+   "summary": "Prediction models and genome mapping for complex traits, and the design of breeding programmes that act on them.",
+   "description": [
+    "Genomic selection has changed how livestock are improved, and much of our work asks how to make the best use of it. We develop and test prediction models for complex traits in dairy and beef cattle and in pigs, from single-step genomic evaluation to neural networks, and we map the genomic regions behind those traits with genome-wide association and fine-mapping methods adapted to related individuals.",
+    "Prediction is useful only when a breeding programme can act on it, so we also study programme design: how mating, germplasm exchange and selection strategies trade genetic gain against the loss of genetic variation. Much of this work draws on large routinely recorded datasets, including producer-recorded health events and national genotype collections."
+   ],
    "keywords": [
+    "algorithm",
+    "animal model",
+    "association study",
+    "bayesian method",
     "bayesian prediction",
+    "blup",
     "breeding objective",
     "breeding program",
     "breeding programme",
     "breeding scheme",
+    "breeding value",
+    "candidate gene",
+    "causal variant",
+    "computational",
     "crossbreeding",
+    "deep learning",
+    "ebv",
+    "fine mapping",
+    "fine-mapping",
     "gblup",
+    "genetic correlation",
+    "genetic evaluation",
     "genetic gain",
+    "genetic parameter",
+    "genetic trend",
+    "genome-wide association",
     "genomic breeding value",
     "genomic evaluation",
     "genomic prediction",
     "genomic selection",
+    "genotype by environment",
+    "gwas",
+    "haplotype",
+    "heritability",
+    "imputation",
+    "linkage",
+    "machine learning",
+    "marker-assisted",
+    "maternal effect",
     "mating",
+    "model comparison",
+    "neural network",
     "optimum contribution",
     "prediction accuracy",
+    "qtl",
+    "reaction norm",
     "reference population",
     "selection index",
     "selection strategy",
+    "simulation",
     "single-step",
+    "software",
     "ssgblup",
-    "training population"
+    "statistical method",
+    "training population",
+    "variance component"
+   ],
+   "featured": [
+    "10.1093/bib/bbaf614",
+    "10.3389/fgene.2025.1618891",
+    "10.3168/jds.2024-24992"
    ]
   },
   {
    "id": "diversity",
    "name": "Inbreeding and genetic diversity",
-   "summary": "Measuring inbreeding and diversity from genomic data, understanding inbreeding depression, and managing selection so that populations keep the variation they will need.",
+   "summary": "Measuring inbreeding from genomic data, estimating what it costs, and managing selection so populations keep their variation.",
+   "description": [
+    "Intense selection concentrates genetic contributions on a few families, and genomic selection can change the pace of that process. We use genomic data, in particular runs of homozygosity, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds in North America, Europe and Australia.",
+    "We also ask what inbreeding costs. We estimate inbreeding depression for production, fertility, health and longevity, separate the effects of recent and ancient inbreeding, and look for the genomic regions responsible. Finally, we evaluate mating and selection strategies, such as genomic inbreeding penalties and planned germplasm exchange, that sustain genetic gain while limiting the loss of variation."
+   ],
    "keywords": [
     "conservation",
     "effective population size",
@@ -46,88 +94,41 @@
     "relatedness",
     "roh",
     "runs of homozygosity"
+   ],
+   "featured": [
+    "10.3168/jds.2026-28483",
+    "10.3168/jds.2022-22116",
+    "10.3168/jds.2017-12787"
    ]
   },
   {
    "id": "microbiome",
-   "name": "Host genome and microbiome",
-   "summary": "The interplay between an animal's genome and the microbial communities it carries, and what that interplay means for efficiency, health and resilience.",
+   "name": "Host genome, microbiome and resilience",
+   "summary": "How the host genome and its gut microbiome shape performance, and how animals respond to heat stress.",
+   "description": [
+    "An animal's performance reflects its own genome and the microbial communities it carries, and the two are not independent. Working mainly in pigs, we estimate how much of the variation in gut microbiome composition is under host genetic control, how much of the variation in growth, efficiency and carcass traits the microbiome accounts for, and whether microbial information improves the prediction of those traits alongside genomic data.",
+    "A related line of work concerns resilience, particularly to heat stress. In sows selected for heat tolerance, we combine automatically recorded body temperature, longitudinal microbiome and other omics data, and genomics to understand how animals respond to heat and how selection can make them more robust."
+   ],
    "keywords": [
     "16s",
     "fecal microb",
     "gut bacteria",
+    "heat stress",
+    "heat tolerance",
     "metagenom",
     "microbiability",
     "microbial",
     "microbiome",
     "microbiota",
-    "rumen microb"
-   ]
-  },
-  {
-   "id": "omics",
-   "name": "Functional genomics and multi-omics",
-   "summary": "Linking genetic variation to its biological consequences through mapping, transcriptomic, epigenomic and metabolomic data.",
-   "keywords": [
-    "association study",
-    "candidate gene",
-    "causal variant",
-    "epigenetic",
-    "fine mapping",
-    "fine-mapping",
-    "gene expression",
-    "genome-wide association",
-    "gwas",
-    "haplotype",
-    "linkage",
-    "marker-assisted",
-    "metabolom",
-    "methylation",
-    "mirna",
-    "proteom",
-    "qtl",
-    "regulatory element",
-    "rna-seq",
-    "rnaseq",
-    "transcriptom"
-   ]
-  },
-  {
-   "id": "quantgen",
-   "name": "Quantitative genetics of complex traits",
-   "summary": "Genetic parameters, genotype-by-environment interaction and the genetic architecture of production, health, fertility and resilience traits.",
-   "keywords": [
-    "animal model",
-    "blup",
-    "breeding value",
-    "ebv",
-    "genetic correlation",
-    "genetic evaluation",
-    "genetic parameter",
-    "genetic trend",
-    "genotype by environment",
-    "heritability",
-    "maternal effect",
-    "reaction norm",
-    "variance component"
-   ]
-  },
-  {
-   "id": "methods",
-   "name": "Statistical and computational methods",
-   "summary": "Statistical models, simulation and machine-learning tools developed to answer the questions above at scale.",
-   "keywords": [
-    "algorithm",
-    "bayesian method",
-    "computational",
-    "deep learning",
-    "imputation",
-    "machine learning",
-    "model comparison",
-    "neural network",
-    "simulation",
-    "software",
-    "statistical method"
+    "resilience",
+    "rumen microb",
+    "thermoregulat",
+    "thermotoler"
+   ],
+   "featured": [
+    "10.1016/j.csbj.2020.12.038",
+    "10.1111/jbg.70014",
+    "10.3389/fmicb.2026.1797687"
    ]
   }
  ]

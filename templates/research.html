@@ -3,17 +3,20 @@
 {% block main %}
 <h1>Research</h1>
 <p class="lede">{{ site.mission }}</p>
+<nav class="toc" aria-label="Themes">
+  {% for t in themes %}<a href="#{{ t.id }}">{{ t.name }}</a>{% endfor %}
+</nav>
 {% for t in themes %}
 <section class="theme-block" id="{{ t.id }}">
   <h2>{{ t.name }}</h2>
-  <p>{{ t.summary }}</p>
-  <h3 class="sub">Recent papers</h3>
+  {% for para in t.description %}<p>{{ para }}</p>{% endfor %}
+  {% if featured[t.id] %}
+  <h3 class="sub">Selected papers</h3>
   <ul class="papers">
-    {% for p in by_theme[t.id] %}{% include "_paper.html" %}{% endfor %}
+    {% for p in featured[t.id] %}{% include "_paper.html" %}{% endfor %}
   </ul>
-  {% if counts[t.id] > by_theme[t.id]|length %}
-  <p><a class="more" href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme &rarr;</a></p>
   {% endif %}
+  <p><a class="more" href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme &rarr;</a></p>
 </section>
 {% endfor %}
 {% endblock %}

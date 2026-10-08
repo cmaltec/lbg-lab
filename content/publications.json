@@ -23,7 +23,8 @@
    "doi": "10.3389/fanim.2026.1899529",
    "oa_url": "https://doi.org/10.3389/fanim.2026.1899529",
    "themes": [
-    "prediction"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -94,9 +95,8 @@
    "doi": "10.3168/jds.2026-28483",
    "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(26)02702-5/pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -115,9 +115,8 @@
    "doi": "10.1186/s12864-026-12831-7",
    "oa_url": "https://doi.org/10.1186/s12864-026-12831-7",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -140,9 +139,8 @@
    "doi": "10.3389/fmicb.2026.1797687",
    "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1797687/pdf",
    "themes": [
-    "prediction",
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -163,8 +161,8 @@
    "doi": "10.1186/s40813-026-00506-4",
    "oa_url": "https://doi.org/10.1186/s40813-026-00506-4",
    "themes": [
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -190,8 +188,8 @@
    "doi": "10.1093/jas/skag065",
    "oa_url": "https://pubmed.ncbi.nlm.nih.gov/41741375/",
    "themes": [
-    "prediction",
-    "methods"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -213,10 +211,8 @@
    "doi": "10.1093/bib/bbaf614",
    "oa_url": "https://academic.oup.com/bib/article-pdf/26/6/bbaf614/65450751/bbaf614.pdf",
    "themes": [
-    "diversity",
-    "omics",
-    "quantgen",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -243,7 +239,7 @@
    "doi": "10.3168/jds.2025-27100",
    "oa_url": "https://doi.org/10.3168/jds.2025-27100",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -285,7 +281,7 @@
    "doi": "10.1111/jbg.70014",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.70014",
    "themes": [
-    "prediction",
+    "breeding",
     "microbiome"
    ]
   },
@@ -307,10 +303,7 @@
    "doi": "10.3168/jds.2025-27058",
    "oa_url": "https://doi.org/10.3168/jds.2025-27058",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -331,7 +324,7 @@
    "doi": "10.3168/jds.2025-26738",
    "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(25)00626-5/pdf",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -351,9 +344,7 @@
    "doi": "10.3389/fgene.2025.1618891",
    "oa_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1618891/pdf",
    "themes": [
-    "prediction",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -374,7 +365,7 @@
    "doi": "10.3168/jds.2024-26035",
    "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(25)00109-2/pdf",
    "themes": [
-    "prediction"
+    "breeding"
    ]
   },
   {
@@ -392,9 +383,7 @@
    "type": "article",
    "doi": "10.1016/j.tjnut.2025.01.012",
    "oa_url": "https://doi.org/10.1016/j.tjnut.2025.01.012",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "Phenotypic assessment of F0 generation lactating sows genomically selected for heat stress tolerance",
@@ -418,7 +407,8 @@
    "doi": "10.1093/jas/skaf205",
    "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12246825/pdf/skaf205.pdf",
    "themes": [
-    "prediction"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -445,8 +435,8 @@
    "doi": "10.1093/jas/skaf353",
    "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12706861/",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -466,10 +456,8 @@
    "doi": "10.3168/jds.2024-25341",
    "oa_url": "http://www.journalofdairyscience.org/article/S002203022401350X/pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -488,7 +476,8 @@
    "doi": "10.1186/s12864-024-11052-0",
    "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-024-11052-0",
    "themes": [
-    "methods"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -513,8 +502,8 @@
    "doi": "10.3389/fgene.2024.1498380",
    "oa_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2024.1498380/pdf",
    "themes": [
-    "prediction",
-    "omics"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -534,10 +523,8 @@
    "doi": "10.3168/jds.2024-24992",
    "oa_url": "https://doi.org/10.3168/jds.2024-24992",
    "themes": [
-    "prediction",
-    "diversity",
-    "quantgen",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -555,9 +542,8 @@
    "doi": "10.1111/jbg.12887",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12887",
    "themes": [
-    "prediction",
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -584,7 +570,8 @@
    "doi": "10.1186/s12711-024-00908-4",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-024-00908-4",
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -603,7 +590,7 @@
    "doi": "10.1016/j.animal.2024.101142",
    "oa_url": "https://doi.org/10.1016/j.animal.2024.101142",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -646,7 +633,7 @@
    "doi": "10.1186/s12711-023-00865-4",
    "oa_url": "https://link.springer.com/content/pdf/10.1186/s12711-023-00865-4.pdf",
    "themes": [
-    "prediction",
+    "breeding",
     "microbiome"
    ]
   },
@@ -666,8 +653,8 @@
    "doi": "10.1093/jas/skae354",
    "oa_url": "https://doi.org/10.1093/jas/skae354",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -693,8 +680,8 @@
    "doi": "10.1186/s12711-023-00868-1",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-023-00868-1",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -761,7 +748,8 @@
    "doi": "10.1186/s12711-023-00842-x",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-023-00842-x",
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -781,8 +769,7 @@
    "doi": "10.3168/jds.2023-23250",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030223004873/pdf",
    "themes": [
-    "prediction",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -843,9 +830,7 @@
    "type": "article",
    "doi": "10.1016/j.jnutbio.2023.109312",
    "oa_url": "https://doi.org/10.1016/j.jnutbio.2023.109312",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "SLEMM: million-scale genomic predictions with window-based SNP weighting",
@@ -864,9 +849,7 @@
    "doi": "10.1093/bioinformatics/btad127",
    "oa_url": "https://academic.oup.com/bioinformatics/article-pdf/39/3/btad127/49633039/btad127.pdf",
    "themes": [
-    "prediction",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -886,7 +869,7 @@
    "doi": "10.1016/j.livsci.2023.105171",
    "oa_url": "https://doi.org/10.1016/j.livsci.2023.105171",
    "themes": [
-    "prediction",
+    "breeding",
     "microbiome"
    ]
   },
@@ -914,7 +897,9 @@
    "type": "article",
    "doi": "10.1093/jas/skad129",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1350012/1/johnson2023jas.pdf",
-   "themes": []
+   "themes": [
+    "microbiome"
+   ]
   },
   {
    "title": "Genotype by Environment Interactions in Livestock Farming",
@@ -929,7 +914,8 @@
    "doi": "10.1007/978-1-0716-2460-9_1115",
    "oa_url": null,
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -949,7 +935,7 @@
    "doi": "10.3168/jds.2022-22116",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030222005367/pdf",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -973,8 +959,8 @@
    "doi": "10.1186/s12711-022-00742-6",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-022-00742-6",
    "themes": [
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -996,10 +982,9 @@
    "doi": "10.1093/jas/skac231",
    "oa_url": "https://academic.oup.com/jas/article-pdf/100/9/skac231/45965109/skac231.pdf",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity",
-    "microbiome",
-    "quantgen"
+    "microbiome"
    ]
   },
   {
@@ -1020,8 +1005,7 @@
    "doi": "10.1186/s12711-022-00736-4",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-022-00736-4",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1062,9 +1046,8 @@
    "doi": "10.3390/genes13050767",
    "oa_url": "https://doi.org/10.3390/genes13050767",
    "themes": [
-    "prediction",
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1126,8 +1109,8 @@
    "doi": "10.1186/s12711-021-00660-z",
    "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-021-00660-z",
    "themes": [
-    "diversity",
-    "omics"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1171,8 +1154,8 @@
    "doi": "10.3389/fgene.2021.682718",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2021.682718/pdf",
    "themes": [
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1209,7 +1192,7 @@
    "doi": "10.1186/s12711-021-00644-z",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-021-00644-z",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -1229,8 +1212,7 @@
    "doi": "10.1093/cdn/nzab046_126",
    "oa_url": "https://doi.org/10.1093/cdn/nzab046_126",
    "themes": [
-    "omics",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -1248,7 +1230,7 @@
    "doi": "10.1016/j.compag.2021.106085",
    "oa_url": "https://www.sciencedirect.com/science/article/pii/S0168169921001034/pdf",
    "themes": [
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -1270,7 +1252,8 @@
    "doi": "10.3389/fgene.2020.612815",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.612815/pdf",
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1289,9 +1272,8 @@
    "doi": "10.1016/j.csbj.2020.12.038",
    "oa_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037020305638-ga1_lrg.jpg",
    "themes": [
-    "microbiome",
-    "omics",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1310,8 +1292,7 @@
    "doi": "10.1534/g3.120.401847",
    "oa_url": "https://doi.org/10.1534/g3.120.401847",
    "themes": [
-    "prediction",
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -1333,8 +1314,7 @@
    "doi": "10.3389/fgene.2020.563393",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.563393/pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1353,8 +1333,8 @@
    "doi": "10.1111/jbg.12504",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12504",
    "themes": [
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1377,8 +1357,7 @@
    "doi": "10.1111/jbg.12510",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12510",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1417,7 +1396,7 @@
    "doi": "10.1186/s12711-020-00561-7",
    "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-020-00561-7",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity",
     "microbiome"
    ]
@@ -1463,9 +1442,8 @@
    "doi": "10.3389/fgene.2020.00629",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.00629/pdf",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1487,9 +1465,8 @@
    "doi": "10.1038/s41598-020-66791-3",
    "oa_url": "https://www.nature.com/articles/s41598-020-66791-3.pdf",
    "themes": [
-    "microbiome",
-    "omics",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1507,7 +1484,7 @@
    "doi": "10.3168/jds.2019-17846",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030220303180/pdf",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -1527,7 +1504,7 @@
    "doi": "10.1186/s12863-020-00852-4",
    "oa_url": "https://bmcgenomdata.biomedcentral.com/track/pdf/10.1186/s12863-020-00852-4.pdf",
    "themes": [
-    "omics"
+    "microbiome"
    ]
   },
   {
@@ -1547,9 +1524,8 @@
    "doi": "10.3168/jds.2019-18013",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030220302629/pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1568,8 +1544,8 @@
    "doi": "10.1093/af/vfaa007",
    "oa_url": "https://doi.org/10.1093/af/vfaa007",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1593,8 +1569,7 @@
    "doi": "10.1186/s12864-020-6461-z",
    "oa_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-020-6461-z",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1611,7 +1586,7 @@
    "doi": "10.19103/as.2019.0058.05",
    "oa_url": null,
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -1631,9 +1606,7 @@
    "doi": "10.1093/jas/skz360",
    "oa_url": "https://academic.oup.com/jas/article-pdf/98/1/skz360/31952051/skz360.pdf",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1685,7 +1658,7 @@
    "doi": "10.1093/jas/skz247",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258643/1/khanal2019jas.pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1706,9 +1679,8 @@
    "doi": "10.1038/s41598-019-43031-x",
    "oa_url": "https://www.nature.com/articles/s41598-019-43031-x.pdf",
    "themes": [
-    "prediction",
-    "microbiome",
-    "methods"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1729,9 +1701,8 @@
    "doi": "10.3168/jds.2018-15520",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030219300633/pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1749,9 +1720,7 @@
    "doi": "10.1186/s12863-018-0606-y",
    "oa_url": "https://bmcgenomdata.biomedcentral.com/counter/pdf/10.1186/s12863-018-0606-y",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1771,7 +1740,7 @@
    "doi": "10.3389/fgene.2018.00040",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2018.00040/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1789,9 +1758,7 @@
    "doi": "10.1038/s41437-017-0043-0",
    "oa_url": "https://www.nature.com/articles/s41437-017-0043-0.pdf",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1809,10 +1776,8 @@
    "doi": "10.5194/aab-61-43-2018",
    "oa_url": "https://www.arch-anim-breed.net/61/43/2018/aab-61-43-2018.pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1833,8 +1798,8 @@
    "doi": "10.1186/s40168-017-0384-1",
    "oa_url": "https://microbiomejournal.biomedcentral.com/track/pdf/10.1186/s40168-017-0384-1",
    "themes": [
-    "microbiome",
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -1853,8 +1818,7 @@
    "doi": "10.1111/jbg.12302",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12302",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1891,10 +1855,8 @@
    "doi": "10.2527/jas2017.1664",
    "oa_url": "https://academic.oup.com/jas/article-pdf/95/10/4318/23818053/4318.pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1915,8 +1877,7 @@
    "doi": "10.2527/jas.2017.1509",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -1934,8 +1895,8 @@
    "doi": "10.3168/jds.2017-12787",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030217305817/pdf",
    "themes": [
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -1953,8 +1914,7 @@
    "doi": "10.1111/jbg.12277",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12277",
    "themes": [
-    "prediction",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -1973,9 +1933,7 @@
    "type": "article",
    "doi": "10.1038/s41598-017-01526-5",
    "oa_url": "https://www.nature.com/articles/s41598-017-01526-5.pdf",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments1",
@@ -1994,7 +1952,9 @@
    "type": "article",
    "doi": "10.2527/jas.2017.1402",
    "oa_url": null,
-   "themes": []
+   "themes": [
+    "microbiome"
+   ]
   },
   {
    "title": "Genotype by environment (climate) interaction improves genomic prediction for production traits in US Holstein cattle",
@@ -2011,8 +1971,7 @@
    "doi": "10.3168/jds.2016-11543",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030217300395/pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2033,8 +1992,7 @@
    "doi": "10.2527/jas2017.1509",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258634/2/lu2017jas.pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2069,7 +2027,9 @@
    "type": "article",
    "doi": "10.2527/jas2017.1402",
    "oa_url": null,
-   "themes": []
+   "themes": [
+    "microbiome"
+   ]
   },
   {
    "title": "Characterization and management of long runs of homozygosity in parental nucleus lines and their associated crossbred progeny",
@@ -2087,9 +2047,8 @@
    "doi": "10.1186/s12711-016-0269-y",
    "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-016-0269-y",
    "themes": [
-    "diversity",
-    "omics",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2107,7 +2066,7 @@
    "doi": "10.1016/j.livsci.2016.04.015",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258639/1/dhakal2016ls.pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2126,7 +2085,7 @@
    "doi": "10.2527/jas.2015-9667",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258632/1/jiao2016jas.pdf",
    "themes": [
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2160,10 +2119,8 @@
    "doi": "10.1186/s12864-015-2001-7",
    "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-015-2001-7",
    "themes": [
-    "prediction",
-    "diversity",
-    "quantgen",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2182,7 +2139,7 @@
    "doi": "10.2527/jas.2015-9416",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258622/1/putz2015jas.pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2200,9 +2157,7 @@
    "type": "article",
    "doi": "10.1371/journal.pone.0137830",
    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0137830&type=printable",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "Comparison between different statistical models for the prediction of direct genetic component on embryo establishment and survival in Italian Brown Swiss dairy cattle",
@@ -2219,8 +2174,7 @@
    "doi": "10.1016/j.livsci.2015.06.029",
    "oa_url": "https://flore.unifi.it/bitstream/2158/1258543/1/tiezzi2015ls.pdf",
    "themes": [
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2240,8 +2194,7 @@
    "doi": "10.1186/s12863-015-0218-8",
    "oa_url": "https://doi.org/10.1186/s12863-015-0218-8",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2259,7 +2212,7 @@
    "doi": "10.1186/s12711-015-0123-7",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-015-0123-7",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2278,9 +2231,7 @@
    "doi": "10.1186/s12711-015-0093-9",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-015-0093-9",
    "themes": [
-    "prediction",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2299,8 +2250,7 @@
    "doi": "10.1038/srep09785",
    "oa_url": "https://www.nature.com/articles/srep09785.pdf",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2316,10 +2266,8 @@
    "doi": "10.1186/s12711-015-0100-1",
    "oa_url": "https://link.springer.com/content/pdf/10.1186/s12711-015-0100-1.pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2338,7 +2286,7 @@
    "doi": "10.1186/s12864-015-1352-4",
    "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-015-1352-4",
    "themes": [
-    "prediction",
+    "breeding",
     "diversity"
    ]
   },
@@ -2357,8 +2305,7 @@
    "doi": "10.3168/jds.2014-8830",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030215001356/pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2377,9 +2324,7 @@
    "doi": "10.1371/journal.pone.0114919",
    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0114919&type=printable",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2397,7 +2342,7 @@
    "doi": "10.3168/jds.2014-8448",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030215000429/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2437,9 +2382,7 @@
    "type": "article",
    "doi": "10.1155/2014/371426",
    "oa_url": "http://downloads.hindawi.com/archive/2014/371426.pdf",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "Feed intake, average daily gain, feed efficiency, and real-time ultrasound traits in Duroc pigs: II. Genomewide association",
@@ -2456,8 +2399,7 @@
    "doi": "10.2527/jas.2014-7337",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -2496,9 +2438,7 @@
    "doi": "10.2527/jas.2013-7338",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2516,8 +2456,7 @@
    "doi": "10.3168/jds.2013-7543",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030214001659/pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2536,7 +2475,7 @@
    "doi": "10.5849/forsci.12-108",
    "oa_url": null,
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2554,7 +2493,8 @@
    "doi": "10.4081/ijas.2014.3484",
    "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2014.3484?needAccess=true&role=button",
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -2573,7 +2513,7 @@
    "doi": "10.3168/jds.2013-6885",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030213005936/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2592,7 +2532,7 @@
    "doi": "10.3168/jds.2013-6863",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030213005742/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2607,9 +2547,7 @@
    "doi": "10.1111/jbg.12032",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12032",
    "themes": [
-    "prediction",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2629,7 +2567,7 @@
    "doi": "10.2527/jas.2012-6166",
    "oa_url": null,
    "themes": [
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -2649,9 +2587,7 @@
    "doi": "10.1007/978-1-62703-447-0_17",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2672,9 +2608,7 @@
    "doi": "10.2527/jas.2012-5784",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2695,8 +2629,7 @@
    "doi": "10.1186/1746-6148-8-199",
    "oa_url": "https://bmcvetres.biomedcentral.com/counter/pdf/10.1186/1746-6148-8-199",
    "themes": [
-    "prediction",
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -2716,7 +2649,7 @@
    "doi": "10.3168/jds.2012-5817",
    "oa_url": "https://doi.org/10.3168/jds.2012-5817",
    "themes": [
-    "prediction"
+    "breeding"
    ]
   },
   {
@@ -2735,7 +2668,7 @@
    "doi": "10.3168/jds.2012-5775",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030212007588/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2755,9 +2688,7 @@
    "type": "article",
    "doi": "10.1002/jor.22239",
    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jor.22239",
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "Measuring bovine viral diarrhea virus vaccine response: Using a commercially available ELISA as a surrogate for serum neutralization assays",
@@ -2808,8 +2739,8 @@
    "doi": "10.2527/jas.2011-4728",
    "oa_url": null,
    "themes": [
-    "diversity",
-    "methods"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2827,8 +2758,7 @@
    "doi": "10.1186/1297-9686-44-25",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/1297-9686-44-25",
    "themes": [
-    "prediction",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2846,8 +2776,7 @@
    "doi": "10.1186/1297-9686-44-24",
    "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/1297-9686-44-24",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2868,9 +2797,7 @@
    "doi": "10.1007/s11295-012-0516-5",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2887,8 +2814,7 @@
    "doi": "10.2527/jas.2011-4350",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2908,9 +2834,8 @@
    "doi": "10.3389/fgene.2012.00285",
    "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2012.00285/pdf",
    "themes": [
-    "prediction",
-    "diversity",
-    "omics"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2930,8 +2855,7 @@
    "doi": "10.3168/jds.2011-4661",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030211006497/pdf",
    "themes": [
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -2952,9 +2876,8 @@
    "doi": "10.1186/1753-6561-5-s7-p60",
    "oa_url": "https://bmcproc.biomedcentral.com/counter/pdf/10.1186/1753-6561-5-S7-P60",
    "themes": [
-    "prediction",
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -2975,7 +2898,7 @@
    "doi": "10.3168/jds.2010-3611",
    "oa_url": "https://doi.org/10.3168/jds.2010-3611",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -2994,8 +2917,7 @@
    "doi": "10.1111/j.1365-2052.2011.02188.x",
    "oa_url": null,
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -3015,7 +2937,8 @@
    "doi": "10.1016/j.livsci.2011.02.009",
    "oa_url": null,
    "themes": [
-    "quantgen"
+    "breeding",
+    "microbiome"
    ]
   },
   {
@@ -3035,8 +2958,7 @@
    "doi": "10.3168/jds.2009-2759",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030211000427/pdf",
    "themes": [
-    "prediction",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -3072,9 +2994,7 @@
    "type": "article",
    "doi": "10.1016/j.rvsc.2010.05.029",
    "oa_url": null,
-   "themes": [
-    "omics"
-   ]
+   "themes": []
   },
   {
    "title": "Genomic breeding value prediction using three Bayesian methods and application to reduced density marker panels",
@@ -3091,10 +3011,7 @@
    "doi": "10.1186/1753-6561-4-s1-s6",
    "oa_url": "https://bmcproc.biomedcentral.com/track/pdf/10.1186/1753-6561-4-S1-S6",
    "themes": [
-    "prediction",
-    "omics",
-    "quantgen",
-    "methods"
+    "breeding"
    ]
   },
   {
@@ -3111,9 +3028,8 @@
    "doi": "10.4081/ijas.2010.e68",
    "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2010.e68?needAccess=true&role=button",
    "themes": [
-    "prediction",
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -3130,8 +3046,8 @@
    "doi": "10.2527/jas.2008-1328",
    "oa_url": null,
    "themes": [
-    "diversity",
-    "quantgen"
+    "breeding",
+    "diversity"
    ]
   },
   {
@@ -3150,7 +3066,7 @@
    "doi": "10.1186/1471-2156-10-13",
    "oa_url": "https://bmcgenomdata.biomedcentral.com/counter/pdf/10.1186/1471-2156-10-13",
    "themes": [
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -3169,8 +3085,7 @@
    "doi": "10.1111/j.1365-2052.2008.01793.x",
    "oa_url": null,
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -3187,8 +3102,7 @@
    "doi": "10.1111/j.1365-2052.2008.01749.x",
    "oa_url": null,
    "themes": [
-    "prediction",
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -3249,8 +3163,7 @@
    "doi": "10.3168/jds.2007-0507",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030208714218/pdf",
    "themes": [
-    "omics",
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -3270,7 +3183,7 @@
    "doi": "10.3168/jds.2007-0183",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030207719471/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   },
   {
@@ -3306,7 +3219,7 @@
    "doi": "10.1111/j.1439-0388.2007.00634.x",
    "oa_url": null,
    "themes": [
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -3325,7 +3238,7 @@
    "doi": "10.3168/jds.s0022-0302(06)72351-7",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030206723517/pdf",
    "themes": [
-    "prediction"
+    "breeding"
    ]
   },
   {
@@ -3344,7 +3257,7 @@
    "doi": "10.3168/jds.s0022-0302(05)73092-7",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030205730927/pdf",
    "themes": [
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -3371,7 +3284,7 @@
    "doi": "10.4081/ijas.2005.2s.13",
    "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2005.2s.13?needAccess=true",
    "themes": [
-    "omics"
+    "breeding"
    ]
   },
   {
@@ -3388,7 +3301,7 @@
    "doi": "10.3168/jds.s0022-0302(04)73385-8",
    "oa_url": "http://www.journalofdairyscience.org/article/S0022030204733858/pdf",
    "themes": [
-    "quantgen"
+    "breeding"
    ]
   }
  ]

@@ -30,8 +30,6 @@ from markupsafe import Markup, escape
 
 import _paths
 
-RECENT_ON_HOME = 6
-PER_THEME = 6
 
 
 def load(path):
@@ -80,6 +78,8 @@ def main():
         return Markup(", ").join(out)
 
     by_theme = {t["id"]: [p for p in pubs if t["id"] in p["themes"]] for t in themes}
+    by_doi = {p["doi"]: p for p in pubs}
+    featured = {t["id"]: [by_doi[d] for d in t.get("featured", []) if d in by_doi] for t in themes}
     years = sorted({p["year"] for p in pubs if p["year"]}, reverse=True)
 
     env = Environment(loader=FileSystemLoader(_paths.TEMPLATES),
@@ -93,8 +93,8 @@ def main():
     shutil.copytree(_paths.STATIC, _paths.BUILD / "static")
 
     pages = {
-        "index.html": {"recent": pubs[:RECENT_ON_HOME], "by_theme": by_theme, "team": team},
-        "research.html": {"by_theme": {k: v[:PER_THEME] for k, v in by_theme.items()},
+        "index.html": {"team": team},
+        "research.html": {"featured": featured,
                           "counts": {k: len(v) for k, v in by_theme.items()}},
         "publications.html": {"pubs": pubs, "years": years,
                               "pubs_json": Markup(json.dumps(

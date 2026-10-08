@@ -12,22 +12,15 @@
     <a class="theme" href="research.html#{{ t.id }}">
       <h3>{{ t.name }}</h3>
       <p>{{ t.summary }}</p>
-      <span class="count">{{ by_theme[t.id]|length }} papers</span>
+      <span class="count">Read more &rarr;</span>
     </a>
     {% endfor %}
   </div>
 </section>
 
 <section>
-  <h2>Recent papers</h2>
-  <ul class="papers">
-    {% for p in recent %}{% include "_paper.html" %}{% endfor %}
-  </ul>
-  <p><a class="more" href="publications.html">All {{ paper_count }} papers &rarr;</a></p>
-</section>
-
-<section>
-  <h2>Team</h2>
-  <p class="muted">{{ team.current|length + 1 }} current members, {{ team.alumni|length }} past students and postdocs, {{ team.visitors|length }} visiting scholars. <a href="people.html">Meet the team &rarr;</a></p>
+  <h2>Team and publications</h2>
+  <p>{{ team.current|length + 1 }} current members, {{ team.alumni|length }} past students and postdocs and {{ team.visitors|length }} visiting scholars. <a href="people.html">People &rarr;</a></p>
+  <p>{{ paper_count }} peer-reviewed papers, books and chapters, searchable by theme and year. <a href="publications.html">Publications &rarr;</a></p>
 </section>
 {% endblock %}

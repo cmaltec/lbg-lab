@@ -3,6 +3,15 @@
 {% block main %}
 <h1>People</h1>
 
+<section class="pi">
+  <h2>Principal investigator</h2>
+  <div class="pi-card">
+    <div class="cname">{{ team.pi.name }}</div>
+    <div class="crole">{{ site.pi_title }}</div>
+    <div class="ctopic"><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="https://orcid.org/{{ site.orcid }}">ORCID {{ site.orcid }}</a></div>
+  </div>
+</section>
+
 <section>
   <h2>Current team</h2>
   <div class="cards">
@@ -13,11 +22,6 @@
       {% if m.topic %}<div class="ctopic">{{ m.topic }}</div>{% endif %}
     </div>
     {% endfor %}
-    <div class="card">
-      <div class="cname">{{ team.pi.name }}</div>
-      <div class="crole">{{ team.pi.role }}</div>
-      <div class="ctopic"><a href="https://orcid.org/{{ site.orcid }}">ORCID</a> · <a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
-    </div>
   </div>
 </section>
 

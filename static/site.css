@@ -105,3 +105,10 @@ h3.sub { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color
 footer { margin-top: 64px; border-top: 1px solid var(--rule); }
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 20px 16px 36px;
         font: 13px/1.5 var(--sans); }
+
+/* --- Research page and PI --- */
+.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 18px 0 0; font: 500 15px var(--sans); }
+.theme-block > p { font-size: 17.5px; }
+.themes { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.pi-card { padding: 16px 18px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 3px; max-width: 34em; }
+.pi-card .cname { font-size: 18px; }
