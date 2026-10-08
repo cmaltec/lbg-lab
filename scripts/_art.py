@@ -35,7 +35,10 @@ def haplotype_band(w=1200, h=180):
         x = 0.0
         while x < w:
             seg = rng.uniform(30, 160)
-            shade = rng.choice(["art-0", "art-1", "art-1", "art-2", "art-3"])
+            # a few blocks take the accent (Wolfpack Red in the hero), only on
+            # the light right-hand side where the veil has faded
+            shade = ("art-hot" if x > 0.5 * w and rng.random() < 0.07 else
+                     rng.choice(["art-0", "art-1", "art-1", "art-2", "art-3"]))
             out.append(f'<rect class="{shade}" x="{x:.1f}" y="{r * rh + 2:.1f}" '
                        f'width="{max(seg - 3, 2):.1f}" height="{rh - 4:.1f}" rx="2"/>')
             x += seg

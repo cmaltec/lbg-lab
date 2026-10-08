@@ -51,15 +51,20 @@ a:hover { color: var(--red-dark); }
                    border-bottom: 3px solid transparent; }
 .site-head nav a[aria-current="page"], .site-head nav a:hover { color: var(--red); border-bottom-color: var(--red); }
 
-/* --- Split hero: charcoal text panel, illustration panel --- */
-.split-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 270px; max-width: 1028px; margin: 28px auto 0; }
+/* --- Hero: haplotype blocks across the full panel, a charcoal veil under the
+ * headline that fades out towards the right, and a few red blocks --- */
+.split-hero { position: relative; display: block; min-height: 270px; max-width: 1028px; margin: 28px auto 0; overflow: hidden; }
 .split-hero-short { min-height: 210px; }
-.sh-text { background: var(--charcoal); color: #fff; display: flex; align-items: center; padding: 40px clamp(24px, 4.5vw, 64px); }
+.sh-text { position: relative; z-index: 1; min-height: inherit; display: flex; align-items: center;
+           padding: 40px clamp(24px, 4.5vw, 64px); color: #fff;
+           background: linear-gradient(90deg, rgba(72,72,72,.9) 0%, rgba(72,72,72,.84) 34%,
+                                              rgba(72,72,72,.4) 58%, rgba(72,72,72,0) 82%); }
 .sh-text h1 { font: 700 clamp(28px, 2.6vw, 34px)/1.25 var(--sans); color: #fff; margin: 0; max-width: 16em; }
 .split-hero-short { min-height: 170px; }
 .split-hero-short .sh-text h1 { font-size: clamp(28px, 2.6vw, 34px); }
-.sh-art { --c: #9a9a9a; background: #fafafa; overflow: hidden; }
-.sh-art .art-hot { fill: var(--red); }
+.sh-art { position: absolute; inset: 0; --c: #9a9a9a; background: #f6f6f6; }
+.sh-art .art-hot { fill: var(--red); opacity: .75; }
+.sh-text h1 { max-width: 13em; text-shadow: 0 1px 2px rgba(0,0,0,.25); }
 
 /* --- Type --- */
 h1, h2, h3 { color: var(--black); line-height: 1.2; }
@@ -183,10 +188,10 @@ footer a, footer a:hover { color: #fff; }
   .overview { grid-template-columns: 1fr; gap: 26px; max-width: 640px; }
 }
 @media (max-width: 860px) {
-  .split-hero, .band, .band-flip { grid-template-columns: 1fr; }
+  .band, .band-flip { grid-template-columns: 1fr; }
+  .sh-text { background: linear-gradient(90deg, rgba(58,58,58,.92) 0%, rgba(58,58,58,.8) 70%, rgba(58,58,58,.55) 100%); }
   .band-flip .band-text { order: 0; }
   .band-art, .band-flip .band-art { border: 12px solid var(--c); border-top: 0; min-height: 180px; }
-  .sh-art { min-height: 140px; }
   .prose, .overview, .bold-links, .pi-card, .accordion, .filters, .papers { margin-left: 0; }
   .overview { grid-template-columns: 1fr; }
   .bold-links { grid-template-columns: 1fr; }
