@@ -4,10 +4,10 @@
   {
    "id": "breeding",
    "name": "Genomic selection and breeding design",
-   "summary": "Using genomic and phenotypic information in practice, and designing breeding programmes that turn predictions into lasting genetic gain.",
+   "summary": "How genomic and phenotypic information can be used to predict genetic merit, and how breeding programs can be designed to turn those predictions into sustained genetic gain.",
    "description": [
-    "Genomic selection has changed how livestock are improved, and much of our work asks how to make the best use of it in practice: which genotypes and phenotypes are worth collecting, what additional information such as microbiome data adds to predictions, and how well predictions hold across populations and production systems, for traits from meat quality and carcass composition in pigs to longevity and fertility in cattle. Work on statistical methods for genomic prediction and fine-mapping is carried out in close collaboration with colleagues in statistical genomics at NC State.",
-    "Prediction is useful only when a breeding programme can act on it, so we also study programme design: how genotyping strategies, mating, germplasm exchange and selection decisions trade genetic gain against the loss of genetic variation. Much of this work draws on large routinely recorded datasets, including producer-recorded health events and national genotype collections."
+    "The advent of genomic selection has accelerated genetic progress in dairy cattle and other livestock species, and much of our work concerns how that progress can be sustained in practice. We evaluate which genotyping and phenotyping strategies are worth their cost, whether additional information such as gut microbiome composition improves the prediction of complex traits, and how well predictions hold across populations and production systems. The traits we study range from meat quality and carcass composition in pigs to longevity and fertility in dairy and beef cattle. Statistical methods for genomic prediction and fine-mapping are developed in close collaboration with colleagues in statistical genomics at NC State.",
+    "Prediction is useful only when a breeding program can act on it. We therefore also study program design, including how genotyping strategies, mating plans, germplasm exchange, and selection decisions balance genetic gain against the loss of genetic variation. Much of this work relies on large, routinely recorded datasets, such as producer-recorded health events and national genotype collections."
    ],
    "keywords": [
     "algorithm",
@@ -76,10 +76,10 @@
   {
    "id": "diversity",
    "name": "Inbreeding and genetic diversity",
-   "summary": "Measuring inbreeding from genomic data, estimating what it costs, and managing selection so populations keep their variation.",
+   "summary": "How inbreeding can be measured from genomic data, what it costs in performance, health, and fertility, and how selection can be managed to preserve genetic variation.",
    "description": [
-    "Intense selection concentrates genetic contributions on a few families, and genomic selection can change the pace of that process. We use genomic data, in particular runs of homozygosity, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds in North America, Europe and Australia.",
-    "We also ask what inbreeding costs. We estimate inbreeding depression for production, fertility, health and longevity, separate the effects of recent and ancient inbreeding, and look for the genomic regions responsible. Finally, we evaluate mating and selection strategies, such as genomic inbreeding penalties and planned germplasm exchange, that sustain genetic gain while limiting the loss of variation."
+    "Preserving genetic diversity is necessary if livestock populations are to remain responsive to future breeding goals, yet intense selection concentrates genetic contributions on a limited number of families. We use genomic data, and runs of homozygosity in particular, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds in North America, Europe, and Australia.",
+    "A second line of work concerns the cost of inbreeding. We estimate inbreeding depression for production, fertility, health, and longevity, separate the effects of recent and ancient inbreeding, and look for the genomic regions responsible. These estimates inform the mating and selection strategies we evaluate, such as genomic inbreeding penalties and planned germplasm exchange, which aim to sustain genetic gain while curtailing the loss of variation."
    ],
    "keywords": [
     "conservation",
@@ -103,11 +103,11 @@
   },
   {
    "id": "microbiome",
-   "name": "Host genome, microbiome and resilience",
-   "summary": "How the host genome and its gut microbiome shape performance, and how animals respond to heat stress.",
+   "name": "Host genome, microbiome, and resilience",
+   "summary": "How the host genome and the gut microbiome jointly shape performance, and how animals respond to heat stress under a changing climate.",
    "description": [
-    "An animal's performance reflects its own genome and the microbial communities it carries, and the two are not independent. Working mainly in pigs, we estimate how much of the variation in gut microbiome composition is under host genetic control, how much of the variation in growth, efficiency and carcass traits the microbiome accounts for, and whether microbial information improves the prediction of those traits alongside genomic data.",
-    "A related line of work concerns resilience, particularly to heat stress. In sows selected for heat tolerance, we combine automatically recorded body temperature, longitudinal microbiome and other omics data, and genomics to understand how animals respond to heat and how selection can make them more robust."
+    "The performance of an animal reflects both its own genome and the microbial communities it carries, and the host genome contributes to shaping those communities. Working mainly in pigs, we estimate how much of the variation in gut microbiome composition is under host genetic control and how much of the variation in growth, feed efficiency, and carcass traits the microbiome accounts for. We also test whether microbial information improves the prediction of those traits alongside genomic data.",
+    "Heat stress poses a growing threat to livestock production and welfare, a problem exacerbated by climate change. In sows genomically selected for heat tolerance, we combine automatically recorded body temperature, time-resolved microbiome and other omics data, and genomic information to characterize how animals respond to heat and how selection can improve their resilience."
    ],
    "keywords": [
     "16s",
