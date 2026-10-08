@@ -9,3 +9,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# PDF previews for sharing
+_preview/

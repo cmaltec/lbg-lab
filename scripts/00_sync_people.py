@@ -12,6 +12,7 @@ progress. Everyone else is listed as alumni. Chair/co-chair markers and
 titles are stripped; co-advised students are noted as such.
 
 Usage:
+  python scripts/00_sync_people.py          # CV folder found via the tracker
   CV_DATA_DIR=/path/to/CV_Rmd/data python scripts/00_sync_people.py
 
 Author: Christian Maltecca
@@ -48,7 +49,7 @@ def co_advised(name):
 
 def main():
     if _paths.CV_DATA_DIR is None or not _paths.CV_DATA_DIR.is_dir():
-        print("Set CV_DATA_DIR to the CV data folder.", file=sys.stderr)
+        print("CV data folder not found; set CV_DATA_DIR.", file=sys.stderr)
         return 1
     year = date.today().year
 

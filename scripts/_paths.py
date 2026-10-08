@@ -28,6 +28,18 @@ PEOPLE = CONTENT / "people"
 ORCID = "0000-0002-9996-4680"
 MAILTO = "cmaltec@ncsu.edu"
 
-# The CV data folder (for 00_sync_people.py) lives outside the repo; give its
-# location in the environment rather than in code.
-CV_DATA_DIR = Path(os.environ["CV_DATA_DIR"]) if os.environ.get("CV_DATA_DIR") else None
+# The CV data folder (for 00_sync_people.py) lives outside the repo. It is
+# taken from CV_DATA_DIR if set, otherwise found next to the Scholar tracker,
+# whose location the tracker records in ~/.config/scholar-tracker/root.
+def _cv_data_dir():
+    if os.environ.get("CV_DATA_DIR"):
+        return Path(os.environ["CV_DATA_DIR"])
+    pointer = Path.home() / ".config" / "scholar-tracker" / "root"
+    if pointer.exists():
+        candidate = Path(pointer.read_text().splitlines()[0]).parent / "CV" / "CV_Rmd" / "data"
+        if candidate.is_dir():
+            return candidate
+    return None
+
+
+CV_DATA_DIR = _cv_data_dir()
