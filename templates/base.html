@@ -14,12 +14,14 @@
 <div id="ncstate-utility-bar" data-prop-show-brick="1" data-prop-cse-id="00578865650663686:7xmauxacbr4"></div>
 <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/v3/ncstate-utility-bar.js"></script>
 <header class="site-head">
+  <div class="head-inner">
   <a class="site-title" href="index.html">{{ site.name }}</a>
   <nav aria-label="Site">
     {% for href, label in [("index.html","Home"),("research.html","Research"),("publications.html","Publications"),("people.html","People")] %}
     <a href="{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
     {% endfor %}
   </nav>
+  </div>
 </header>
 <main>
 {% block main %}{% endblock %}
