@@ -18,8 +18,7 @@
       <a href="people.html#join">How to get in touch <span aria-hidden="true">&rarr;</span></a>
     </aside>
   </div>
-  <div class="bold-links">
-    {% for t in themes %}<a href="research.html#{{ t.id }}">{{ t.name }} <span aria-hidden="true">&rarr;</span></a>{% endfor %}
+  <div class="bold-links row">
     <a href="publications.html">Publications <span aria-hidden="true">&rarr;</span></a>
     <a href="people.html">People <span aria-hidden="true">&rarr;</span></a>
   </div>
@@ -29,7 +28,7 @@
 <section class="band t-{{ t.id }}{% if loop.index is even %} band-flip{% endif %}">
   <div class="band-text">
     <h2>{{ t.name }}</h2>
-    <p>{{ t.description[0] }}</p>
+    <p>{{ t.summary }}</p>
     <a class="btn-outline" href="research.html#{{ t.id }}">Explore this theme <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="band-art">{{ art_band[t.id] }}</div>
