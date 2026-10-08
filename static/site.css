@@ -1,8 +1,11 @@
 /* site.css
  *
- * Quantitative Genomics Lab site. Colours and type follow the CV: slate
- * accent, Avenir Next for headings and Charter for text, with system
- * fallbacks where those fonts are absent.
+ * Quantitative Genomics Lab site, styled to the NC State brand
+ * (brand.ncsu.edu): Wolfpack Red predominates with black and white; one
+ * expanded-palette colour per research theme, kept subordinate to red;
+ * Roboto, Roboto Condensed and Roboto Slab with Arial as fallback. Every
+ * text colour passes WCAG AA on white. The brand defines no dark palette, so
+ * the site is light only.
  *
  * Author: Christian Maltecca
  * E-mail: cmaltec@ncsu.edu
@@ -10,160 +13,143 @@
  */
 
 :root {
-  --accent: #4a5868;
-  --accent-soft: #eef0f3;
-  --ink: #2b2f33;
-  --muted: #6b7178;
-  --rule: #dde1e6;
+  --red: #cc0000;            /* Wolfpack Red */
+  --red-dark: #990000;       /* Reynolds Red */
+  --black: #000000;
+  --ink: #1a1a1a;
+  --muted: #595959;          /* 7.0:1 on white */
+  --rule: #dcdcdc;
+  --tint: #f4f4f4;
   --bg: #ffffff;
-  --sans: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
-  --serif: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, serif;
+  --c: var(--red);           /* theme colour, set per theme below */
+  --sans: Roboto, Arial, sans-serif;
+  --cond: "Roboto Condensed", Roboto, Arial, sans-serif;
+  --slab: "Roboto Slab", Roboto, Arial, serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent: #a9b6c6;
-    --accent-soft: #23282e;
-    --ink: #e4e7ea;
-    --muted: #9aa1a8;
-    --rule: #343a41;
-    --bg: #16191c;
-  }
-}
+.t-breeding   { --c: #4156a1; }   /* Bio-Indigo */
+.t-diversity  { --c: #6f7d1c; }   /* Genomic Green */
+.t-microbiome { --c: #008473; }   /* Carmichael Aqua */
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body {
-  margin: 0; background: var(--bg); color: var(--ink);
-  font: 17px/1.55 var(--serif);
-}
-a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-.wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); }
+a { color: var(--red); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--red-dark); }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
 .muted { color: var(--muted); }
 
-/* --- Header --- */
-.top { border-top: 5px solid var(--accent); border-bottom: 1px solid var(--rule); }
-.top-inner { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; padding-top: 16px; padding-bottom: 14px; }
-.brand { font: 600 19px/1.2 var(--sans); color: var(--ink); text-decoration: none; }
-.brand span { display: block; font-weight: 400; font-size: 13px; color: var(--muted); letter-spacing: .04em; }
-nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 15px var(--sans); }
-nav a { color: var(--muted); text-decoration: none; padding: 2px 0; }
-nav a[aria-current="page"], nav a:hover { color: var(--accent); border-bottom: 2px solid var(--accent); }
+/* --- Site header (below the NC State utility bar) --- */
+.top { border-bottom: 1px solid var(--rule); }
+.top-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+             gap: 8px 24px; padding-top: 18px; padding-bottom: 16px; }
+.brand { font: 700 24px/1.15 var(--cond); color: var(--black); text-decoration: none; text-transform: uppercase; letter-spacing: .01em; }
+.brand span { display: block; font: 400 14px var(--sans); color: var(--red); text-transform: none; letter-spacing: 0; margin-top: 2px; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 22px; font: 700 15px var(--cond); text-transform: uppercase; letter-spacing: .04em; }
+nav a { color: var(--ink); text-decoration: none; padding: 4px 0; border-bottom: 3px solid transparent; }
+nav a[aria-current="page"], nav a:hover { color: var(--red); border-bottom-color: var(--red); }
 
 /* --- Type --- */
-h1, h2, h3 { font-family: var(--sans); color: var(--ink); line-height: 1.25; }
-h1 { font-size: 30px; font-weight: 600; margin: 40px 0 8px; }
-h2 { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent);
-     margin: 44px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
-h3 { font-size: 17px; font-weight: 600; margin: 0 0 6px; }
-h3.sub { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 18px; }
-.lede { font-size: 20px; line-height: 1.5; max-width: 40em; }
-.hero h1 { font-size: 36px; margin-top: 48px; }
+h1, h2, h3 { font-family: var(--cond); color: var(--black); line-height: 1.2; }
+h1 { font-size: 36px; font-weight: 700; margin: 40px 0 10px; }
+h2 { font-size: 22px; font-weight: 700; color: var(--red); margin: 44px 0 14px; padding-bottom: 6px;
+     border-bottom: 2px solid var(--rule); }
+h3 { font-size: 19px; font-weight: 700; margin: 0 0 6px; }
+h3.sub { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 18px; }
+.lede { font: 400 20px/1.55 var(--slab); max-width: 40em; }
 
-/* --- Research themes --- */
-.themes { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
-.theme { display: flex; flex-direction: column; padding: 16px 18px; background: var(--accent-soft);
-         border-top: 3px solid var(--accent); border-radius: 3px; color: var(--ink); text-decoration: none; }
-.theme:hover { outline: 1px solid var(--accent); }
-.theme p { margin: 0 0 10px; font-size: 15px; line-height: 1.45; }
-.theme .count { margin-top: auto; font: 500 13px var(--sans); color: var(--muted); }
+/* --- Illustrations: theme colour mixed with white --- */
+.art { display: block; width: 100%; height: 100%; }
+.art-0 { fill: color-mix(in srgb, var(--c) 8%, #fff); }
+.art-1 { fill: color-mix(in srgb, var(--c) 20%, #fff); }
+.art-2 { fill: color-mix(in srgb, var(--c) 38%, #fff); }
+.art-3 { fill: color-mix(in srgb, var(--c) 62%, #fff); }
+.art-hot { fill: var(--c); }
+.art-host { fill: var(--c); stroke: #fff; stroke-width: 3; }
+.art-edge { stroke: color-mix(in srgb, var(--c) 32%, #fff); stroke-width: 1; }
+.art-frame { fill: none; stroke: var(--c); stroke-width: 1.5; }
+
+/* --- Hero: red-and-grey haplotype band behind the lab name --- */
+.hero { position: relative; margin: 28px 0 8px; overflow: hidden; border-left: 6px solid var(--red); }
+.hero-art { position: absolute; inset: 0; opacity: .5; --c: #8a8a8a; }
+.hero-art .art-hot { fill: var(--red); }
+.hero-text { position: relative; padding: 34px 32px 30px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255,255,255,.9) 55%, rgba(255,255,255,0) 100%); }
+.hero h1 { margin-top: 0; }
+.hero .lede { margin-bottom: 0; }
+
+/* --- Research theme cards --- */
+.themes { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.theme { display: flex; flex-direction: column; overflow: hidden; color: var(--ink); text-decoration: none;
+         background: var(--bg); border: 1px solid var(--rule); border-top: 4px solid var(--c); }
+.theme:hover { color: var(--ink); box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.theme-art { height: 120px; background: color-mix(in srgb, var(--c) 5%, #fff); border-bottom: 1px solid var(--rule); }
+.theme-body { display: flex; flex-direction: column; flex: 1; padding: 14px 18px 16px; }
+.theme h3 { color: var(--c); }
+.theme p { margin: 0 0 10px; font-size: 16px; line-height: 1.5; }
+.theme .count { margin-top: auto; font: 700 14px var(--cond); text-transform: uppercase; letter-spacing: .04em; color: var(--red); }
+
+/* --- Research sections --- */
+.toc { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 18px 0 0; font: 700 15px var(--cond); }
 .theme-block { scroll-margin-top: 16px; }
+.theme-block h2 { color: var(--c); border-bottom-color: var(--c); }
 .theme-block > p { max-width: 42em; }
+.block-art { height: 150px; margin: 4px 0 18px; overflow: hidden; background: color-mix(in srgb, var(--c) 5%, #fff); }
 
 /* --- Papers --- */
 .papers { list-style: none; padding: 0; margin: 0; }
 .paper { padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .paper[hidden] { display: none; }
-.ptitle { font: 600 16px/1.35 var(--sans); color: var(--ink); text-decoration: none; }
-.ptitle:hover { color: var(--accent); text-decoration: underline; }
-.pauth { font-size: 14.5px; margin-top: 3px; }
+.ptitle { font: 700 17px/1.35 var(--cond); color: var(--black); text-decoration: none; }
+.ptitle:hover { color: var(--red); text-decoration: underline; }
+.pauth { font-size: 15px; margin-top: 3px; }
 .pauth b { font-weight: 700; }
-.pmeta { font-size: 14px; color: var(--muted); }
-.oa { font: 500 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; }
-.more { font: 500 15px var(--sans); }
+.pmeta { font-size: 15px; color: var(--muted); }
+.oa { font: 700 13px var(--cond); text-transform: uppercase; letter-spacing: .05em; }
+.more { font: 700 15px var(--cond); text-transform: uppercase; letter-spacing: .04em; }
 
 /* --- Filters --- */
 .filters { display: grid; gap: 10px; margin: 18px 0 8px; }
-.filters input, .filters select { font: 15px var(--sans); padding: 8px 10px; border: 1px solid var(--rule);
-  border-radius: 3px; background: var(--bg); color: var(--ink); max-width: 100%; }
+.filters input, .filters select { font: 16px var(--sans); padding: 8px 10px; border: 1px solid #949494;
+  background: #fff; color: var(--ink); max-width: 100%; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { font: 500 13px var(--sans); padding: 5px 10px; border: 1px solid var(--rule); border-radius: 999px;
-        background: var(--bg); color: var(--muted); cursor: pointer; }
-.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.chip { font: 700 14px var(--cond); padding: 6px 12px; border: 1px solid #949494; background: #fff;
+        color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
 
 /* --- People --- */
+.pi-card { padding: 16px 18px; border-left: 6px solid var(--red); background: var(--tint); max-width: 36em; }
+.pi-card .cname { font-size: 20px; }
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-.card { padding: 14px 16px; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 3px; }
-.cname { font: 600 16px var(--sans); }
-.crole { font: 14px var(--sans); color: var(--muted); }
-.ctopic { font-size: 14px; margin-top: 4px; }
+.card { padding: 14px 16px; border: 1px solid var(--rule); border-top: 4px solid var(--red); }
+.cname { font: 700 17px var(--cond); }
+.crole { font-size: 15px; color: var(--muted); }
+.ctopic { font-size: 15px; margin-top: 4px; }
 .alumni, .visitors { list-style: none; padding: 0; margin: 0; columns: 2 280px; column-gap: 32px; }
 .alumni li, .visitors li { break-inside: avoid; padding: 6px 0; }
-.aname { font: 600 15px var(--sans); }
-.atopic { font-size: 14px; color: var(--muted); }
+.aname { font: 700 16px var(--cond); }
+.atopic { font-size: 15px; color: var(--muted); }
 
-/* --- Footer --- */
-footer { margin-top: 64px; border-top: 1px solid var(--rule); }
-.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 20px 16px 36px;
-        font: 13px/1.5 var(--sans); }
-
-/* --- Research page and PI --- */
-.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 18px 0 0; font: 500 15px var(--sans); }
-.theme-block > p { font-size: 17.5px; }
-.themes { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
-.pi-card { padding: 16px 18px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 3px; max-width: 34em; }
-.pi-card .cname { font-size: 18px; }
-
-/* --- Theme accents and illustrations ---
- * Each theme has its own muted accent (--c); the drawings mix it with the
- * page background, so they follow light and dark mode. */
-:root { --c: var(--accent); }
-.t-breeding   { --c: #45648a; }
-.t-diversity  { --c: #5e7d66; }
-.t-microbiome { --c: #9a6a4c; }
-@media (prefers-color-scheme: dark) {
-  .t-breeding   { --c: #8faacb; }
-  .t-diversity  { --c: #9dbba4; }
-  .t-microbiome { --c: #d3a283; }
-}
-.art { display: block; width: 100%; height: 100%; }
-.art-0 { fill: color-mix(in srgb, var(--c) 10%, var(--bg)); }
-.art-1 { fill: color-mix(in srgb, var(--c) 22%, var(--bg)); }
-.art-2 { fill: color-mix(in srgb, var(--c) 40%, var(--bg)); }
-.art-3 { fill: color-mix(in srgb, var(--c) 65%, var(--bg)); }
-.art-hot { fill: var(--c); }
-.art-host { fill: var(--c); stroke: var(--bg); stroke-width: 3; }
-.art-edge { stroke: color-mix(in srgb, var(--c) 35%, var(--bg)); stroke-width: 1; }
-.art-frame { fill: none; stroke: var(--c); stroke-width: 1.5; }
-
-/* Hero: haplotype band behind the lab name */
-.hero { position: relative; margin: 28px 0 8px; border-radius: 4px; overflow: hidden; }
-.hero-art { position: absolute; inset: 0; opacity: .55; }
-.hero-text { position: relative; padding: 36px 32px 30px;
-  background: linear-gradient(90deg, var(--bg) 0%, color-mix(in srgb, var(--bg) 88%, transparent) 55%, transparent 100%); }
-.hero h1 { margin-top: 0; }
-.hero .lede { margin-bottom: 0; }
-
-/* Theme cards with art on top */
-.theme { padding: 0; overflow: hidden; border-top: 3px solid var(--c); background: color-mix(in srgb, var(--c) 6%, var(--bg)); }
-.theme-art { height: 120px; border-bottom: 1px solid color-mix(in srgb, var(--c) 18%, var(--bg)); }
-.theme-body { display: flex; flex-direction: column; flex: 1; padding: 14px 18px 16px; }
-.theme h3 { color: var(--c); }
-.theme:hover { outline: 1px solid var(--c); }
-
-/* Research sections */
-.theme-block h2 { color: var(--c); border-bottom-color: color-mix(in srgb, var(--c) 30%, var(--bg)); }
-.block-art { height: 150px; margin: 4px 0 18px; border-radius: 4px; overflow: hidden;
-             background: color-mix(in srgb, var(--c) 5%, var(--bg)); }
-.theme-block .more, .theme-block .ptitle:hover { color: var(--c); }
-
-/* Links */
-.links { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; }
-.links a { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font: 500 13.5px var(--sans); }
+/* --- Links with icons --- */
+.links { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.links a { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font: 700 15px var(--cond); }
 .links a:hover span { text-decoration: underline; }
-.ic { width: 17px; height: 17px; flex: none; }
-.pi-card .links { margin-top: 8px; }
+.ic { width: 18px; height: 18px; flex: none; }
+
+/* --- Footer: black band, white text --- */
+footer { margin-top: 64px; background: var(--black); color: #fff; }
+footer a { color: #fff; }
+footer a:hover { color: #fff; }
+footer .muted { color: #cfcfcf; }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; padding: 28px 16px 40px; font-size: 15px; }
+.foot-name { font: 700 18px var(--cond); text-transform: uppercase; }
 
 @media (max-width: 560px) {
-  .hero-text { padding: 26px 18px 22px; }
-  .hero h1 { font-size: 30px; }
+  .hero-text { padding: 24px 18px 22px; }
+  h1, .hero h1 { font-size: 30px; }
+}
+
+/* The utility bar's brick hangs below the bar at the left edge; when the
+   centred header would sit under it, start the header below the brick. */
+@media (max-width: 1240px) {
+  .top-inner { padding-top: 48px; }
 }

@@ -31,6 +31,10 @@ open _site/index.html
 
 `.github/workflows/site.yml` runs 01 and 02 every Monday and on each push, and deploys `_site/` to GitHub Pages once the repository is public.
 
+## NC State brand
+
+The site follows brand.ncsu.edu: the NC State utility bar (loaded from cdn.ncsu.edu) is the first element of every page, Wolfpack Red predominates with black and white, each research theme uses one expanded-palette colour (Bio-Indigo, Genomic Green, Carmichael Aqua), and type is Roboto, Roboto Condensed and Roboto Slab from Google Fonts. All text colours pass WCAG AA on white.
+
 ## Requirements
 
 Python 3.10 or newer and Jinja2 (`pip install -r requirements.txt`). No commercial dependencies. The fetch uses the public ORCID and OpenAlex APIs and needs no keys.
