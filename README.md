@@ -1,6 +1,6 @@
-# Quantitative Genomics Lab website
+# Livestock Breeding and Genomics Lab website
 
-Static website for the Quantitative Genomics Lab, Department of Animal Science, NC State University. Publications update themselves weekly; people and text come from small content files.
+Static website for the Livestock Breeding and Genomics Lab, Department of Animal Science, NC State University. Publications update themselves weekly; people and text come from small content files.
 
 ## Content
 
