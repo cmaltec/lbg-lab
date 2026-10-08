@@ -12,6 +12,7 @@
   <div class="pi-card">
     <div class="cname">{{ team.pi.name }}</div>
     <div class="crole">{{ site.pi_title }}</div>
+    {% if site.pi_memberships %}<div class="cmember">Member, {{ site.pi_memberships|join(" · ") }}</div>{% endif %}
     <ul class="links">{% for l in site.links if l.icon != "building" %}<li><a href="{{ l.url }}">{{ icon(l.icon) }}<span>{{ l.label }}</span></a></li>{% endfor %}</ul>
   </div>
 </section>
