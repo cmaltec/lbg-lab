@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <h1>{{ site.name }}</h1>
+  <p class="lede">{{ site.mission }}</p>
+</section>
+
+<section>
+  <h2>Research</h2>
+  <div class="themes">
+    {% for t in themes %}
+    <a class="theme" href="research.html#{{ t.id }}">
+      <h3>{{ t.name }}</h3>
+      <p>{{ t.summary }}</p>
+      <span class="count">{{ by_theme[t.id]|length }} papers</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2>Recent papers</h2>
+  <ul class="papers">
+    {% for p in recent %}{% include "_paper.html" %}{% endfor %}
+  </ul>
+  <p><a class="more" href="publications.html">All {{ paper_count }} papers &rarr;</a></p>
+</section>
+
+<section>
+  <h2>Team</h2>
+  <p class="muted">{{ team.current|length + 1 }} current members, {{ team.alumni|length }} past students and postdocs, {{ team.visitors|length }} visiting scholars. <a href="people.html">Meet the team &rarr;</a></p>
+</section>
+{% endblock %}

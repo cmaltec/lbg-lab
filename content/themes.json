@@ -1,0 +1,134 @@
+{
+ "_note": "Summaries are drafts to edit. Keywords decide which papers appear under each theme (matched in title, abstract and keywords).",
+ "themes": [
+  {
+   "id": "prediction",
+   "name": "Genomic prediction and breeding design",
+   "summary": "How genomic and phenotypic information can be combined to predict genetic merit, and how breeding programmes can be designed to turn those predictions into sustained genetic gain.",
+   "keywords": [
+    "bayesian prediction",
+    "breeding objective",
+    "breeding program",
+    "breeding programme",
+    "breeding scheme",
+    "crossbreeding",
+    "gblup",
+    "genetic gain",
+    "genomic breeding value",
+    "genomic evaluation",
+    "genomic prediction",
+    "genomic selection",
+    "mating",
+    "optimum contribution",
+    "prediction accuracy",
+    "reference population",
+    "selection index",
+    "selection strategy",
+    "single-step",
+    "ssgblup",
+    "training population"
+   ]
+  },
+  {
+   "id": "diversity",
+   "name": "Inbreeding and genetic diversity",
+   "summary": "Measuring inbreeding and diversity from genomic data, understanding inbreeding depression, and managing selection so that populations keep the variation they will need.",
+   "keywords": [
+    "conservation",
+    "effective population size",
+    "genetic diversity",
+    "genomic relationship",
+    "homozygosity",
+    "inbreeding",
+    "kinship",
+    "population structure",
+    "purging",
+    "relatedness",
+    "roh",
+    "runs of homozygosity"
+   ]
+  },
+  {
+   "id": "microbiome",
+   "name": "Host genome and microbiome",
+   "summary": "The interplay between an animal's genome and the microbial communities it carries, and what that interplay means for efficiency, health and resilience.",
+   "keywords": [
+    "16s",
+    "fecal microb",
+    "gut bacteria",
+    "metagenom",
+    "microbiability",
+    "microbial",
+    "microbiome",
+    "microbiota",
+    "rumen microb"
+   ]
+  },
+  {
+   "id": "omics",
+   "name": "Functional genomics and multi-omics",
+   "summary": "Linking genetic variation to its biological consequences through mapping, transcriptomic, epigenomic and metabolomic data.",
+   "keywords": [
+    "association study",
+    "candidate gene",
+    "causal variant",
+    "epigenetic",
+    "fine mapping",
+    "fine-mapping",
+    "gene expression",
+    "genome-wide association",
+    "gwas",
+    "haplotype",
+    "linkage",
+    "marker-assisted",
+    "metabolom",
+    "methylation",
+    "mirna",
+    "proteom",
+    "qtl",
+    "regulatory element",
+    "rna-seq",
+    "rnaseq",
+    "transcriptom"
+   ]
+  },
+  {
+   "id": "quantgen",
+   "name": "Quantitative genetics of complex traits",
+   "summary": "Genetic parameters, genotype-by-environment interaction and the genetic architecture of production, health, fertility and resilience traits.",
+   "keywords": [
+    "animal model",
+    "blup",
+    "breeding value",
+    "ebv",
+    "genetic correlation",
+    "genetic evaluation",
+    "genetic parameter",
+    "genetic trend",
+    "genotype by environment",
+    "heritability",
+    "maternal effect",
+    "reaction norm",
+    "variance component"
+   ]
+  },
+  {
+   "id": "methods",
+   "name": "Statistical and computational methods",
+   "summary": "Statistical models, simulation and machine-learning tools developed to answer the questions above at scale.",
+   "keywords": [
+    "algorithm",
+    "bayesian method",
+    "computational",
+    "deep learning",
+    "imputation",
+    "machine learning",
+    "model comparison",
+    "neural network",
+    "simulation",
+    "software",
+    "statistical method"
+   ]
+  }
+ ]
+}

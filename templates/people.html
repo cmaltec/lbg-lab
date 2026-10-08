@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}People · {{ site.name }}{% endblock %}
+{% block main %}
+<h1>People</h1>
+
+<section>
+  <h2>Current team</h2>
+  <div class="cards">
+    {% for m in team.current %}
+    <div class="card">
+      <div class="cname">{{ m.name }}</div>
+      <div class="crole">{{ m.role }}{% if m.co_advised %} (co-advised){% endif %}</div>
+      {% if m.topic %}<div class="ctopic">{{ m.topic }}</div>{% endif %}
+    </div>
+    {% endfor %}
+    <div class="card">
+      <div class="cname">{{ team.pi.name }}</div>
+      <div class="crole">{{ team.pi.role }}</div>
+      <div class="ctopic"><a href="https://orcid.org/{{ site.orcid }}">ORCID</a> · <a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Join us</h2>
+  <p>{{ site.join }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</section>
+
+<section>
+  <h2>Alumni</h2>
+  <ul class="alumni">
+    {% for a in alumni %}
+    <li><span class="aname">{{ a.name }}</span> <span class="muted">{{ a.roles|join(" · ") }}</span>
+      {% if a.topics %}<div class="atopic">{{ a.topics|join("; ") }}</div>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Visiting scholars</h2>
+  <ul class="visitors">
+    {% for v in team.visitors %}
+    <li><span class="aname">{{ v.name }}</span> <span class="muted">{{ v.from }}{% if v.years %} · {{ v.years }}{% endif %}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

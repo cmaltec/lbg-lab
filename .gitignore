@@ -1,0 +1,11 @@
+# Generated site and API caches
+_site/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

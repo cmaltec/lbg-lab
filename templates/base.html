@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %} · NC State</title>
+<meta name="description" content="{{ site.mission }}">
+<link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="index.html">{{ site.name }}<span>NC State University</span></a>
+    <nav>
+      {% for href, label in [("index.html","Home"),("research.html","Research"),("publications.html","Publications"),("people.html","People")] %}
+      <a href="{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block main %}{% endblock %}
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>{{ site.name }} · {{ site.affiliation }}<br>{{ site.address }}</div>
+    <div class="muted">Publications are refreshed weekly from ORCID and OpenAlex.<br>Last built {{ updated }}.</div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,3395 @@
+{
+ "orcid": "0000-0002-9996-4680",
+ "count": 163,
+ "papers": [
+  {
+   "title": "Phenotypic profile of in utero heat stressed grow-finish pigs divergently selected for thermotolerance or thermosensitivity in the F2 generation",
+   "authors": [
+    "Jacob Musa",
+    "MaryKate Harrod Byrd",
+    "Luiz F. Brito",
+    "Hui Wen",
+    "Pedro H F Freitas",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Allan Paul Schinckel",
+    "Jay Steven Johnson"
+   ],
+   "year": 2026,
+   "date": "2026-08-12",
+   "venue": "Frontiers in Animal Science",
+   "type": "article",
+   "doi": "10.3389/fanim.2026.1899529",
+   "oa_url": "https://doi.org/10.3389/fanim.2026.1899529",
+   "themes": [
+    "prediction"
+   ]
+  },
+  {
+   "title": "Seasonal dynamics in sheep fecal microbiome and soil bacterial communities under grazing management",
+   "authors": [
+    "Maria Chiara Fabbri",
+    "Iliyass Biada",
+    "Maria Teresa Ceccherini",
+    "Christian Maltecca",
+    "Beatrice Fiore",
+    "Francesco Sirtori",
+    "Lina Fernanda Pulido‐Rodríguez",
+    "Giovanni Mastrolonardo",
+    "Riccardo Bozzi",
+    "Francesco Tiezzi"
+   ],
+   "year": 2026,
+   "date": "2026-06-29",
+   "venue": "PLoS ONE",
+   "type": "article",
+   "doi": "10.1371/journal.pone.0352436",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0352436&type=printable",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Evaluating breed and seasonal effects on milk yield, composition, and cheesemaking ability of 2 Italian dairy sheep breeds",
+   "authors": [
+    "SILVIA GRAZIANI",
+    "Simone Callegaro",
+    "Claudio Cipolat‐Gotet",
+    "Maria Chiara Fabbri",
+    "Giorgia Stocco",
+    "Lina Fernanda Pulido‐Rodríguez",
+    "Davide Valoppi",
+    "Irene Tedeschi",
+    "Francesco Sirtori",
+    "Bianca Castiglioni",
+    "Silverio Grande",
+    "Christian Maltecca",
+    "Riccardo Bozzi",
+    "Stefano Biffani",
+    "Francesco Tiezzi"
+   ],
+   "year": 2026,
+   "date": "2026-05-15",
+   "venue": "JDS Communications",
+   "type": "article",
+   "doi": "10.3168/jdsc.2025-1006",
+   "oa_url": "https://www.jdscommun.org/article/S2666-9102(26)00103-1/pdf",
+   "themes": []
+  },
+  {
+   "title": "Effects of runs of homozygosity-based versus genomic relationship matrix-based future inbreeding penalties on genetic gain, variance components, and inbreeding depression in dairy cattle",
+   "authors": [
+    "Christian Maltecca",
+    "Jicai Jiang",
+    "John Cole",
+    "Christine F. Baes",
+    "Li Ma",
+    "Francesco Tiezzi"
+   ],
+   "year": 2026,
+   "date": "2026-05-09",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2026-28483",
+   "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(26)02702-5/pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genomic insights into female productivity in limousine cattle: a single-step genome-wide association on longevity, fertility, and conformation traits",
+   "authors": [
+    "Simone Callegaro",
+    "Christian Maltecca",
+    "Francesco Tiezzi",
+    "Maria Chiara Fabbri",
+    "Riccardo Bozzi"
+   ],
+   "year": 2026,
+   "date": "2026-04-14",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-026-12831-7",
+   "oa_url": "https://doi.org/10.1186/s12864-026-12831-7",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Data-driven enterosignatures link gut microbiome reorganization to heat stress responses in lactating sows",
+   "authors": [
+    "Chiara Gini",
+    "Francesco Tiezzi",
+    "Jicai Jiang",
+    "MaryKate H. Byrd",
+    "Hui Wen",
+    "Jay Steven Johnson",
+    "Luiz F. Brito",
+    "Stephan Vliet",
+    "Christian Maltecca"
+   ],
+   "year": 2026,
+   "date": "2026-04-10",
+   "venue": "Frontiers in Microbiology",
+   "type": "article",
+   "doi": "10.3389/fmicb.2026.1797687",
+   "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1797687/pdf",
+   "themes": [
+    "prediction",
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Insights into pig resilience: the Microbiome-genetic connection",
+   "authors": [
+    "Enrico Mancin",
+    "Cristina Casto‐Rebollo",
+    "Christian Maltecca",
+    "Noelia Ibáñez-Escriche",
+    "Roberto Mantovani",
+    "Cristina Sartori",
+    "Francesco Tiezzi"
+   ],
+   "year": 2026,
+   "date": "2026-03-30",
+   "venue": "Porcine Health Management",
+   "type": "article",
+   "doi": "10.1186/s40813-026-00506-4",
+   "oa_url": "https://doi.org/10.1186/s40813-026-00506-4",
+   "themes": [
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Effect of early to mid-gestation heat stress exposure on mammary development and milk traits in F1 gilts divergently selected for thermotolerance",
+   "authors": [
+    "Jacob Musa",
+    "Theresa Casey",
+    "C. Farmer",
+    "MaryKate H Byrd",
+    "Luiz F. Brito",
+    "Hui Wen",
+    "Pedro H F Freitas",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Allan Paul Schinckel",
+    "Jay Steven Johnson"
+   ],
+   "year": 2026,
+   "date": "2026-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skag065",
+   "oa_url": "https://pubmed.ncbi.nlm.nih.gov/41741375/",
+   "themes": [
+    "prediction",
+    "methods"
+   ]
+  },
+  {
+   "title": "Fine-mapping methods for complex traits: essential adaptations for samples of related individuals",
+   "authors": [
+    "Junjian Wang",
+    "Francesco Tiezzi",
+    "Yijian Huang",
+    "Garrett M See",
+    "Clint Ray Schwab",
+    "Julong Wei",
+    "Christian Maltecca",
+    "Jicai Jiang"
+   ],
+   "year": 2025,
+   "date": "2025-11-01",
+   "venue": "Briefings in Bioinformatics",
+   "type": "article",
+   "doi": "10.1093/bib/bbaf614",
+   "oa_url": "https://academic.oup.com/bib/article-pdf/26/6/bbaf614/65450751/bbaf614.pdf",
+   "themes": [
+    "diversity",
+    "omics",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Inbreeding depression affecting stayability in Italian Holstein cows",
+   "authors": [
+    "J. C. do C. Panetto",
+    "Christian Maltecca",
+    "Michela Ablondi",
+    "Simone Callegaro",
+    "Johannes Baptist Cornelis Henricus Maria van Kaam",
+    "R. Finocchiaro",
+    "A. Fabris",
+    "Maria Chiara Fabbri",
+    "Martino Cassandro",
+    "Claudio Cipolat‐Gotet",
+    "A. Zanotti",
+    "Riccardo Bozzi",
+    "Francesco Tiezzi"
+   ],
+   "year": 2025,
+   "date": "2025-10-25",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2025-27100",
+   "oa_url": "https://doi.org/10.3168/jds.2025-27100",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Comprehensive analysis of inbreeding depression across growth, fertility, and survival traits in Limousine beef cattle",
+   "authors": [
+    "Simone Callegaro",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "M.C. Fabbri",
+    "J. C. do C. Panetto",
+    "Riccardo Bozzi"
+   ],
+   "year": 2025,
+   "date": "2025-10-01",
+   "venue": "animal",
+   "type": "article",
+   "doi": "10.1016/j.animal.2025.101672",
+   "oa_url": "https://doi.org/10.1016/j.animal.2025.101672",
+   "themes": [
+    "diversity"
+   ]
+  },
+  {
+   "title": "Microbial and Genomic Information Synergistically Contribute to Predicting Swine Performance Across Production Systems",
+   "authors": [
+    "Christian Maltecca",
+    "Enrico Mancin",
+    "Jicai Jiang",
+    "Maria Chiara Fabbri",
+    "Riccardo Bozzi",
+    "Clint Ray Schwab",
+    "Francesco Tiezzi"
+   ],
+   "year": 2025,
+   "date": "2025-09-24",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.70014",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.70014",
+   "themes": [
+    "prediction",
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genome-wide association study and fine-mapping using imputed sequences to prioritize candidate genes for 30 complex traits in 50,309 Holstein bulls",
+   "authors": [
+    "Junjian Wang",
+    "Yahui Gao",
+    "Sajjad Toghiani",
+    "John B. Cole",
+    "Christian Maltecca",
+    "Li Ma",
+    "Jicai Jiang"
+   ],
+   "year": 2025,
+   "date": "2025-09-04",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2025-27058",
+   "oa_url": "https://doi.org/10.3168/jds.2025-27058",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Genomic partition of inbreeding depression in production traits of US Jersey cattle using functional annotations",
+   "authors": [
+    "Chang Xu",
+    "Christian Maltecca",
+    "Francesco Tiezzi",
+    "John B. Cole",
+    "Sajjad Toghiani",
+    "Li Ma",
+    "Jicai Jiang"
+   ],
+   "year": 2025,
+   "date": "2025-08-15",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2025-26738",
+   "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(25)00626-5/pdf",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Benchmarking of feed-forward neural network models for genomic prediction of quantitative traits in pigs",
+   "authors": [
+    "Junjian Wang",
+    "Francesco Tiezzi",
+    "Yijian Huang",
+    "Christian Maltecca",
+    "Jicai Jiang"
+   ],
+   "year": 2025,
+   "date": "2025-06-18",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2025.1618891",
+   "oa_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1618891/pdf",
+   "themes": [
+    "prediction",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Invited review: Management of genetic defects in dairy cattle populations",
+   "authors": [
+    "John B. Cole",
+    "Christine F. Baes",
+    "Sophie Eaglen",
+    "Thomas J. Lawlor",
+    "Christian Maltecca",
+    "Martha Sofia Ortega",
+    "Paul Michael VanRaden"
+   ],
+   "year": 2025,
+   "date": "2025-02-20",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2024-26035",
+   "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(25)00109-2/pdf",
+   "themes": [
+    "prediction"
+   ]
+  },
+  {
+   "title": "Maternal Supplementation of Dietary Choline and DHA During Gestational Nutrition Restriction Alters Hepatic mRNA and miRNA Expression Patterns in Full-Term Fetal Pigs",
+   "authors": [
+    "Feng Wang",
+    "Xiaoqiu Wang",
+    "Jack Odle",
+    "Christian Maltecca",
+    "Xi Lin"
+   ],
+   "year": 2025,
+   "date": "2025-01-11",
+   "venue": "Journal of Nutrition",
+   "type": "article",
+   "doi": "10.1016/j.tjnut.2025.01.012",
+   "oa_url": "https://doi.org/10.1016/j.tjnut.2025.01.012",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Phenotypic assessment of F0 generation lactating sows genomically selected for heat stress tolerance",
+   "authors": [
+    "MaryKate H Byrd",
+    "Hui Wen",
+    "Pedro H F Freitas",
+    "J Levi Byrd",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Ashley E. DeDecker",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito",
+    "Jay Steven Johnson"
+   ],
+   "year": 2025,
+   "date": "2025-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skaf205",
+   "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12246825/pdf/skaf205.pdf",
+   "themes": [
+    "prediction"
+   ]
+  },
+  {
+   "title": "Characterizing the effects of gestational heat stress on reproductive efficiency and thermoregulation in replacement gilts divergently selected for thermotolerance in the F1 generation",
+   "authors": [
+    "MaryKate Harrod Byrd",
+    "Luiz F. Brito",
+    "Jacob Musa",
+    "Shelby L Diggs",
+    "L Kirsten Senn",
+    "Hui Wen",
+    "Pedro H F Freitas",
+    "John L Byrd",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Allan Paul Schinckel",
+    "Jay Steven Johnson"
+   ],
+   "year": 2025,
+   "date": "2025-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skaf353",
+   "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12706861/",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Optimizing genetic diversity in Australian Holsteins and Jerseys: A comparative analysis of whole-genome and regional inbreeding depression effects",
+   "authors": [
+    "B.A. Scott",
+    "M. Haile‐Mariam",
+    "Francesco Tiezzi",
+    "Irene van den Berg",
+    "Christian Maltecca",
+    "J.E. Pryce"
+   ],
+   "year": 2024,
+   "date": "2024-12-10",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2024-25341",
+   "oa_url": "http://www.journalofdairyscience.org/article/S002203022401350X/pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Capturing resilience from phenotypic deviations: a case study using feed consumption and whole genome data in pigs",
+   "authors": [
+    "Enrico Mancin",
+    "Christian Maltecca",
+    "Jicaj Jiang",
+    "Yi Huang",
+    "Francesco Tiezzi"
+   ],
+   "year": 2024,
+   "date": "2024-11-21",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-024-11052-0",
+   "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-024-11052-0",
+   "themes": [
+    "methods"
+   ]
+  },
+  {
+   "title": "Genomic regions and biological mechanisms underlying climatic resilience traits derived from automatically-recorded vaginal temperature in lactating sows under heat stress conditions",
+   "authors": [
+    "Hui Wen",
+    "Jay Steven Johnson",
+    "Henrique A. Mulim",
+    "André Campêlo Araujo",
+    "Felipe Egute de Carvalho",
+    "Artur Oliveira Rocha",
+    "Yijian Huang",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito"
+   ],
+   "year": 2024,
+   "date": "2024-11-07",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2024.1498380",
+   "oa_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2024.1498380/pdf",
+   "themes": [
+    "prediction",
+    "omics"
+   ]
+  },
+  {
+   "title": "Effects of germplasm exchange strategies on genetic gain, homozygosity, and genetic diversity in dairy stud populations: A simulation study",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Christian Maltecca",
+    "Jicai Jiang",
+    "John B. Cole",
+    "Paul Michael VanRaden",
+    "Francesco Tiezzi"
+   ],
+   "year": 2024,
+   "date": "2024-08-30",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2024-24992",
+   "oa_url": "https://doi.org/10.3168/jds.2024-24992",
+   "themes": [
+    "prediction",
+    "diversity",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Multiple‐trait genomic prediction for swine meat quality traits using gut microbiome features as a correlated trait",
+   "authors": [
+    "Francesco Tiezzi",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Christian Maltecca"
+   ],
+   "year": 2024,
+   "date": "2024-07-10",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12887",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12887",
+   "themes": [
+    "prediction",
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic parameters for novel climatic resilience indicators derived from automatically-recorded vaginal temperature in lactating sows under heat stress conditions",
+   "authors": [
+    "Hui Wen",
+    "Jay Steven Johnson",
+    "Leonardo Siqueira Glória",
+    "André Campêlo Araujo",
+    "Jacob M Maskal",
+    "Sharlene O Hartman",
+    "Felipe Egute de Carvalho",
+    "Artur Oliveira Rocha",
+    "Yijian Huang",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito"
+   ],
+   "year": 2024,
+   "date": "2024-06-10",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-024-00908-4",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-024-00908-4",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Investigation of cosmopolitan and local Italian beef cattle breeds uncover common patterns of heterozygosity",
+   "authors": [
+    "M.C. Fabbri",
+    "Francesco Tiezzi",
+    "Alessandro Crovetti",
+    "Christian Maltecca",
+    "Riccardo Bozzi"
+   ],
+   "year": 2024,
+   "date": "2024-03-25",
+   "venue": "animal",
+   "type": "article",
+   "doi": "10.1016/j.animal.2024.101142",
+   "oa_url": "https://doi.org/10.1016/j.animal.2024.101142",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "A first characterization of the microbiota-resilience link in swine",
+   "authors": [
+    "Enrico Mancin",
+    "Christian Maltecca",
+    "Yi Huang",
+    "Roberto Mantovani",
+    "Francesco Tiezzi"
+   ],
+   "year": 2024,
+   "date": "2024-03-15",
+   "venue": "Microbiome",
+   "type": "article",
+   "doi": "10.1186/s40168-024-01771-7",
+   "oa_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-024-01771-7",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "The potential of microbiota information to better predict efficiency traits in growing pigs fed a conventional and a high-fiber diet",
+   "authors": [
+    "Vanille Déru",
+    "Francesco Tiezzi",
+    "Céline Carillier‐Jacquin",
+    "Benoit Blanchet",
+    "Laurent Cauquil",
+    "Olivier Zemb",
+    "A. Bouquet",
+    "Christian Maltecca",
+    "Hélène Gilbert"
+   ],
+   "year": 2024,
+   "date": "2024-01-19",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-023-00865-4",
+   "oa_url": "https://link.springer.com/content/pdf/10.1186/s12711-023-00865-4.pdf",
+   "themes": [
+    "prediction",
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genetic parameters of functional longevity and associated traits in Italian Charolais and Limousine breeds",
+   "authors": [
+    "Simone Callegaro",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Maria Chiara Fabbri",
+    "Riccardo Bozzi"
+   ],
+   "year": 2024,
+   "date": "2024-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skae354",
+   "oa_url": "https://doi.org/10.1093/jas/skae354",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Longitudinal genomic analyses of automatically-recorded vaginal temperature in lactating sows under heat stress conditions based on random regression models",
+   "authors": [
+    "Hui Wen",
+    "Jay Steven Johnson",
+    "Pedro H F Freitas",
+    "Jacob M Maskal",
+    "Leonardo Siqueira Glória",
+    "André Campêlo Araujo",
+    "Victor Breno Pedrosa",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito"
+   ],
+   "year": 2023,
+   "date": "2023-12-21",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-023-00868-1",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-023-00868-1",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Inbreeding depression for producer-recorded udder, metabolic, and reproductive diseases in US dairy cattle",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Kristen L. Parker Gaddis",
+    "Francesco Tiezzi",
+    "Jicai Jiang",
+    "Li Ma",
+    "Sajjad Toghiani",
+    "Paul Michael VanRaden",
+    "Christian Maltecca"
+   ],
+   "year": 2023,
+   "date": "2023-12-04",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2023-23909",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030223008275/pdf",
+   "themes": [
+    "diversity"
+   ]
+  },
+  {
+   "title": "Domestication shapes the pig gut microbiome and immune traits from the scale of lineage to population",
+   "authors": [
+    "Sahana Kuthyar",
+    "Jessica Diaz",
+    "Fabiola Avalos-Villatoro",
+    "Christian Maltecca",
+    "Francesco Tiezzi",
+    "Robert R. Dunn",
+    "Aspen T. Reese"
+   ],
+   "year": 2023,
+   "date": "2023-10-27",
+   "venue": "Journal of Evolutionary Biology",
+   "type": "article",
+   "doi": "10.1111/jeb.14227",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jeb.14227",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genetic parameters for automatically-measured vaginal temperature, respiration efficiency, and other thermotolerance indicators measured on lactating sows under heat stress conditions",
+   "authors": [
+    "Pedro H F Freitas",
+    "Jay Steven Johnson",
+    "Hui Wen",
+    "Jacob M Maskal",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Ashley E. DeDecker",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito"
+   ],
+   "year": 2023,
+   "date": "2023-09-20",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-023-00842-x",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-023-00842-x",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Imputation accuracy from low- to medium-density SNP chips for US crossbred dairy cattle",
+   "authors": [
+    "Vanille Déru",
+    "Francesco Tiezzi",
+    "Paul Michael VanRaden",
+    "Emmanuel A. Lozada‐Soto",
+    "Sajjad Toghiani",
+    "Christian Maltecca"
+   ],
+   "year": 2023,
+   "date": "2023-08-23",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2023-23250",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030223004873/pdf",
+   "themes": [
+    "prediction",
+    "methods"
+   ]
+  },
+  {
+   "title": "Dietary Prebiotic Oligosaccharides and Arachidonate Alter the Fecal Microbiota and Mucosal Lipid Composition of Suckling Pigs",
+   "authors": [
+    "Brandon James Eudy",
+    "Jack Odle",
+    "Xi Lin",
+    "Christian Maltecca",
+    "Kathleen R. Walter",
+    "Nathan P. McNulty",
+    "V. Fellner",
+    "Sheila K. Jacobi"
+   ],
+   "year": 2023,
+   "date": "2023-06-20",
+   "venue": "Journal of Nutrition",
+   "type": "article",
+   "doi": "10.1016/j.tjnut.2023.06.019",
+   "oa_url": "https://doi.org/10.1016/j.tjnut.2023.06.019",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "3 A comparison of the equine fecal microbiome within different horse populations",
+   "authors": [
+    "C. Gluck",
+    "M. Bowman",
+    "J. Layton",
+    "Sue Stuska",
+    "Christian Maltecca",
+    "Shannon Elizabeth Pratt-Phillips"
+   ],
+   "year": 2023,
+   "date": "2023-05-01",
+   "venue": "Journal of Equine Veterinary Science",
+   "type": "article",
+   "doi": "10.1016/j.jevs.2023.104305",
+   "oa_url": null,
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "MicroRNA and mRNA sequencing analyses reveal key hepatic metabolic and signaling pathways responsive to maternal undernutrition in full-term fetal pigs",
+   "authors": [
+    "Feng Wang",
+    "Chaolai Man",
+    "Xiaoqiu Wang",
+    "Jack Odle",
+    "Christian Maltecca",
+    "Xi Lin"
+   ],
+   "year": 2023,
+   "date": "2023-03-03",
+   "venue": "The Journal of Nutritional Biochemistry",
+   "type": "article",
+   "doi": "10.1016/j.jnutbio.2023.109312",
+   "oa_url": "https://doi.org/10.1016/j.jnutbio.2023.109312",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "SLEMM: million-scale genomic predictions with window-based SNP weighting",
+   "authors": [
+    "Jian Cheng",
+    "Christian Maltecca",
+    "Paul Michael VanRaden",
+    "Jeffrey R. O’Connell",
+    "Li Ma",
+    "Jicai Jiang"
+   ],
+   "year": 2023,
+   "date": "2023-03-01",
+   "venue": "Bioinformatics",
+   "type": "article",
+   "doi": "10.1093/bioinformatics/btad127",
+   "oa_url": "https://academic.oup.com/bioinformatics/article-pdf/39/3/btad127/49633039/btad127.pdf",
+   "themes": [
+    "prediction",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Invited review: Novel methods and perspectives for modulating the rumen microbiome through selective breeding as a means to improve complex traits: Implications for methane emissions in cattle",
+   "authors": [
+    "Óscar González-Recio",
+    "Marina Martínez-Álvaro",
+    "Francesco Tiezzi",
+    "Alejandro Saborío‐Montero",
+    "Christian Maltecca",
+    "R. Roehe"
+   ],
+   "year": 2023,
+   "date": "2023-02-03",
+   "venue": "Livestock Science",
+   "type": "article",
+   "doi": "10.1016/j.livsci.2023.105171",
+   "oa_url": "https://doi.org/10.1016/j.livsci.2023.105171",
+   "themes": [
+    "prediction",
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Evaluating phenotypes associated with heat tolerance and identifying moderate and severe heat stress thresholds in lactating sows housed in mechanically or naturally ventilated barns during the summer under commercial conditions",
+   "authors": [
+    "Jay Steven Johnson",
+    "Hui Wen",
+    "Pedro H F Freitas",
+    "Jacob M Maskal",
+    "Sharlene O Hartman",
+    "MaryKate Byrd",
+    "Jason R Graham",
+    "Guadalupe Ceja",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Yijian Huang",
+    "Ashley E. DeDecker",
+    "Allan Paul Schinckel",
+    "Luiz F. Brito"
+   ],
+   "year": 2023,
+   "date": "2023-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skad129",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1350012/1/johnson2023jas.pdf",
+   "themes": []
+  },
+  {
+   "title": "Genotype by Environment Interactions in Livestock Farming",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca"
+   ],
+   "year": 2022,
+   "date": "2022-11-01",
+   "venue": "Encyclopedia of sustainability science and technology series",
+   "type": "reference-entry",
+   "doi": "10.1007/978-1-0716-2460-9_1115",
+   "oa_url": null,
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genomic characterization of autozygosity and recent inbreeding trends in all major breeds of US dairy cattle",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Francesco Tiezzi",
+    "Jicai Jiang",
+    "John B. Cole",
+    "Paul Michael VanRaden",
+    "Christian Maltecca"
+   ],
+   "year": 2022,
+   "date": "2022-09-22",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2022-22116",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030222005367/pdf",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Gut microbiota and host genetics contribute to the phenotypic variation of digestive and feed efficiency traits in growing pigs fed a conventional and a high fiber diet",
+   "authors": [
+    "Vanille Déru",
+    "Francesco Tiezzi",
+    "Céline Carillier‐Jacquin",
+    "Benoit Blanchet",
+    "Laurent Cauquil",
+    "Olivier Zemb",
+    "A. Bouquet",
+    "Christian Maltecca",
+    "Hélène Gilbert"
+   ],
+   "year": 2022,
+   "date": "2022-07-27",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-022-00742-6",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-022-00742-6",
+   "themes": [
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Exploring methods to summarize gut microbiota composition for microbiability estimation and phenotypic prediction in swine",
+   "authors": [
+    "Yuqing He",
+    "Francesco Tiezzi",
+    "Jicai Jiang",
+    "Jeremy Howard",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Jung-Woo Choi",
+    "Christian Maltecca"
+   ],
+   "year": 2022,
+   "date": "2022-07-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skac231",
+   "oa_url": "https://academic.oup.com/jas/article-pdf/100/9/skac231/45965109/skac231.pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genotyping and phenotyping strategies for genetic improvement of meat quality and carcass composition in swine",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Daniela A. L. Lourenco",
+    "Christian Maltecca",
+    "Justin Fix",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Francesco Tiezzi"
+   ],
+   "year": 2022,
+   "date": "2022-06-07",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-022-00736-4",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-022-00736-4",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "A network modeling approach provides insights into the environment-specific yield architecture of wheat",
+   "authors": [
+    "Noah D. DeWitt",
+    "Mohammed Guedira",
+    "Joseph Paul Murphy",
+    "David Marshall",
+    "Mohamed Mergoum",
+    "Christian Maltecca",
+    "Gina L Brown-Guedira"
+   ],
+   "year": 2022,
+   "date": "2022-05-10",
+   "venue": "Genetics",
+   "type": "article",
+   "doi": "10.1093/genetics/iyac076",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9252273",
+   "themes": []
+  },
+  {
+   "title": "Use of Host Feeding Behavior and Gut Microbiome Data in Estimating Variance Components and Predicting Growth and Body Composition Traits in Swine",
+   "authors": [
+    "Yuqing He",
+    "Francesco Tiezzi",
+    "Jicai Jiang",
+    "Jeremy Howard",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Jung-Woo Choi",
+    "Christian Maltecca"
+   ],
+   "year": 2022,
+   "date": "2022-04-26",
+   "venue": "Genes",
+   "type": "article",
+   "doi": "10.3390/genes13050767",
+   "oa_url": "https://doi.org/10.3390/genes13050767",
+   "themes": [
+    "prediction",
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Exploring the role of gut microbiota in host feeding behavior among breeds in swine",
+   "authors": [
+    "Yuqing He",
+    "Francesco Tiezzi",
+    "Jeremy Howard",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2022,
+   "date": "2022-01-03",
+   "venue": "BMC Microbiology",
+   "type": "article",
+   "doi": "10.1186/s12866-021-02409-6",
+   "oa_url": "https://bmcmicrobiol.biomedcentral.com/track/pdf/10.1186/s12866-021-02409-6",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genetic diversity and population history of eight Italian beef cattle breeds using measures of autozygosity",
+   "authors": [
+    "Maria Chiara Fabbri",
+    "Christos Dadousis",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Emmanuel A. Lozada‐Soto",
+    "Stefano Biffani",
+    "Riccardo Bozzi"
+   ],
+   "year": 2021,
+   "date": "2021-10-25",
+   "venue": "PLoS ONE",
+   "type": "article",
+   "doi": "10.1371/journal.pone.0248087",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0248087&type=printable",
+   "themes": [
+    "diversity"
+   ]
+  },
+  {
+   "title": "Identification of unique ROH regions with unfavorable effects on production and fertility traits in Canadian Holsteins",
+   "authors": [
+    "Bayode O. Makanjuola",
+    "Christian Maltecca",
+    "F. Miglior",
+    "Gabriele Marras",
+    "Emhimad A. Abdalla",
+    "Flávio Schramm Schenkel",
+    "Christine F. Baes"
+   ],
+   "year": 2021,
+   "date": "2021-08-30",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-021-00660-z",
+   "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-021-00660-z",
+   "themes": [
+    "diversity",
+    "omics"
+   ]
+  },
+  {
+   "title": "Microbial composition differs between production systems and is associated with growth performance and carcass quality in pigs",
+   "authors": [
+    "Christian Maltecca",
+    "Robert R. Dunn",
+    "Yuqing He",
+    "Nathan P. McNulty",
+    "Constantino Schillebeeckx",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Justin Fix",
+    "Francesco Tiezzi"
+   ],
+   "year": 2021,
+   "date": "2021-08-28",
+   "venue": "Animal Microbiome",
+   "type": "article",
+   "doi": "10.1186/s42523-021-00118-z",
+   "oa_url": "https://animalmicrobiome.biomedcentral.com/counter/pdf/10.1186/s42523-021-00118-z",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Effect of Temperature and Maternal Age on Recombination Rate in Cattle",
+   "authors": [
+    "Botong Shen",
+    "Ellen Freebern",
+    "Jicai Jiang",
+    "Christian Maltecca",
+    "John B. Cole",
+    "George E. Liu",
+    "Li Ma"
+   ],
+   "year": 2021,
+   "date": "2021-07-20",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2021.682718",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2021.682718/pdf",
+   "themes": [
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Potential Use of Gut Microbiota Composition as a Biomarker of Heat Stress in Monogastric Species: A Review",
+   "authors": [
+    "Yuqing He",
+    "Christian Maltecca",
+    "Francesco Tiezzi"
+   ],
+   "year": 2021,
+   "date": "2021-06-19",
+   "venue": "Animals",
+   "type": "article",
+   "doi": "10.3390/ani11061833",
+   "oa_url": "https://www.mdpi.com/2076-2615/11/6/1833/pdf",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Trends in genetic diversity and the effect of inbreeding in American Angus cattle under genomic selection",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Christian Maltecca",
+    "Duc Lu",
+    "Stephen Paul Miller",
+    "John B. Cole",
+    "Francesco Tiezzi"
+   ],
+   "year": 2021,
+   "date": "2021-06-16",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-021-00644-z",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-021-00644-z",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "MicroRNA and mRNA Sequencing Analyses Reveal Key Hepatic Metabolic Pathways Responsive to Maternal Malnutrition in Full-Term Fetal Pigs",
+   "authors": [
+    "Feng Wang",
+    "Christian Maltecca",
+    "Xiaoqiu Wang",
+    "Jack Odle",
+    "Xi Lin"
+   ],
+   "year": 2021,
+   "date": "2021-06-01",
+   "venue": "Current Developments in Nutrition",
+   "type": "article",
+   "doi": "10.1093/cdn/nzab046_126",
+   "oa_url": "https://doi.org/10.1093/cdn/nzab046_126",
+   "themes": [
+    "omics",
+    "methods"
+   ]
+  },
+  {
+   "title": "Predicting body weight in growing pigs from feeding behavior data using machine learning algorithms",
+   "authors": [
+    "Yuqing He",
+    "Francesco Tiezzi",
+    "Jeremy Howard",
+    "Christian Maltecca"
+   ],
+   "year": 2021,
+   "date": "2021-03-30",
+   "venue": "Computers and Electronics in Agriculture",
+   "type": "article",
+   "doi": "10.1016/j.compag.2021.106085",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0168169921001034/pdf",
+   "themes": [
+    "methods"
+   ]
+  },
+  {
+   "title": "Genetic Parameters for Tolerance to Heat Stress in Crossbred Swine Carcass Traits",
+   "authors": [
+    "Maria Usala",
+    "N.P.P. Macciotta",
+    "Matteo Bergamaschi",
+    "Christian Maltecca",
+    "Justin Fix",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Francesco Tiezzi"
+   ],
+   "year": 2021,
+   "date": "2021-02-04",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2020.612815",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.612815/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Gut microbiome mediates host genomic effects on phenotypes: a case study with fat deposition in pigs",
+   "authors": [
+    "Francesco Tiezzi",
+    "Justin Fix",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Christian Maltecca"
+   ],
+   "year": 2020,
+   "date": "2020-12-30",
+   "venue": "Computational and Structural Biotechnology Journal",
+   "type": "article",
+   "doi": "10.1016/j.csbj.2020.12.038",
+   "oa_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037020305638-ga1_lrg.jpg",
+   "themes": [
+    "microbiome",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Leveraging Multiple Layers of Data To Predict Drosophila Complex Traits",
+   "authors": [
+    "Fabio Morgante",
+    "Wen Huang",
+    "Peter Borgen Sørensen",
+    "Christian Maltecca",
+    "Trudy F. C. Mackay"
+   ],
+   "year": 2020,
+   "date": "2020-10-26",
+   "venue": "G3 Genes Genomes Genetics",
+   "type": "article",
+   "doi": "10.1534/g3.120.401847",
+   "oa_url": "https://doi.org/10.1534/g3.120.401847",
+   "themes": [
+    "prediction",
+    "omics"
+   ]
+  },
+  {
+   "title": "Integration of Wet-Lab Measures, Milk Infrared Spectra, and Genomics to Improve Difficult-to-Measure Traits in Dairy Cattle Populations",
+   "authors": [
+    "Alessio Cecchinato",
+    "Hugo Oswaldo Toledo-Alvarado",
+    "Sara Pegolo",
+    "A. Rossoni",
+    "Enrico Santus",
+    "Christian Maltecca",
+    "Giovanni Bittante",
+    "Francesco Tiezzi"
+   ],
+   "year": 2020,
+   "date": "2020-09-29",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2020.563393",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.563393/pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Microbiability of meat quality and carcass composition traits in swine",
+   "authors": [
+    "Piush Khanal",
+    "Christian Maltecca",
+    "Clint Ray Schwab",
+    "Justin Fix",
+    "Francesco Tiezzi"
+   ],
+   "year": 2020,
+   "date": "2020-09-26",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12504",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12504",
+   "themes": [
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Evidence for recombination variability in purebred swine populations",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Christian Maltecca",
+    "Hanna Wackel",
+    "W. L. Flowers",
+    "Kent A. Gray",
+    "Yuqing He",
+    "Yijian Huang",
+    "Jicai Jiang",
+    "Francesco Tiezzi"
+   ],
+   "year": 2020,
+   "date": "2020-09-25",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12510",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12510",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Effect of recent and ancient inbreeding on production and fertility traits in Canadian Holsteins",
+   "authors": [
+    "Bayode O. Makanjuola",
+    "Christian Maltecca",
+    "F. Miglior",
+    "Flávio Schramm Schenkel",
+    "Christine F. Baes"
+   ],
+   "year": 2020,
+   "date": "2020-09-01",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-020-07031-w",
+   "oa_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-020-07031-w",
+   "themes": [
+    "diversity"
+   ]
+  },
+  {
+   "title": "Modeling host-microbiome interactions for the prediction of meat quality and carcass composition traits in swine",
+   "authors": [
+    "Piush Khanal",
+    "Christian Maltecca",
+    "Clint Ray Schwab",
+    "Justin Fix",
+    "Matteo Bergamaschi",
+    "Francesco Tiezzi"
+   ],
+   "year": 2020,
+   "date": "2020-07-29",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-020-00561-7",
+   "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-020-00561-7",
+   "themes": [
+    "prediction",
+    "diversity",
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Gut microbiome composition differences among breeds impact feed efficiency in swine",
+   "authors": [
+    "Matteo Bergamaschi",
+    "Francesco Tiezzi",
+    "Jeremy Howard",
+    "Yi Huang",
+    "Kent A. Gray",
+    "Constantino Schillebeeckx",
+    "Nathan P. McNulty",
+    "Christian Maltecca"
+   ],
+   "year": 2020,
+   "date": "2020-07-22",
+   "venue": "Microbiome",
+   "type": "article",
+   "doi": "10.1186/s40168-020-00888-9",
+   "oa_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-020-00888-9",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genomics of Heat Tolerance in Reproductive Performance Investigated in Four Independent Maternal Lines of Pigs",
+   "authors": [
+    "Francesco Tiezzi",
+    "Luiz F. Brito",
+    "Jeremy Howard",
+    "Yi Huang",
+    "Kent A. Gray",
+    "Clint Ray Schwab",
+    "Justin Fix",
+    "Christian Maltecca"
+   ],
+   "year": 2020,
+   "date": "2020-06-30",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2020.00629",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.00629/pdf",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Heritability and genome-wide association of swine gut microbiome features with growth and fatness parameters",
+   "authors": [
+    "Matteo Bergamaschi",
+    "Christian Maltecca",
+    "Constantino Schillebeeckx",
+    "Nathan P. McNulty",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Justin Fix",
+    "Francesco Tiezzi"
+   ],
+   "year": 2020,
+   "date": "2020-06-23",
+   "venue": "Scientific Reports",
+   "type": "article",
+   "doi": "10.1038/s41598-020-66791-3",
+   "oa_url": "https://www.nature.com/articles/s41598-020-66791-3.pdf",
+   "themes": [
+    "microbiome",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Symposium review: Exploiting homozygosity in the era of genomics—Selection, inbreeding, and mating programs",
+   "authors": [
+    "Christian Maltecca",
+    "Francesco Tiezzi",
+    "John B. Cole",
+    "Christine F. Baes"
+   ],
+   "year": 2020,
+   "date": "2020-04-22",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2019-17846",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030220303180/pdf",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Transcriptome analysis identifies genes and co-expression networks underlying heat tolerance in pigs",
+   "authors": [
+    "Yuqing He",
+    "Christian Maltecca",
+    "Francesco Tiezzi",
+    "Emmanuel Lozada Soto",
+    "W. L. Flowers"
+   ],
+   "year": 2020,
+   "date": "2020-04-21",
+   "venue": "BMC Genetics",
+   "type": "article",
+   "doi": "10.1186/s12863-020-00852-4",
+   "oa_url": "https://bmcgenomdata.biomedcentral.com/track/pdf/10.1186/s12863-020-00852-4.pdf",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Effect of genomic selection on rate of inbreeding and coancestry and effective population size of Holstein and Jersey cattle populations",
+   "authors": [
+    "Bayode O. Makanjuola",
+    "F. Miglior",
+    "Emhimad A. Abdalla",
+    "Christian Maltecca",
+    "Flávio Schramm Schenkel",
+    "Christine F. Baes"
+   ],
+   "year": 2020,
+   "date": "2020-04-09",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2019-18013",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030220302629/pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics"
+   ]
+  },
+  {
+   "title": "The future of phenomics in dairy cattle breeding",
+   "authors": [
+    "John B. Cole",
+    "Sophie Eaglen",
+    "Christian Maltecca",
+    "H.A. Mulder",
+    "J.E. Pryce"
+   ],
+   "year": 2020,
+   "date": "2020-04-01",
+   "venue": "Animal Frontiers",
+   "type": "article",
+   "doi": "10.1093/af/vfaa007",
+   "oa_url": "https://doi.org/10.1093/af/vfaa007",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "GWAS and fine-mapping of livability and six disease traits in Holstein cattle",
+   "authors": [
+    "Ellen Freebern",
+    "Daniel Jordan de Abreu Santos",
+    "Lingzhao Fang",
+    "Jicai Jiang",
+    "Kristen L. Parker Gaddis",
+    "George E. Liu",
+    "Paul Michael VanRaden",
+    "Christian Maltecca",
+    "John B. Cole",
+    "Li Ma"
+   ],
+   "year": 2020,
+   "date": "2020-01-13",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-020-6461-z",
+   "oa_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-020-6461-z",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "The use of genomic information to improve selection response while controlling inbreeding in dairy cattle breeding programs",
+   "authors": [
+    "Christian Maltecca",
+    "Christine F. Baes",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-12-24",
+   "venue": "Burleigh Dodds series in agricultural science",
+   "type": "book-chapter",
+   "doi": "10.19103/as.2019.0058.05",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Genome-wide association study for carcass quality traits and growth in purebred and crossbred pigs1",
+   "authors": [
+    "Matteo Bergamaschi",
+    "Christian Maltecca",
+    "Justin Fix",
+    "Clint Ray Schwab",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-11-26",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skz360",
+   "oa_url": "https://academic.oup.com/jas/article-pdf/98/1/skz360/31952051/skz360.pdf",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Analysis of milk leukocyte differential measures for use in management practices for decreased mastitis incidence",
+   "authors": [
+    "Emmanuel A. Lozada‐Soto",
+    "Christian Maltecca",
+    "Kevin L. Anderson",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-11-06",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2019-16355",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030219309567/pdf",
+   "themes": []
+  },
+  {
+   "title": "The interaction between microbiome and pig efficiency: A review",
+   "authors": [
+    "Christian Maltecca",
+    "Matteo Bergamaschi",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-10-01",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12443",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12443",
+   "themes": [
+    "microbiome"
+   ]
+  },
+  {
+   "title": "Genetic parameters of meat quality, carcass composition, and growth traits in commercial swine",
+   "authors": [
+    "Piush Khanal",
+    "Christian Maltecca",
+    "Clint Ray Schwab",
+    "Kent A. Gray",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-07-27",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.1093/jas/skz247",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258643/1/khanal2019jas.pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Predicting Growth and Carcass Traits in Swine Using Microbiome Data and Machine Learning Algorithms",
+   "authors": [
+    "Christian Maltecca",
+    "Duc Lu",
+    "Constantino Schillebeeckx",
+    "Nathan P. McNulty",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Francesco Tiezzi"
+   ],
+   "year": 2019,
+   "date": "2019-04-25",
+   "venue": "Scientific Reports",
+   "type": "article",
+   "doi": "10.1038/s41598-019-43031-x",
+   "oa_url": "https://www.nature.com/articles/s41598-019-43031-x.pdf",
+   "themes": [
+    "prediction",
+    "microbiome",
+    "methods"
+   ]
+  },
+  {
+   "title": "Symposium review: The genomic architecture of inbreeding: How homozygosity affects health and performance",
+   "authors": [
+    "Christine F. Baes",
+    "Bayode O. Makanjuola",
+    "F. Miglior",
+    "Gabriele Marras",
+    "Jeremy Howard",
+    "A. Fleming",
+    "Christian Maltecca"
+   ],
+   "year": 2019,
+   "date": "2019-01-16",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2018-15520",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030219300633/pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics"
+   ]
+  },
+  {
+   "title": "Including gene networks to predict calving difficulty in Holstein, Brown Swiss and Jersey cattle",
+   "authors": [
+    "Francesco Tiezzi",
+    "Maria E. Arceo",
+    "John B. Cole",
+    "Christian Maltecca"
+   ],
+   "year": 2018,
+   "date": "2018-04-02",
+   "venue": "BMC Genetics",
+   "type": "article",
+   "doi": "10.1186/s12863-018-0606-y",
+   "oa_url": "https://bmcgenomdata.biomedcentral.com/counter/pdf/10.1186/s12863-018-0606-y",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic Parameter Estimates for Metabolizing Two Common Pharmaceuticals in Swine",
+   "authors": [
+    "Jeremy Howard",
+    "M.S. Ashwell",
+    "Ronald E. Baynes",
+    "James D. Brooks",
+    "James L. Yeatts",
+    "Christian Maltecca"
+   ],
+   "year": 2018,
+   "date": "2018-02-12",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2018.00040",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2018.00040/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Effect of genetic architecture on the prediction accuracy of quantitative traits in samples of unrelated individuals",
+   "authors": [
+    "Fabio Morgante",
+    "Wen Huang",
+    "Christian Maltecca",
+    "Trudy F. C. Mackay"
+   ],
+   "year": 2018,
+   "date": "2018-02-09",
+   "venue": "Heredity",
+   "type": "article",
+   "doi": "10.1038/s41437-017-0043-0",
+   "oa_url": "https://www.nature.com/articles/s41437-017-0043-0.pdf",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Invited review: Reproductive and genomic technologies to optimize breeding strategies for genetic progress in dairy cattle",
+   "authors": [
+    "A. Fleming",
+    "Emhimad A. Abdalla",
+    "Christian Maltecca",
+    "Christine F. Baes"
+   ],
+   "year": 2018,
+   "date": "2018-01-23",
+   "venue": "Archives animal breeding/Archiv für Tierzucht",
+   "type": "article",
+   "doi": "10.5194/aab-61-43-2018",
+   "oa_url": "https://www.arch-anim-breed.net/61/43/2018/aab-61-43-2018.pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Host contributes to longitudinal diversity of fecal microbiota in swine selected for lean growth",
+   "authors": [
+    "Duc Lu",
+    "Francesco Tiezzi",
+    "Constantino Schillebeeckx",
+    "Nathan P. McNulty",
+    "Clint Ray Schwab",
+    "Caleb M Shull",
+    "Christian Maltecca"
+   ],
+   "year": 2018,
+   "date": "2018-01-04",
+   "venue": "Microbiome",
+   "type": "article",
+   "doi": "10.1186/s40168-017-0384-1",
+   "oa_url": "https://microbiomejournal.biomedcentral.com/track/pdf/10.1186/s40168-017-0384-1",
+   "themes": [
+    "microbiome",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "A comparison of accuracy validation methods for genomic and pedigree‐based predictions of swine litter size traits using Large White and simulated data",
+   "authors": [
+    "Austin M. Putz",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Kent A. Gray",
+    "Mark Knauer"
+   ],
+   "year": 2017,
+   "date": "2017-11-27",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12302",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12302",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Rumination time as a potential predictor of common diseases in high-productive Holstein dairy cows",
+   "authors": [
+    "Riccardo Moretti",
+    "Stefano Biffani",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "S. Chessa",
+    "Riccardo Bozzi"
+   ],
+   "year": 2017,
+   "date": "2017-11-01",
+   "venue": "Journal of Dairy Research",
+   "type": "article",
+   "doi": "10.1017/s0022029917000619",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1103159/3/Moretti%20et%20al%20-%20Manuscript%20R2.pdf",
+   "themes": []
+  },
+  {
+   "title": "A heuristic method to identify runs of homozygosity associated with reduced performance in livestock",
+   "authors": [
+    "Jeremy Howard",
+    "Francesco Tiezzi",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-09-28",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas2017.1664",
+   "oa_url": "https://academic.oup.com/jas/article-pdf/95/10/4318/23818053/4318.pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics",
+    "methods"
+   ]
+  },
+  {
+   "title": "The relationship between different measures of feed efficiency and feeding behavior traits in Duroc pigs1",
+   "authors": [
+    "Duc Lu",
+    "Shihui Jiao",
+    "Francesco Tiezzi",
+    "Mark Knauer",
+    "Y. Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-07-27",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2017.1509",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Invited review: Inbreeding in the genomics era: Inbreeding, inbreeding depression, and management of genomic variability",
+   "authors": [
+    "Jeremy Howard",
+    "J.E. Pryce",
+    "Christine F. Baes",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-06-08",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2017-12787",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030217305817/pdf",
+   "themes": [
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Geno‐Diver: A combined coalescence and forward‐in‐time simulator for populations undergoing selection for complex traits",
+   "authors": [
+    "Jeremy Howard",
+    "Francesco Tiezzi",
+    "J.E. Pryce",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-05-02",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12277",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12277",
+   "themes": [
+    "prediction",
+    "methods"
+   ]
+  },
+  {
+   "title": "Gene co-expression network analysis identifies porcine genes associated with variation in metabolizing fenbendazole and flunixin meglumine in the liver",
+   "authors": [
+    "Jeremy Howard",
+    "M.S. Ashwell",
+    "Ronald E. Baynes",
+    "James D. Brooks",
+    "James L. Yeatts",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-04-25",
+   "venue": "Scientific Reports",
+   "type": "article",
+   "doi": "10.1038/s41598-017-01526-5",
+   "oa_url": "https://www.nature.com/articles/s41598-017-01526-5.pdf",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments1",
+   "authors": [
+    "John B. Cole",
+    "J. M. Bormann",
+    "Clare A. Gill",
+    "Hasan Khatib",
+    "James Eugene Koltes",
+    "Christian Maltecca",
+    "F. Miglior"
+   ],
+   "year": 2017,
+   "date": "2017-03-02",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2017.1402",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Genotype by environment (climate) interaction improves genomic prediction for production traits in US Holstein cattle",
+   "authors": [
+    "Francesco Tiezzi",
+    "G. de los Campos",
+    "Kristen L. Parker Gaddis",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-01-19",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2016-11543",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030217300395/pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "The relationship between different measures of feed efficiency and feeding behavior traits in Duroc pigs",
+   "authors": [
+    "D. Lu",
+    "S. Jiao",
+    "Francesco Tiezzi",
+    "M. Knauer",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas2017.1509",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258634/2/lu2017jas.pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic Data Analysis for Plant and Animal Breeding",
+   "authors": [
+    "Fikret Işik",
+    "James Brendan Holland",
+    "Christian Maltecca"
+   ],
+   "year": 2017,
+   "date": "2017-01-01",
+   "venue": "Springer eBooks",
+   "type": "book",
+   "doi": "10.1007/978-3-319-55177-7",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Resilience of livestock to changing environments",
+   "authors": [
+    "John Cole",
+    "J. M. Bormann",
+    "Clare A. Gill",
+    "H. Khatib",
+    "J.E. Koltes",
+    "Christian Maltecca",
+    "F. Miglior"
+   ],
+   "year": 2017,
+   "date": "2017-01-01",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas2017.1402",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Characterization and management of long runs of homozygosity in parental nucleus lines and their associated crossbred progeny",
+   "authors": [
+    "Jeremy Howard",
+    "Francesco Tiezzi",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2016,
+   "date": "2016-11-24",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-016-0269-y",
+   "oa_url": "https://gsejournal.biomedcentral.com/track/pdf/10.1186/s12711-016-0269-y",
+   "themes": [
+    "diversity",
+    "omics",
+    "methods"
+   ]
+  },
+  {
+   "title": "Causal relationships between clinical mastitis events, milk yields and lactation persistency in US Holsteins",
+   "authors": [
+    "K. Dhakal",
+    "Francesco Tiezzi",
+    "J.S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2016,
+   "date": "2016-05-06",
+   "venue": "Livestock Science",
+   "type": "article",
+   "doi": "10.1016/j.livsci.2016.04.015",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258639/1/dhakal2016ls.pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "The use of multiple imputation for the accurate measurements of individual feed intake by electronic feeders",
+   "authors": [
+    "Shihui Jiao",
+    "Francesco Tiezzi",
+    "Y. Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2016,
+   "date": "2016-01-22",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2015-9667",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258632/1/jiao2016jas.pdf",
+   "themes": [
+    "methods"
+   ]
+  },
+  {
+   "title": "Benchmarking dairy herd health status using routinely recorded herd summary data",
+   "authors": [
+    "Kristen L. Parker Gaddis",
+    "John B. Cole",
+    "J.S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-12-19",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2015-9840",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030215009169/pdf",
+   "themes": []
+  },
+  {
+   "title": "Investigation of regions impacting inbreeding depression and their association with the additive genetic effect for United States and Australia Jersey dairy cattle",
+   "authors": [
+    "Jeremy Howard",
+    "M. Haile‐Mariam",
+    "J.E. Pryce",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-10-19",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-015-2001-7",
+   "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-015-2001-7",
+   "themes": [
+    "prediction",
+    "diversity",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Variance component estimates for alternative litter size traits in swine",
+   "authors": [
+    "Austin M. Putz",
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Kent A. Gray",
+    "Mark Knauer"
+   ],
+   "year": 2015,
+   "date": "2015-10-16",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2015-9416",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258622/1/putz2015jas.pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Differential Gene Expression across Breed and Sex in Commercial Pigs Administered Fenbendazole and Flunixin Meglumine",
+   "authors": [
+    "Jeremy Howard",
+    "A. T. O’Nan",
+    "Christian Maltecca",
+    "Ronald E. Baynes",
+    "M.S. Ashwell"
+   ],
+   "year": 2015,
+   "date": "2015-09-14",
+   "venue": "PLoS ONE",
+   "type": "article",
+   "doi": "10.1371/journal.pone.0137830",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0137830&type=printable",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Comparison between different statistical models for the prediction of direct genetic component on embryo establishment and survival in Italian Brown Swiss dairy cattle",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Alessio Cecchinato",
+    "Giovanni Bittante"
+   ],
+   "year": 2015,
+   "date": "2015-07-07",
+   "venue": "Livestock Science",
+   "type": "article",
+   "doi": "10.1016/j.livsci.2015.06.029",
+   "oa_url": "https://flore.unifi.it/bitstream/2158/1258543/1/tiezzi2015ls.pdf",
+   "themes": [
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Genome-wide association study on legendre random regression coefficients for the growth and feed intake trajectory on Duroc Boars",
+   "authors": [
+    "Jeremy Howard",
+    "Shihui Jiao",
+    "Francesco Tiezzi",
+    "Yijian Huang",
+    "Kent A. Gray",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-05-29",
+   "venue": "BMC Genetics",
+   "type": "article",
+   "doi": "10.1186/s12863-015-0218-8",
+   "oa_url": "https://doi.org/10.1186/s12863-015-0218-8",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Causal relationships between milk quality and coagulation properties in Italian Holstein-Friesian dairy cattle",
+   "authors": [
+    "Francesco Tiezzi",
+    "Bruno Dourado Valente",
+    "Martino Cassandro",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-05-12",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-015-0123-7",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-015-0123-7",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genomic prediction of disease occurrence using producer-recorded health data: a comparison of methods",
+   "authors": [
+    "Kristen L. Parker Gaddis",
+    "Francesco Tiezzi",
+    "John B. Cole",
+    "John S Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-05-07",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-015-0093-9",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/s12711-015-0093-9",
+   "themes": [
+    "prediction",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Genetic Architecture of Micro-Environmental Plasticity in Drosophila melanogaster",
+   "authors": [
+    "Fabio Morgante",
+    "Peter Borgen Sørensen",
+    "Daniel Sørensen",
+    "Christian Maltecca",
+    "Trudy F. C. Mackay"
+   ],
+   "year": 2015,
+   "date": "2015-05-06",
+   "venue": "Scientific Reports",
+   "type": "article",
+   "doi": "10.1038/srep09785",
+   "oa_url": "https://www.nature.com/articles/srep09785.pdf",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Accounting for trait architecture in genomic predictions of US Holstein cattle using a weighted realized relationship matrix",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-04-02",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/s12711-015-0100-1",
+   "oa_url": "https://link.springer.com/content/pdf/10.1186/s12711-015-0100-1.pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Characterizing homozygosity across United States, New Zealand and Australian Jersey cow and bull populations",
+   "authors": [
+    "Jeremy Howard",
+    "Christian Maltecca",
+    "M. Haile‐Mariam",
+    "Ben J. Hayes",
+    "J.E. Pryce"
+   ],
+   "year": 2015,
+   "date": "2015-03-14",
+   "venue": "BMC Genomics",
+   "type": "article",
+   "doi": "10.1186/s12864-015-1352-4",
+   "oa_url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-015-1352-4",
+   "themes": [
+    "prediction",
+    "diversity"
+   ]
+  },
+  {
+   "title": "Short communication: Genomic selection for hoof lesions in first-parity US Holsteins",
+   "authors": [
+    "K. Dhakal",
+    "Francesco Tiezzi",
+    "John S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-02-26",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2014-8830",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030215001356/pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "A Genome-Wide Association Study for Clinical Mastitis in First Parity US Holstein Cows Using Single-Step Approach and Genomic Matrix Re-Weighting Procedure",
+   "authors": [
+    "Francesco Tiezzi",
+    "Kristen L. Parker-Gaddis",
+    "John B. Cole",
+    "John S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-02-06",
+   "venue": "PLoS ONE",
+   "type": "article",
+   "doi": "10.1371/journal.pone.0114919",
+   "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0114919&type=printable",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Inferring causal relationships between reproductive and metabolic health disorders and production traits in first-lactation US Holsteins using recursive models",
+   "authors": [
+    "K. Dhakal",
+    "Francesco Tiezzi",
+    "J.S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2015,
+   "date": "2015-01-24",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2014-8448",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030215000429/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Identification and Validation of Copy Number Variants in Italian Brown Swiss Dairy Cattle Using Illumina Bovine SNP50 Beadchip®",
+   "authors": [
+    "A. Bagnato",
+    "Maria Giuseppina Strillacci",
+    "Laura Pellegrino",
+    "F. Schiavini",
+    "E. Frigo",
+    "A. Rossoni",
+    "Luca Fontanesi",
+    "Christian Maltecca",
+    "R.T.M.M. Prinsen",
+    "Marlies Dolezal"
+   ],
+   "year": 2015,
+   "date": "2015-01-01",
+   "venue": "Italian Journal of Animal Science",
+   "type": "article",
+   "doi": "10.4081/ijas.2015.3900",
+   "oa_url": "https://doi.org/10.4081/ijas.2015.3900",
+   "themes": []
+  },
+  {
+   "title": "Progression of Gene Expression Changes following a Mechanical Injury to Articular Cartilage as a Model of Early Stage Osteoarthritis",
+   "authors": [
+    "R McCulloch",
+    "M.S. Ashwell",
+    "Christian Maltecca",
+    "A. T. O’Nan",
+    "Peter L. Mente"
+   ],
+   "year": 2014,
+   "date": "2014-11-16",
+   "venue": "Arthritis",
+   "type": "article",
+   "doi": "10.1155/2014/371426",
+   "oa_url": "http://downloads.hindawi.com/archive/2014/371426.pdf",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Feed intake, average daily gain, feed efficiency, and real-time ultrasound traits in Duroc pigs: II. Genomewide association",
+   "authors": [
+    "Shihui Jiao",
+    "Christian Maltecca",
+    "Kent A. Gray",
+    "J. P. Cassady"
+   ],
+   "year": 2014,
+   "date": "2014-06-24",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2014-7337",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics"
+   ]
+  },
+  {
+   "title": "The effect of breed and sex on sulfamethazine, enrofloxacin, fenbendazole and flunixin meglumine pharmacokinetic parameters in swine",
+   "authors": [
+    "Jeremy Howard",
+    "Ronald E. Baynes",
+    "J. D. Brooks",
+    "James L. Yeatts",
+    "B. Bellis",
+    "M.S. Ashwell",
+    "Patricia A. Routh",
+    "A. T. O’Nan",
+    "Christian Maltecca"
+   ],
+   "year": 2014,
+   "date": "2014-04-15",
+   "venue": "Journal of Veterinary Pharmacology and Therapeutics",
+   "type": "article",
+   "doi": "10.1111/jvp.12128",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Feed intake, average daily gain, feed efficiency, and real-time ultrasound traits in Duroc pigs: I. Genetic parameter estimation and accuracy of genomic prediction",
+   "authors": [
+    "Shihui Jiao",
+    "Christian Maltecca",
+    "Kent A. Gray",
+    "J. P. Cassady"
+   ],
+   "year": 2014,
+   "date": "2014-03-27",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2013-7338",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genomic selection for producer-recorded health event data in US dairy cattle",
+   "authors": [
+    "Kristen L. Parker Gaddis",
+    "John B. Cole",
+    "John S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2014,
+   "date": "2014-03-06",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2013-7543",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030214001659/pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic Analysis of Diallel Progeny Test Data Using Factor Analytic Linear Mixed Models",
+   "authors": [
+    "Funda Ogut",
+    "Christian Maltecca",
+    "Ross W. Whetten",
+    "Steven E. McKeand",
+    "Fikret Işik"
+   ],
+   "year": 2014,
+   "date": "2014-01-26",
+   "venue": "Forest Science",
+   "type": "article",
+   "doi": "10.5849/forsci.12-108",
+   "oa_url": null,
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic Parameters for Milk Yield and Persistency in Carora Dairy Cattle Breed Using Random Regression Model",
+   "authors": [
+    "Emanuela Tullo",
+    "Stefano Biffani",
+    "Christian Maltecca",
+    "Rita Rizzi"
+   ],
+   "year": 2014,
+   "date": "2014-01-01",
+   "venue": "Italian Journal of Animal Science",
+   "type": "article",
+   "doi": "10.4081/ijas.2014.3484",
+   "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2014.3484?needAccess=true&role=button",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Short communication: Genetic analysis of dairy bull fertility from field data of Brown Swiss cattle",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Mauro Penasa",
+    "Alessio Cecchinato",
+    "Giovanni Bittante"
+   ],
+   "year": 2013,
+   "date": "2013-08-29",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2013-6885",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030213005936/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Thin and fat cows, and the nonlinear genetic relationship between body condition score and fertility",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Alessio Cecchinato",
+    "Mauro Penasa",
+    "Giovanni Bittante"
+   ],
+   "year": 2013,
+   "date": "2013-08-16",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2013-6863",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030213005742/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Fitter happier: the never‐ending quest for a better cow",
+   "authors": [
+    "Christian Maltecca"
+   ],
+   "year": 2013,
+   "date": "2013-03-17",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/jbg.12032",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbg.12032",
+   "themes": [
+    "prediction",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Systems biology in animal breeding: Identifying relationships among markers, genes, and phenotypes1",
+   "authors": [
+    "John B. Cole",
+    "R. M. Lewis",
+    "Christian Maltecca",
+    "Scott Newman",
+    "K.M. Olson",
+    "Richard G. Tait"
+   ],
+   "year": 2013,
+   "date": "2013-01-25",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2012-6166",
+   "oa_url": null,
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Genotype Imputation to Increase Sample Size in Pedigreed Populations",
+   "authors": [
+    "John M. Hickey",
+    "Matthew A. Cleveland",
+    "Christian Maltecca",
+    "Gregor Gorjanc",
+    "Birgit Gredler",
+    "Andreas Kranis"
+   ],
+   "year": 2013,
+   "date": "2013-01-01",
+   "venue": "Methods in molecular biology",
+   "type": "book-chapter",
+   "doi": "10.1007/978-1-62703-447-0_17",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics",
+    "methods"
+   ]
+  },
+  {
+   "title": "BREEDING AND GENETICS SYMPOSIUM: Networks and pathways to guide genomic selection1–3",
+   "authors": [
+    "W. M. Snelling",
+    "Robert A. Cushman",
+    "John W. Keele",
+    "Christian Maltecca",
+    "M. G. Thomas",
+    "Marina R. S. Fortes",
+    "Antônio Reverter"
+   ],
+   "year": 2012,
+   "date": "2012-10-25",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2012-5784",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics",
+    "methods"
+   ]
+  },
+  {
+   "title": "Estimates of marker effects for measures of milk flow in the Italian brown Swiss dairy cattle population",
+   "authors": [
+    "Kent A. Gray",
+    "Christian Maltecca",
+    "A. Bagnato",
+    "Marlies Dolezal",
+    "A. Rossoni",
+    "Antonia Bianca Samorè",
+    "J. P. Cassady"
+   ],
+   "year": 2012,
+   "date": "2012-10-23",
+   "venue": "BMC Veterinary Research",
+   "type": "article",
+   "doi": "10.1186/1746-6148-8-199",
+   "oa_url": "https://bmcvetres.biomedcentral.com/counter/pdf/10.1186/1746-6148-8-199",
+   "themes": [
+    "prediction",
+    "omics"
+   ]
+  },
+  {
+   "title": "Calf birth weight, gestation length, calving ease, and neonatal calf mortality in Holstein, Jersey, and crossbred cows in a pasture system",
+   "authors": [
+    "K. Dhakal",
+    "Christian Maltecca",
+    "J. P. Cassady",
+    "Guillaume G. Baloche",
+    "C. Mike Williams",
+    "Steven P. Washburn"
+   ],
+   "year": 2012,
+   "date": "2012-10-22",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2012-5817",
+   "oa_url": "https://doi.org/10.3168/jds.2012-5817",
+   "themes": [
+    "prediction"
+   ]
+  },
+  {
+   "title": "Genetic parameters for fertility of dairy heifers and cows at different parities and relationships with production traits in first lactation",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Alessio Cecchinato",
+    "Mauro Penasa",
+    "Giovanni Bittante"
+   ],
+   "year": 2012,
+   "date": "2012-10-11",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2012-5775",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030212007588/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Changes in chondrocyte gene expression following in vitro impaction of porcine articular cartilage in an impact injury model",
+   "authors": [
+    "M.S. Ashwell",
+    "Michael Gonda",
+    "Kent A. Gray",
+    "Christian Maltecca",
+    "A. T. O’Nan",
+    "J. P. Cassady",
+    "Peter L. Mente"
+   ],
+   "year": 2012,
+   "date": "2012-10-01",
+   "venue": "Journal of Orthopaedic Research®",
+   "type": "article",
+   "doi": "10.1002/jor.22239",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jor.22239",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Measuring bovine viral diarrhea virus vaccine response: Using a commercially available ELISA as a surrogate for serum neutralization assays",
+   "authors": [
+    "Michael Gonda",
+    "Xin De Fang",
+    "George A. Perry",
+    "Christian Maltecca"
+   ],
+   "year": 2012,
+   "date": "2012-09-01",
+   "venue": "Vaccine",
+   "type": "article",
+   "doi": "10.1016/j.vaccine.2012.08.047",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Incidence validation and relationship analysis of producer-recorded health event data from on-farm computer systems in the United States",
+   "authors": [
+    "Kristen L. Parker Gaddis",
+    "John B. Cole",
+    "J.S. Clay",
+    "Christian Maltecca"
+   ],
+   "year": 2012,
+   "date": "2012-08-21",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2012-5572",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030212005590/pdf",
+   "themes": []
+  },
+  {
+   "title": "Effects of reduced panel, reference origin, and genetic relationship on imputation of genotypes in Hereford cattle",
+   "authors": [
+    "Yijian Huang",
+    "Christian Maltecca",
+    "J. P. Cassady",
+    "L. J. Alexander",
+    "W. M. Snelling",
+    "Michael D. MacNeil"
+   ],
+   "year": 2012,
+   "date": "2012-08-03",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2011-4728",
+   "oa_url": null,
+   "themes": [
+    "diversity",
+    "methods"
+   ]
+  },
+  {
+   "title": "Assessment of alternative genotyping strategies to maximize imputation accuracy at minimal cost",
+   "authors": [
+    "Yijian Huang",
+    "John M. Hickey",
+    "Matthew A. Cleveland",
+    "Christian Maltecca"
+   ],
+   "year": 2012,
+   "date": "2012-07-31",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/1297-9686-44-25",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/1297-9686-44-25",
+   "themes": [
+    "prediction",
+    "methods"
+   ]
+  },
+  {
+   "title": "Effectiveness of genomic prediction on milk flow traits in dairy cattle",
+   "authors": [
+    "Kent A. Gray",
+    "J. P. Cassady",
+    "Yijian Huang",
+    "Christian Maltecca"
+   ],
+   "year": 2012,
+   "date": "2012-07-30",
+   "venue": "Genetics Selection Evolution",
+   "type": "article",
+   "doi": "10.1186/1297-9686-44-24",
+   "oa_url": "https://gsejournal.biomedcentral.com/counter/pdf/10.1186/1297-9686-44-24",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "SNP markers trace familial linkages in a cloned population of Pinus taeda—prospects for genomic selection",
+   "authors": [
+    "Jaime Zapata-Valenzuela",
+    "Fikret Işik",
+    "Christian Maltecca",
+    "Jill Wegrzyn",
+    "David B. Neale",
+    "Steven E. McKeand",
+    "Ross W. Whetten"
+   ],
+   "year": 2012,
+   "date": "2012-05-30",
+   "venue": "Tree Genetics & Genomes",
+   "type": "article",
+   "doi": "10.1007/s11295-012-0516-5",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Application of multiple shrinkage methods to genomic predictions1",
+   "authors": [
+    "Christian Maltecca",
+    "Kristen L. Parker",
+    "J. P. Cassady"
+   ],
+   "year": 2012,
+   "date": "2012-05-30",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2011-4350",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Using 50 K Single Nucleotide Polymorphisms to Elucidate Genomic Architecture of Line 1 Hereford Cattle",
+   "authors": [
+    "Yijian Huang",
+    "Christian Maltecca",
+    "Michael D. MacNeil",
+    "L. J. Alexander",
+    "W. M. Snelling",
+    "J. P. Cassady"
+   ],
+   "year": 2012,
+   "date": "2012-01-01",
+   "venue": "Frontiers in Genetics",
+   "type": "article",
+   "doi": "10.3389/fgene.2012.00285",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fgene.2012.00285/pdf",
+   "themes": [
+    "prediction",
+    "diversity",
+    "omics"
+   ]
+  },
+  {
+   "title": "Genetic analysis of fertility in the Italian Brown Swiss population using different models and trait definitions",
+   "authors": [
+    "Francesco Tiezzi",
+    "Christian Maltecca",
+    "Mauro Penasa",
+    "Alessio Cecchinato",
+    "YM Chang",
+    "Giovanni Bittante"
+   ],
+   "year": 2011,
+   "date": "2011-11-23",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2011-4661",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030211006497/pdf",
+   "themes": [
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Genomic selection using a realized genomic relationship matrix in a Pinus taeda L. cloned population",
+   "authors": [
+    "Jaime Zapata-Valenzuela",
+    "Fikret Işik",
+    "Christian Maltecca",
+    "Jill Wegryzn",
+    "David B. Neale",
+    "Steven E. McKeand",
+    "Ross W. Whetten"
+   ],
+   "year": 2011,
+   "date": "2011-09-13",
+   "venue": "BMC Proceedings",
+   "type": "article",
+   "doi": "10.1186/1753-6561-5-s7-p60",
+   "oa_url": "https://bmcproc.biomedcentral.com/counter/pdf/10.1186/1753-6561-5-S7-P60",
+   "themes": [
+    "prediction",
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Bimodality and the genetics of milk flow traits in the Italian Holstein-Friesian breed",
+   "authors": [
+    "Antonia Bianca Samorè",
+    "Sergio Iván Román-Ponce",
+    "F. Vacirca",
+    "E. Frigo",
+    "F. Canavesi",
+    "A. Bagnato",
+    "Christian Maltecca"
+   ],
+   "year": 2011,
+   "date": "2011-07-26",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2010-3611",
+   "oa_url": "https://doi.org/10.3168/jds.2010-3611",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "A genome-wide association study of direct gestation length in US Holstein and Italian Brown populations",
+   "authors": [
+    "Christian Maltecca",
+    "Kent A. Gray",
+    "KENT A. WEIGEL",
+    "J. P. Cassady",
+    "M.S. Ashwell"
+   ],
+   "year": 2011,
+   "date": "2011-05-06",
+   "venue": "Animal Genetics",
+   "type": "article",
+   "doi": "10.1111/j.1365-2052.2011.02188.x",
+   "oa_url": null,
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Differences in hair coat shedding, and effects on calf weaning weight and BCS among Angus dams",
+   "authors": [
+    "Kent A. Gray",
+    "T. Smith",
+    "Christian Maltecca",
+    "P. Overton",
+    "J.A. Parish",
+    "J. P. Cassady"
+   ],
+   "year": 2011,
+   "date": "2011-03-05",
+   "venue": "Livestock Science",
+   "type": "article",
+   "doi": "10.1016/j.livsci.2011.02.009",
+   "oa_url": null,
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic evaluations for measures of the milk-flow curve in the Italian Brown Swiss population",
+   "authors": [
+    "Kent A. Gray",
+    "F. Vacirca",
+    "A. Bagnato",
+    "Antonia Bianca Samorè",
+    "A. Rossoni",
+    "Christian Maltecca"
+   ],
+   "year": 2011,
+   "date": "2011-01-22",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2009-2759",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030211000427/pdf",
+   "themes": [
+    "prediction",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Breed differences in pig temperament scores during a performance test and their phenotypic relationship with performance",
+   "authors": [
+    "C.L. Yoder",
+    "Christian Maltecca",
+    "J. P. Cassady",
+    "W. L. Flowers",
+    "S. Price",
+    "Miles Todd See"
+   ],
+   "year": 2010,
+   "date": "2010-09-22",
+   "venue": "Livestock Science",
+   "type": "article",
+   "doi": "10.1016/j.livsci.2010.08.004",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Investigation of breed and sex effects on cytochrome P450 gene expression in cattle liver",
+   "authors": [
+    "M.S. Ashwell",
+    "Robert Scott Fry",
+    "Jerry W. Spears",
+    "A. T. O’Nan",
+    "Christian Maltecca"
+   ],
+   "year": 2010,
+   "date": "2010-06-17",
+   "venue": "Research in Veterinary Science",
+   "type": "article",
+   "doi": "10.1016/j.rvsc.2010.05.029",
+   "oa_url": null,
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Genomic breeding value prediction using three Bayesian methods and application to reduced density marker panels",
+   "authors": [
+    "Matthew A. Cleveland",
+    "Selma Forni",
+    "Nader Deeb",
+    "Christian Maltecca"
+   ],
+   "year": 2010,
+   "date": "2010-03-31",
+   "venue": "BMC Proceedings",
+   "type": "article",
+   "doi": "10.1186/1753-6561-4-s1-s6",
+   "oa_url": "https://bmcproc.biomedcentral.com/track/pdf/10.1186/1753-6561-4-S1-S6",
+   "themes": [
+    "prediction",
+    "omics",
+    "quantgen",
+    "methods"
+   ]
+  },
+  {
+   "title": "Accomplishments and new challenges in dairy genetic evaluations",
+   "authors": [
+    "Christian Maltecca",
+    "Kristen L. Parker",
+    "Martino Cassandro"
+   ],
+   "year": 2010,
+   "date": "2010-01-01",
+   "venue": "Italian Journal of Animal Science",
+   "type": "article",
+   "doi": "10.4081/ijas.2010.e68",
+   "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2010.e68?needAccess=true&role=button",
+   "themes": [
+    "prediction",
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Genetic relationships among pig behavior, growth, backfat, and loin muscle area",
+   "authors": [
+    "Brandon D. Velie",
+    "Christian Maltecca",
+    "J. P. Cassady"
+   ],
+   "year": 2009,
+   "date": "2009-06-19",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2008-1328",
+   "oa_url": null,
+   "themes": [
+    "diversity",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Monoallelic maternal expression of STAT5A affects embryonic survival in cattle",
+   "authors": [
+    "Hasan Khatib",
+    "Christian Maltecca",
+    "Ricky L. Monson",
+    "Valerie Schutzkus",
+    "Jack J Rutledge"
+   ],
+   "year": 2009,
+   "date": "2009-03-10",
+   "venue": "BMC Genetics",
+   "type": "article",
+   "doi": "10.1186/1471-2156-10-13",
+   "oa_url": "https://bmcgenomdata.biomedcentral.com/counter/pdf/10.1186/1471-2156-10-13",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Whole‐genome scan for quantitative trait loci associated with birth weight, gestation length and passive immune transfer in a Holstein × Jersey crossbred population",
+   "authors": [
+    "Christian Maltecca",
+    "KENT A. WEIGEL",
+    "Hasan Khatib",
+    "M.A. Cowan",
+    "A. Bagnato"
+   ],
+   "year": 2008,
+   "date": "2008-11-11",
+   "venue": "Animal Genetics",
+   "type": "article",
+   "doi": "10.1111/j.1365-2052.2008.01793.x",
+   "oa_url": null,
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "A proline‐to‐histidine mutation in POU1F1 is associated with production traits in dairy cattle",
+   "authors": [
+    "Wen Huang",
+    "Christian Maltecca",
+    "Hasan Khatib"
+   ],
+   "year": 2008,
+   "date": "2008-06-16",
+   "venue": "Animal Genetics",
+   "type": "article",
+   "doi": "10.1111/j.1365-2052.2008.01749.x",
+   "oa_url": null,
+   "themes": [
+    "prediction",
+    "omics"
+   ]
+  },
+  {
+   "title": "Association of Bovine Fibroblast Growth Factor 2 (FGF2) Gene with Milk Fat and Productive Life: An Example of the Ability of the Candidate Pathway Strategy to Identify Quantitative Trait Genes",
+   "authors": [
+    "Xihong Wang",
+    "Christian Maltecca",
+    "R. Tal-Stein",
+    "Ehud Lipkin",
+    "Hasan Khatib"
+   ],
+   "year": 2008,
+   "date": "2008-05-17",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2007-0877",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030208711998/pdf",
+   "themes": []
+  },
+  {
+   "title": "The fibroblast growth factor 2 gene is associated with embryonic mortality in cattle1",
+   "authors": [
+    "Hasan Khatib",
+    "Christian Maltecca",
+    "Ricky L. Monson",
+    "Valerie Schutzkus",
+    "Xiping Wang",
+    "Jack J Rutledge"
+   ],
+   "year": 2008,
+   "date": "2008-05-10",
+   "venue": "Journal of Animal Science",
+   "type": "article",
+   "doi": "10.2527/jas.2007-0791",
+   "oa_url": null,
+   "themes": []
+  },
+  {
+   "title": "Quantitative Trait Loci Affecting Milk Yield and Protein Percentage in a Three-Country Brown Swiss Population",
+   "authors": [
+    "A. Bagnato",
+    "F. Schiavini",
+    "A. Rossoni",
+    "Christian Maltecca",
+    "Marlies Dolezal",
+    "Ivica Međugorac",
+    "Johann Sölkner",
+    "Vincenzo Carlo Russo",
+    "Luca Fontanesi",
+    "A. Friedmann",
+    "M. Soller",
+    "Ehud Lipkin"
+   ],
+   "year": 2008,
+   "date": "2008-01-24",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2007-0507",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030208714218/pdf",
+   "themes": [
+    "omics",
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Estimation of Genetic Parameters for Perinatal Sucking Behavior of Italian Brown Swiss Calves",
+   "authors": [
+    "Christian Maltecca",
+    "A. Rossoni",
+    "C. Nicoletti",
+    "E. Santus",
+    "KENT A. WEIGEL",
+    "A. Bagnato"
+   ],
+   "year": 2007,
+   "date": "2007-09-19",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2007-0183",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030207719471/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  },
+  {
+   "title": "Comparing Local and Commercial Breeds on Functional Traits and Profitability: The Case of Reggiana Dairy Cattle",
+   "authors": [
+    "Gustavo C. Gandini",
+    "Christian Maltecca",
+    "F. Pizzi",
+    "A. Bagnato",
+    "Rita Rizzi"
+   ],
+   "year": 2007,
+   "date": "2007-03-21",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.2006-204",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030207716880/pdf",
+   "themes": []
+  },
+  {
+   "title": "Evaluation of association between polymorphism within the thyroglobulin gene and milk production traits in dairy cattle",
+   "authors": [
+    "Hasan Khatib",
+    "Ismail S. Zaitoun",
+    "Yu‐Mei Chang",
+    "Christian Maltecca",
+    "Paul John Boettcher"
+   ],
+   "year": 2007,
+   "date": "2007-02-01",
+   "venue": "Journal of Animal Breeding and Genetics",
+   "type": "article",
+   "doi": "10.1111/j.1439-0388.2007.00634.x",
+   "oa_url": null,
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Changes in Conception Rate, Calving Performance, and Calf Health and Survival From the Use of Crossbred Jersey × Holstein Sires as Mates for Holstein Dams",
+   "authors": [
+    "Christian Maltecca",
+    "Hasan Khatib",
+    "Valerie Schutzkus",
+    "P.C. Hoffman",
+    "KENT A. WEIGEL"
+   ],
+   "year": 2006,
+   "date": "2006-07-01",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.s0022-0302(06)72351-7",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030206723517/pdf",
+   "themes": [
+    "prediction"
+   ]
+  },
+  {
+   "title": "Effects of the Osteopontin Gene Variants on Milk Production Traits in Dairy Cattle",
+   "authors": [
+    "S. Leonard",
+    "Hasan Khatib",
+    "Valerie Schutzkus",
+    "Yu‐Mei Chang",
+    "Christian Maltecca"
+   ],
+   "year": 2005,
+   "date": "2005-11-01",
+   "venue": "Journal of Dairy Science",
+   "type": "article",
+   "doi": "10.3168/jds.s0022-0302(05)73092-7",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030205730927/pdf",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "The BovMAS Consortium: identification of QTL for milk yield and milk protein percent on chromosome 14 in the Brown Swiss breed",
+   "authors": [
+    "A. Bagnato",
+    "F. Schiavini",
+    "Marlies Dolezal",
+    "S. Dubini",
+    "A. Rossoni",
+    "Christian Maltecca",
+    "E. Santus",
+    "Ivica Međugorac",
+    "Johann Sölkner",
+    "Luca Fontanesi",
+    "Aharon Friedman",
+    "Ehud Lipkin",
+    "M. Soller"
+   ],
+   "year": 2005,
+   "date": "2005-01-01",
+   "venue": "Italian Journal of Animal Science",
+   "type": "article",
+   "doi": "10.4081/ijas.2005.2s.13",
+   "oa_url": "https://www.tandfonline.com/doi/pdf/10.4081/ijas.2005.2s.13?needAccess=true",
+   "themes": [
+    "omics"
+   ]
+  },
+  {
+   "title": "Comparison of International Dairy Sire Evaluations from Meta-Analysis of National Estimated Breeding Values and Direct Analysis of Individual Animal Performance Records",
+   "authors": [
+    "Christian Maltecca",
+    "A. Bagnato",
+    "KENT A. WEIGEL"
+   ],
+   "year": 2004,
+   "date": "2004-08-01",
+   "venue": "Journal of Dairy Science",
+   "type": "review",
+   "doi": "10.3168/jds.s0022-0302(04)73385-8",
+   "oa_url": "http://www.journalofdairyscience.org/article/S0022030204733858/pdf",
+   "themes": [
+    "quantgen"
+   ]
+  }
+ ]
+}

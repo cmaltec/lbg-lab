@@ -1,0 +1,107 @@
+/* site.css
+ *
+ * Quantitative Genomics Lab site. Colours and type follow the CV: slate
+ * accent, Avenir Next for headings and Charter for text, with system
+ * fallbacks where those fonts are absent.
+ *
+ * Author: Christian Maltecca
+ * E-mail: cmaltec@ncsu.edu
+ * Date: 2026-10-08
+ */
+
+:root {
+  --accent: #4a5868;
+  --accent-soft: #eef0f3;
+  --ink: #2b2f33;
+  --muted: #6b7178;
+  --rule: #dde1e6;
+  --bg: #ffffff;
+  --sans: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
+  --serif: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #a9b6c6;
+    --accent-soft: #23282e;
+    --ink: #e4e7ea;
+    --muted: #9aa1a8;
+    --rule: #343a41;
+    --bg: #16191c;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.55 var(--serif);
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
+.muted { color: var(--muted); }
+
+/* --- Header --- */
+.top { border-top: 5px solid var(--accent); border-bottom: 1px solid var(--rule); }
+.top-inner { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; padding-top: 16px; padding-bottom: 14px; }
+.brand { font: 600 19px/1.2 var(--sans); color: var(--ink); text-decoration: none; }
+.brand span { display: block; font-weight: 400; font-size: 13px; color: var(--muted); letter-spacing: .04em; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 15px var(--sans); }
+nav a { color: var(--muted); text-decoration: none; padding: 2px 0; }
+nav a[aria-current="page"], nav a:hover { color: var(--accent); border-bottom: 2px solid var(--accent); }
+
+/* --- Type --- */
+h1, h2, h3 { font-family: var(--sans); color: var(--ink); line-height: 1.25; }
+h1 { font-size: 30px; font-weight: 600; margin: 40px 0 8px; }
+h2 { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent);
+     margin: 44px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+h3 { font-size: 17px; font-weight: 600; margin: 0 0 6px; }
+h3.sub { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 18px; }
+.lede { font-size: 20px; line-height: 1.5; max-width: 40em; }
+.hero h1 { font-size: 36px; margin-top: 48px; }
+
+/* --- Research themes --- */
+.themes { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.theme { display: flex; flex-direction: column; padding: 16px 18px; background: var(--accent-soft);
+         border-top: 3px solid var(--accent); border-radius: 3px; color: var(--ink); text-decoration: none; }
+.theme:hover { outline: 1px solid var(--accent); }
+.theme p { margin: 0 0 10px; font-size: 15px; line-height: 1.45; }
+.theme .count { margin-top: auto; font: 500 13px var(--sans); color: var(--muted); }
+.theme-block { scroll-margin-top: 16px; }
+.theme-block > p { max-width: 42em; }
+
+/* --- Papers --- */
+.papers { list-style: none; padding: 0; margin: 0; }
+.paper { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.paper[hidden] { display: none; }
+.ptitle { font: 600 16px/1.35 var(--sans); color: var(--ink); text-decoration: none; }
+.ptitle:hover { color: var(--accent); text-decoration: underline; }
+.pauth { font-size: 14.5px; margin-top: 3px; }
+.pauth b { font-weight: 700; }
+.pmeta { font-size: 14px; color: var(--muted); }
+.oa { font: 500 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; }
+.more { font: 500 15px var(--sans); }
+
+/* --- Filters --- */
+.filters { display: grid; gap: 10px; margin: 18px 0 8px; }
+.filters input, .filters select { font: 15px var(--sans); padding: 8px 10px; border: 1px solid var(--rule);
+  border-radius: 3px; background: var(--bg); color: var(--ink); max-width: 100%; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 13px var(--sans); padding: 5px 10px; border: 1px solid var(--rule); border-radius: 999px;
+        background: var(--bg); color: var(--muted); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+/* --- People --- */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.card { padding: 14px 16px; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 3px; }
+.cname { font: 600 16px var(--sans); }
+.crole { font: 14px var(--sans); color: var(--muted); }
+.ctopic { font-size: 14px; margin-top: 4px; }
+.alumni, .visitors { list-style: none; padding: 0; margin: 0; columns: 2 280px; column-gap: 32px; }
+.alumni li, .visitors li { break-inside: avoid; padding: 6px 0; }
+.aname { font: 600 15px var(--sans); }
+.atopic { font-size: 14px; color: var(--muted); }
+
+/* --- Footer --- */
+footer { margin-top: 64px; border-top: 1px solid var(--rule); }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 20px 16px 36px;
+        font: 13px/1.5 var(--sans); }

@@ -1,0 +1,239 @@
+{
+ "pi": {
+  "name": "Christian Maltecca",
+  "role": "Principal investigator"
+ },
+ "current": [
+  {
+   "name": "Junjian Wang",
+   "role": "Postdoctoral researcher",
+   "topic": "Statistical Genomics",
+   "years": "2025–2026"
+  },
+  {
+   "name": "Hui Wen",
+   "role": "Postdoctoral researcher",
+   "topic": "Host Microbiome interactions",
+   "years": "2025–2026"
+  },
+  {
+   "name": "Chiara Gini",
+   "role": "Postdoctoral researcher",
+   "topic": "Host Microbiome interactions",
+   "years": "2024–2026"
+  },
+  {
+   "name": "Seona Kwon",
+   "role": "PhD student",
+   "topic": "",
+   "co_advised": false
+  }
+ ],
+ "alumni": [
+  {
+   "name": "Junjian Wang",
+   "role": "PhD",
+   "years": "2025",
+   "topic": "Statistical and Computational Methods for Genomic Prediction, Fine-Mapping,and Functional Enrichment in Livestock",
+   "co_advised": true
+  },
+  {
+   "name": "Yuqing He",
+   "role": "Postdoctoral researcher",
+   "topic": "Genomic Predictions",
+   "years": "2023"
+  },
+  {
+   "name": "Emmanuel Lozada-Soto",
+   "role": "PhD",
+   "years": "2023",
+   "topic": "Genomic Assessment and Management of Inbreeding and Genetic Diversity in US Cattle: Implications for Production, Health, and Genetic Progress",
+   "co_advised": false
+  },
+  {
+   "name": "Jonathan Lyton",
+   "role": "MSc",
+   "years": "2023",
+   "topic": "Genomic and Microbial resemblance between sow and piglets",
+   "co_advised": false
+  },
+  {
+   "name": "Vanille Deru",
+   "role": "Postdoctoral researcher",
+   "topic": "Genomic Predictions",
+   "years": "2022–2023"
+  },
+  {
+   "name": "Yuqing He",
+   "role": "PhD",
+   "years": "2022",
+   "topic": "Potential of Feeding Behavior and Gut Microbiome for the Improvement of Growth and Performance in Swine",
+   "co_advised": false
+  },
+  {
+   "name": "Matteo Bergamaschi",
+   "role": "Postdoctoral researcher",
+   "topic": "Host Microbiome interactions",
+   "years": "2020–2021"
+  },
+  {
+   "name": "Piush Khanal",
+   "role": "PhD",
+   "years": "2020",
+   "topic": "Genomic Selection of Meat Quality and Carcass Composition Traits in Crossbred Swine",
+   "co_advised": false
+  },
+  {
+   "name": "Jason Graham",
+   "role": "MSc",
+   "years": "2020",
+   "topic": "GxE in livestock",
+   "co_advised": true
+  },
+  {
+   "name": "Emmanuel Lozada Soto",
+   "role": "MSc",
+   "years": "2019",
+   "topic": "Genetics of differential leukocyte counts in dairy",
+   "co_advised": true
+  },
+  {
+   "name": "Anna Wackel",
+   "role": "MSc",
+   "years": "2018",
+   "topic": "Genetics of recombination",
+   "co_advised": false
+  },
+  {
+   "name": "Jeremy Howard",
+   "role": "PhD",
+   "years": "2017",
+   "topic": "Utilizing Genomic Information to Manage the Diversity and Minimize the Unfavorable Effects of Inbreeding in Livestock Populations",
+   "co_advised": false
+  },
+  {
+   "name": "Bryce Lu",
+   "role": "Postdoctoral researcher",
+   "topic": "Host Microbiome interactions",
+   "years": "2016–2018"
+  },
+  {
+   "name": "Shihui Jiao",
+   "role": "PhD",
+   "years": "2015",
+   "topic": "The Genetics of Feed Efficiency and Feeding Behavior in Pigs",
+   "co_advised": false
+  },
+  {
+   "name": "Kumud Dhakal",
+   "role": "PhD",
+   "years": "2015",
+   "topic": "Phenotypic and Genetic Aspects of Health Events and Production Traits in Dairy Cattle",
+   "co_advised": false
+  },
+  {
+   "name": "Francesco Tiezzi",
+   "role": "Postdoctoral researcher",
+   "topic": "Genomic Predictions",
+   "years": "2014–2017"
+  },
+  {
+   "name": "Kristen Parker Gaddis",
+   "role": "PhD",
+   "years": "2014",
+   "topic": "Improvement of dairy cattle health through the utilization of producer-recorded data and genomic methods",
+   "co_advised": false
+  },
+  {
+   "name": "Yijian Huang",
+   "role": "PhD",
+   "years": "2012",
+   "topic": "The Use of High-density Single Nucleotide Polymorphism Panels in Hereford Beef Cattle: Genotype Reconstruction and Identification of Genome Patterns Related to Selection",
+   "co_advised": false
+  },
+  {
+   "name": "Kent Gray",
+   "role": "PhD",
+   "years": "2011",
+   "topic": "Genetics of Milk Flow Traits in Dairy Cattle",
+   "co_advised": true
+  }
+ ],
+ "visitors": [
+  {
+   "name": "Tommaso Cinquarla",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2025"
+  },
+  {
+   "name": "Andrea Delledonne",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2024"
+  },
+  {
+   "name": "Simone Callegaro",
+   "from": "Università degli Studi di Firenze (ITA)",
+   "years": "2024"
+  },
+  {
+   "name": "Laura Falchi",
+   "from": "Università degli Studi di Sassari (ITA)",
+   "years": "2022"
+  },
+  {
+   "name": "Vanille Deru",
+   "from": "INRAE (FRA)",
+   "years": "2021"
+  },
+  {
+   "name": "Bayode Makanjuola",
+   "from": "University of Guelph (CAN)",
+   "years": "2019"
+  },
+  {
+   "name": "Maria Usala",
+   "from": "Università degli Studi di Sassari (ITA)",
+   "years": "2019"
+  },
+  {
+   "name": "Asha Miles",
+   "from": "Cornell University",
+   "years": "2019"
+  },
+  {
+   "name": "Gebreyohans Tesfaye",
+   "from": "Norwegian University of Life Sciences (NOR)",
+   "years": "2018"
+  },
+  {
+   "name": "Riccardo Moretti",
+   "from": "Università degli Studi di Firenze (ITA)",
+   "years": "2016"
+  },
+  {
+   "name": "Chun Chao",
+   "from": "DHIA (TWN)",
+   "years": "2015"
+  },
+  {
+   "name": "Emanuela Tullo",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2014"
+  },
+  {
+   "name": "Laura Pellegrino",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2013"
+  },
+  {
+   "name": "Francesco Tiezzi",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2011"
+  },
+  {
+   "name": "Francesco Vacirca",
+   "from": "Università degli Studi di Milano (ITA)",
+   "years": "2010"
+  }
+ ]
+}
