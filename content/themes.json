@@ -76,10 +76,10 @@
   {
    "id": "diversity",
    "name": "Inbreeding and genetic diversity",
-   "summary": "How inbreeding can be measured from genomic data, what it costs in performance, health, and fertility, and how selection can be managed to preserve genetic variation.",
+   "summary": "How inbreeding and genetic variation can be measured from genomic data, what underlies inbreeding depression, and how selection can be managed to preserve genetic variation.",
    "description": [
-    "Selection concentrates genetic contributions on a limited number of families, and genomic selection can accelerate that process. Our work on inbreeding asks how this concentration can be measured, what it costs, and how it can be managed. Genomic data, and runs of homozygosity in particular, describe inbreeding more precisely than pedigrees and separate recent from ancient inbreeding, which can differ in their consequences for production, fertility, health, and longevity.",
-    "Estimates of inbreeding depression obtained in this way provide the basis for the mating and selection strategies we evaluate, which aim to sustain genetic gain while curtailing the loss of genetic variation."
+    "Selection concentrates genetic contributions on a limited number of families, and genomic selection can accelerate that process. Our work asks how this concentration can be measured, what it costs, and how it can be managed. Genomic data describe inbreeding more precisely than pedigrees. Runs of homozygosity are one of several tools we use, and they separate recent from ancient inbreeding, which can differ in their consequences for production, fertility, health, and longevity.",
+    "This work also raises more basic questions about what shapes genetic variation under selection and what genetic architecture underlies inbreeding depression. The answers inform the mating and selection strategies we evaluate, which aim to sustain genetic gain while curtailing the loss of genetic variation."
    ],
    "keywords": [
     "conservation",

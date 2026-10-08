@@ -230,3 +230,28 @@ footer a, footer a:hover { color: #fff; }
 
 /* --- Join us paths --- */
 .join-paths { margin-top: 28px; }
+
+/* --- Research theme diagrams --- */
+.theme-body { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 48px; align-items: center; }
+.theme-body .prose { max-width: none; }
+.theme-fig { margin: 0; }
+.diagram { display: block; width: 100%; height: auto; max-width: 400px; margin: 0 auto; }
+.diagram text { text-anchor: middle; font-family: var(--sans); }
+.diagram .dg-band { fill: none; stroke: var(--c); stroke-opacity: .10; stroke-width: 34; }
+.diagram .dg-arc { fill: none; stroke: var(--c); stroke-width: 2; }
+.diagram .dg-ah { fill: var(--c); }
+.diagram .dg-node { fill: #fff; stroke: var(--c); stroke-width: 2; }
+.diagram .dg-node.dg-k { fill: var(--c); }
+.diagram .dg-num { font: 700 11px var(--sans); fill: var(--c); letter-spacing: .08em; }
+.diagram .dg-t { font-size: 16px; font-weight: 700; fill: #222; }
+.diagram .dg-s { font-size: 12px; fill: #555; }
+.diagram .dg-b { font-size: 13px; font-weight: 700; fill: #222; }
+.diagram .dg-i { font-style: italic; }
+.diagram .dg-c { font-size: 13px; font-style: italic; fill: var(--c); }
+.diagram .dg-k { fill: #fff; }
+.diagram .dg-venn { fill: var(--c); fill-opacity: .08; stroke: var(--c); stroke-width: 2; }
+.diagram .dg-holo { fill: var(--c); fill-opacity: .10; stroke: none; }
+.diagram .dg-tex { fill: var(--c); fill-opacity: .22; }
+@media (max-width: 820px) {
+  .theme-body { grid-template-columns: 1fr; gap: 24px; }
+}
