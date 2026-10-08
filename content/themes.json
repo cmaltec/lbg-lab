@@ -78,7 +78,7 @@
    "name": "Inbreeding and genetic diversity",
    "summary": "How inbreeding can be measured from genomic data, what it costs in performance, health, and fertility, and how selection can be managed to preserve genetic variation.",
    "description": [
-    "Preserving genetic diversity is necessary if livestock populations are to remain responsive to future breeding goals, yet intense selection concentrates genetic contributions on a limited number of families. We use genomic data, and runs of homozygosity in particular, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds in North America, Europe, and Australia.",
+    "Preserving genetic diversity is necessary if livestock populations are to remain responsive to future breeding goals, yet intense selection concentrates genetic contributions on a limited number of families. We use genomic data, and runs of homozygosity in particular, to measure inbreeding more precisely than pedigrees allow and to follow how inbreeding and diversity have changed in dairy and beef breeds in North America, Europe, Australia, and New Zealand.",
     "A second line of work concerns the cost of inbreeding. We estimate inbreeding depression for production, fertility, health, and longevity, separate the effects of recent and ancient inbreeding, and look for the genomic regions responsible. These estimates inform the mating and selection strategies we evaluate, such as genomic inbreeding penalties and planned germplasm exchange, which aim to sustain genetic gain while curtailing the loss of variation."
    ],
    "keywords": [
