@@ -104,10 +104,10 @@
   {
    "id": "microbiome",
    "name": "Host genome, microbiome, and resilience",
-   "summary": "How the host genome and the gut microbiome jointly shape performance, and how animals respond to heat stress under a changing climate.",
+   "summary": "How the host genome and the gut microbiome jointly shape performance and resilience, and how both can inform selection for animals that cope better with environmental challenges.",
    "description": [
     "The performance of an animal, and its capacity to cope with environmental challenges, reflect both its own genome and the microbial communities it carries, and the two are linked because the host genome contributes to shaping those communities. Working mainly in pigs, we examine how host genetics and the gut microbiome jointly influence growth, feed efficiency, and carcass traits, and whether microbial information can improve the prediction of those traits.",
-    "The same perspective extends to resilience. Heat stress poses a growing threat to livestock production under climate change. In sows genomically selected for heat tolerance, we combine body temperature records, time-resolved microbiome and other omics data, and genomics to understand how animals respond to heat and how selection can make them more robust."
+    "Resilience is where these two sources of variation meet most directly. Defined as the capacity of an animal to maintain performance under environmental challenges such as heat stress, it is difficult to measure and therefore difficult to select for. Climate change is making it an increasingly important breeding objective. We treat the host genome, the gut microbiome, and physiological responses recorded over time as complementary indicators of resilience, with the aim of making it a trait that breeding programs can select on."
    ],
    "keywords": [
     "16s",
