@@ -129,8 +129,8 @@ def main():
     art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}
     art_band = {k: f(w=620, h=420) for k, f in _art.THEME_ART.items()}
     common = {"site": site, "themes": themes, "openings": openings, "art": art, "art_wide": art_wide, "art_band": art_band,
-              "banner": _art.haplotype_band(w=1030, h=270),
-              "banner_short": _art.haplotype_band(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
+              "banner": _art.dna_banner(w=1030, h=270),
+              "banner_short": _art.dna_banner(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
               "paper_count": len(pubs)}
 
     if _paths.BUILD.exists():

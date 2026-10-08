@@ -45,6 +45,43 @@ def haplotype_band(w=1200, h=180):
     return _svg(w, h, "".join(out), "Schematic haplotype blocks")
 
 
+def dna_banner(w=1200, h=270):
+    """A double helix over faint haplotype blocks: the page banners."""
+    rng = random.Random(SEED)
+    rows, blocks = max(6, round(h / 22)), []
+    rh = h / rows
+    for r in range(rows):
+        x = 0.0
+        while x < w:
+            seg = rng.uniform(30, 160)
+            shade = ("art-hot" if x > 0.5 * w and rng.random() < 0.07 else
+                     rng.choice(["art-0", "art-1", "art-1", "art-2", "art-3"]))
+            blocks.append(f'<rect class="{shade}" x="{x:.1f}" y="{r * rh + 2:.1f}" '
+                          f'width="{max(seg - 3, 2):.1f}" height="{rh - 4:.1f}" rx="2"/>')
+            x += seg
+
+    # Two strands half a turn apart; segments on the far side are drawn first
+    # so the near strand crosses over them. A few rungs take the accent.
+    cy, amp, turn = h / 2, h * 0.30, 230.0
+    rungs, x = [], 6.0
+    while x < w:
+        ph = 2 * math.pi * x / turn
+        y1, y2 = cy + amp * math.sin(ph), cy - amp * math.sin(ph)
+        cls = "hx-hot" if x > 0.5 * w and rng.random() < 0.12 else "hx-rung"
+        rungs.append(f'<line class="{cls}" x1="{x:.1f}" y1="{y1:.1f}" x2="{x:.1f}" y2="{y2:.1f}"/>')
+        x += turn / 11
+    back, front, n = [], [], 600
+    for off in (0, math.pi):
+        pts = [(i * w / n, 2 * math.pi * (i * w / n) / turn + off) for i in range(n + 1)]
+        for (x1, p1), (x2, p2) in zip(pts, pts[1:]):
+            seg = (f'<line x1="{x1:.1f}" y1="{cy + amp * math.sin(p1):.1f}" '
+                   f'x2="{x2:.1f}" y2="{cy + amp * math.sin(p2):.1f}"/>')
+            (front if math.cos(p1) > 0 else back).append(seg)
+    body = (f'<g class="hx-blocks">{"".join(blocks)}</g><g class="hx-back">{"".join(back)}</g>'
+            f'<g>{"".join(rungs)}</g><g class="hx-front">{"".join(front)}</g>')
+    return _svg(w, h, body, "Schematic DNA double helix over haplotype blocks")
+
+
 def genotype_matrix(w=360, h=150):
     """Genomic selection: a genotype matrix with one highlighted marker column."""
     rng = random.Random(SEED + 1)

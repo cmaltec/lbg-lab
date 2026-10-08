@@ -15,7 +15,7 @@
 <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/v3/ncstate-utility-bar.js"></script>
 <header class="site-head">
   <div class="head-inner">
-  <a class="site-title" href="index.html">{{ site.name }}</a>
+  <a class="site-title" href="index.html"><span class="site-kicker">Department of Animal Science · NC State</span>{{ site.name }}</a>
   <nav aria-label="Site">
     {% for href, label in [("index.html","Home"),("research.html","Research"),("publications.html","Publications"),("people.html","People")] %}
     <a href="{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
