@@ -20,7 +20,7 @@
   <h3 class="sub">Selected papers</h3>
   <div class="cards3 rotate">{% for p in rotation[t.id] %}<div class="rot"{% if loop.index > 3 %} hidden{% endif %}>{% include "_card.html" %}</div>{% endfor %}</div>
   {% endif %}
-  <p class="bold-links single"><a href="publications.html?theme={{ t.id }}">All {{ counts[t.id] }} papers on this theme <span aria-hidden="true">&rarr;</span></a></p>
+  <p class="bold-links single"><a href="publications.html?theme={{ t.id }}">Papers on this theme <span aria-hidden="true">&rarr;</span></a></p>
 </section>
 {% endfor %}
 <script>

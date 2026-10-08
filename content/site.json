@@ -4,10 +4,25 @@
  "affiliation": "Department of Animal Science, NC State University",
  "mission": "Genetic improvement has made livestock populations substantially more productive, and the challenge now is to sustain that progress while preserving the genetic diversity, health, and resilience on which future selection depends. We study how genomic, phenotypic, and microbial information can be harnessed to that end.",
  "join": "We welcome inquiries from prospective graduate students, postdoctoral researchers, and visiting scientists. Please write with a brief description of your interests and background.",
+ "join_paths": [
+  {
+   "who": "Graduate students",
+   "text": "The students who do well here are curious, committed, and able to drive their own work, and most arrive with training in genetics or statistics and some experience with scripting and data science. If that sounds like you, write to us before applying to the graduate program. We are happy to talk through ideas."
+  },
+  {
+   "who": "Postdoctoral researchers",
+   "text": "We post positions here as funding allows, and we are always glad to hear from researchers whose interests overlap with ours."
+  },
+  {
+   "who": "Visiting scientists",
+   "text": "Many students and scientists have spent time with us over the years. Visits work best when there is a question and data we both care about."
+  }
+ ],
+ "join_send": "A short e-mail about your background and what interests you, with a CV, is the best way to start.",
  "email": "cmaltec@ncsu.edu",
  "orcid": "0000-0002-9996-4680",
  "address": "Campus Box 7621, Raleigh, NC 27695, USA",
- "pi_title": "William Neal Reynolds Distinguished Professor, Department of Animal Science",
+ "pi_title": "Professor, Department of Animal Science",
  "links": [
   {
    "label": "ORCID",

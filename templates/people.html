@@ -29,9 +29,9 @@
   </div>
 </section>
 
+{% if openings %}
 <section class="wrap section" id="openings">
   <h2>Openings</h2>
-  {% if openings %}
   <div class="cards3">
     {% for o in openings %}
     <article class="content-card opening">
@@ -44,20 +44,29 @@
     </article>
     {% endfor %}
   </div>
-  {% else %}
-  <div class="prose"><p>There are no advertised positions at the moment. Inquiries about graduate study, postdoctoral work, and research visits are welcome at any time.</p></div>
-  {% endif %}
 </section>
+{% endif %}
 
 <section class="wrap section" id="join">
+  <span id="{{ 'openings-none' if openings else 'openings' }}"></span>
   <h2>Join us</h2>
   <div class="overview">
-    <div class="prose"><p>{{ site.join }}</p></div>
+    <div class="prose">
+      <p>{{ site.join.split(". ")[0] }}.{% if not openings %} There are no advertised positions at the moment.{% else %} Current positions are listed above.{% endif %}</p>
+    </div>
     <aside class="callout">
       <h3>Get in touch</h3>
-      <p>Prospective graduate students, postdoctoral researchers, and visiting scientists.</p>
+      <p>{{ site.join_send }}</p>
       <a href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">&rarr;</span></a>
     </aside>
+  </div>
+  <div class="cards3 join-paths">
+    {% for j in site.join_paths %}
+    <article class="content-card">
+      <div class="cc-head">{{ j.who }}</div>
+      <p class="cc-teaser">{{ j.text }}</p>
+    </article>
+    {% endfor %}
   </div>
 </section>
 
@@ -65,7 +74,7 @@
   <h2>Former members and visitors</h2>
   <div class="accordion">
     <details>
-      <summary>Alumni ({{ alumni|length }})</summary>
+      <summary>Alumni</summary>
       <ul class="alumni">
         {% for a in alumni %}
         <li><span class="aname">{{ a.name }}</span> <span class="muted">{{ a.roles|join(" · ") }}</span>
@@ -74,7 +83,7 @@
       </ul>
     </details>
     <details>
-      <summary>Visiting scholars ({{ team.visitors|length }})</summary>
+      <summary>Visiting scholars</summary>
       <ul class="visitors">
         {% for v in team.visitors %}
         <li><span class="aname">{{ v.name }}</span> <span class="muted">{{ v.from }}{% if v.years %} · {{ v.years }}{% endif %}</span></li>

@@ -227,3 +227,6 @@ footer a, footer a:hover { color: #fff; }
 .rotate .rot { display: flex; }
 .rotate .rot[hidden] { display: none; }
 .rotate .rot > .content-card { flex: 1; }
+
+/* --- Join us paths --- */
+.join-paths { margin-top: 28px; }
