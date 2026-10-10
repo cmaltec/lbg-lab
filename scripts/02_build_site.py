@@ -158,11 +158,19 @@ def main():
     members |= {name_key(p["name"]) for p in team["alumni"]}
 
     def authors(names):
-        out = []
-        for n in names:
-            out.append(Markup("<b>%s</b>") % n if name_key(n) in members else escape(n))
-        if len(out) > 12:
-            out = out[:10] + [Markup("&hellip;")] + out[-1:]
+        # Names given in capitals in the source are shown in title case. Long
+        # lists keep the first ten and the last author, plus any lab member
+        # who would otherwise fall in the cut.
+        names = [n.title() if n.isupper() else n for n in names]
+        fmt = lambda n: Markup("<b>%s</b>") % n if name_key(n) in members else escape(n)
+        if len(names) <= 12:
+            return Markup(", ").join(fmt(n) for n in names)
+        out = [fmt(n) for n in names[:10]]
+        hidden = [n for n in names[10:-1] if name_key(n) in members]
+        out += [Markup("&hellip;")]
+        for n in hidden:
+            out += [fmt(n), Markup("&hellip;")]
+        out.append(fmt(names[-1]))
         return Markup(", ").join(out)
 
     by_theme = {t["id"]: [p for p in pubs if t["id"] in p["themes"]] for t in themes}
