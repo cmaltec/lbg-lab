@@ -32,7 +32,7 @@ import _paths
 
 KEEP_TYPES = {"article", "review", "book-chapter", "book", "reference-entry"}
 SUPPLEMENT = re.compile(r"suppl|abstract|meeting|proceedings of the", re.I)
-USER_AGENT = f"qglab-site/1.0 (mailto:{_paths.MAILTO})"
+USER_AGENT = f"lbg-lab/1.0 (mailto:{_paths.MAILTO})"
 
 
 def get_json(url, tries=4):
