@@ -23,7 +23,7 @@
     {% for m in team.current %}
     <article class="content-card person">
       <div class="cc-head">{{ m.name }}</div>
-      <p class="cc-meta">{{ m.role }}{% if m.co_advised %} (co-advised){% endif %}</p>
+      <p class="cc-meta">{{ m.role }}{% if m.with %}, {{ m.with|with_line }}{% elif m.co_advised %} (co-advised){% endif %}</p>
       {% if m.topic %}<p class="cc-teaser">{{ m.topic }}</p>{% endif %}
     </article>
     {% endfor %}

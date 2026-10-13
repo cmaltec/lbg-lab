@@ -48,6 +48,29 @@ def name_key(name):
     return (parts[-1], parts[0][0]) if len(parts) >= 2 else (name, "")
 
 
+def with_line(coadvisors):
+    """'co-advised with <linked name>' for the People page."""
+    return Markup("co-advised with ") + Markup(" and ").join(
+        Markup('<a class="inline-link" href="%s" target="_blank" rel="noopener">%s</a>') % (c["url"], c["name"])
+        if c.get("url") else escape(c["name"]) for c in coadvisors)
+
+
+def credit_coadvisors(team):
+    """Attach the co-advisors in content/people/coadvisors.json to the matching
+    team entries (same person, same role)."""
+    path = _paths.CONTENT / "people" / "coadvisors.json"
+    if not path.exists():
+        return
+    credits = {}
+    for c in load(path)["coadvisors"]:
+        for p in c["people"]:
+            credits.setdefault((name_key(p["name"]), p["role"]), []).append(
+                {"name": c["name"], "url": c.get("url", "")})
+    for e in team["current"] + team["alumni"]:
+        if (name_key(e["name"]), e["role"]) in credits:
+            e["with"] = credits[(name_key(e["name"]), e["role"])]
+
+
 def merge_alumni(team):
     current = {name_key(p["name"]) for p in team["current"]} | {name_key(team["pi"]["name"])}
     merged = {}
@@ -57,7 +80,10 @@ def merge_alumni(team):
             continue
         label = {"Postdoctoral researcher": "Postdoc"}.get(a["role"], a["role"])
         m = merged.setdefault(k, {"name": a["name"], "roles": [], "topics": [], "sort": ""})
-        m["roles"].append(f'{label} {a.get("years", "")}'.strip())
+        role = escape(f'{label} {a.get("years", "")}'.strip())
+        if a.get("with"):
+            role += Markup(", ") + with_line(a["with"])
+        m["roles"].append(role)
         if a.get("topic"):
             m["topics"].append(a["topic"])
         m["sort"] = max(m["sort"], str(a.get("years", "")))
@@ -146,6 +172,7 @@ def main():
     themes = load(_paths.THEMES)["themes"]
     pubs = load(_paths.PUBLICATIONS)["papers"]
     team = load(_paths.PEOPLE / "team.json")
+    credit_coadvisors(team)
 
     # Openings past their closing date drop off at the next build.
     today = date.today().isoformat()
@@ -210,6 +237,7 @@ def main():
     env = Environment(loader=FileSystemLoader(_paths.TEMPLATES),
                       autoescape=select_autoescape(["html"]))
     env.filters["authors"] = authors
+    env.filters["with_line"] = with_line
     # Content text may carry [label](https://...) links; the rest is escaped.
     env.filters["links"] = lambda text: Markup(re.sub(
         r"\[([^\]]+)\]\((https?://[^)\s]+)\)",

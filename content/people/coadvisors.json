@@ -1,0 +1,14 @@
+{
+ "_note": "Co-advisors credited on the People page, by person and role. Hand-edited; 00_sync_people.py does not touch this file. Roles match team.json ('Postdoctoral researcher', 'PhD student', 'PhD', 'MSc').",
+ "coadvisors": [
+  {
+   "name": "Jicai Jiang",
+   "url": "https://compquantgen.github.io/",
+   "people": [
+    {"name": "Junjian Wang", "role": "Postdoctoral researcher"},
+    {"name": "Hui Wen", "role": "Postdoctoral researcher"},
+    {"name": "Yuqing He", "role": "Postdoctoral researcher"}
+   ]
+  }
+ ]
+}
