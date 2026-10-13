@@ -7,7 +7,7 @@
    "summary": "How genomic and phenotypic information can be used to predict genetic merit, and how breeding programs can be designed to turn those predictions into sustained genetic gain.",
    "description": [
     "Genomic selection has accelerated genetic progress in livestock, but the value of a genomic prediction depends on the information behind it and on the breeding program that acts on it. Our work in this area asks how genomic tools can be used most effectively in practice. It spans the choice of animals to genotype and traits to record, the information included in prediction models, and the design of programs that turn predicted merit into genetic gain without exhausting the genetic variation on which future selection depends.",
-    "Much of this work draws on routinely recorded data from commercial and national populations of dairy cattle, beef cattle, and pigs. The statistical methods it relies on are developed in close collaboration with colleagues in statistical genomics at NC State."
+    "Much of this work draws on routinely recorded data from commercial and national populations of dairy cattle, beef cattle, and pigs. The statistical methods it relies on are developed in close collaboration with the [Computational Quantitative Genetics Lab](https://compquantgen.github.io/) of Jicai Jiang at NC State."
    ],
    "keywords": [
     "algorithm",

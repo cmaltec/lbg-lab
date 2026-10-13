@@ -37,6 +37,7 @@ body { margin: 0; background: #fff; color: var(--ink); font: 300 17px/1.7 var(--
 b, strong { font-weight: 700; }
 a { color: var(--red); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--red-dark); }
+a.inline-link { font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; }
 .wrap { max-width: 1060px; margin: 0 auto; padding: 0 16px; }
 .section { padding: 28px 16px 8px; }
 .muted { color: var(--muted); }

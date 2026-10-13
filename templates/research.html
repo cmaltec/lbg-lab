@@ -27,7 +27,7 @@
   <h2>{{ t.name }}</h2>
   <div class="block-art">{{ art_wide[t.id] }}</div>
   <div class="theme-body">
-    <div class="prose">{% for para in t.description %}<p>{{ para }}</p>{% endfor %}</div>
+    <div class="prose">{% for para in t.description %}<p>{{ para|links }}</p>{% endfor %}</div>
     <figure class="theme-fig">{% include "diagrams/" ~ t.id ~ ".svg" ignore missing %}</figure>
   </div>
   {% if rotation[t.id] %}

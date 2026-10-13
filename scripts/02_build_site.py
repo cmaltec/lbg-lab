@@ -210,6 +210,10 @@ def main():
     env = Environment(loader=FileSystemLoader(_paths.TEMPLATES),
                       autoescape=select_autoescape(["html"]))
     env.filters["authors"] = authors
+    # Content text may carry [label](https://...) links; the rest is escaped.
+    env.filters["links"] = lambda text: Markup(re.sub(
+        r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+        r'<a class="inline-link" href="\2" target="_blank" rel="noopener">\1</a>', str(escape(text))))
     env.filters["longdate"] = lambda iso: date.fromisoformat(iso).strftime("%B %-d, %Y") if iso else ""
     art = {k: f() for k, f in _art.THEME_ART.items()}
     art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}

@@ -17,6 +17,7 @@
   <div class="overview">
     <div class="prose">
       <p class="lede">{{ site.mission }}</p>
+      {% if site.collaboration %}<p class="lede">{{ site.collaboration|links }}</p>{% endif %}
     </div>
     <aside class="callout">
       <h3>Join us</h3>
