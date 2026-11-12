@@ -152,6 +152,13 @@ def main():
     if not paper:
         print(f"DOI {doi} is not registered with Crossref; the story waits until the article is published")
         return 1
+    # a wrong DOI would attach the story to someone else's paper: show the reference and ask
+    loc = (paper.get("volume") or "") + (f'({paper["issue"]})' if paper.get("issue") else "") + (f': {paper["pages"]}' if paper.get("pages") else "")
+    print(f'\nThe DOI in {FILE} points to:\n  {", ".join(paper["authors"])} ({paper["year"]}). {paper["title"]}. '
+          f'{paper["venue"]} {loc}. https://doi.org/{doi}\n')
+    if input("Is this the article the story is about? [y/N] ").strip().lower() != "y":
+        print("stopped; nothing added")
+        return 1
 
     title, html, summary, images = render(text, slug, blob_base)
     out = STORIES / slug

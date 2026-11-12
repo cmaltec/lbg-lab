@@ -43,7 +43,7 @@ python scripts/02_build_site.py && open _site/latest.html
 git add content/stories && git commit -m "Story: <paper>" && git push
 ```
 
-The script refuses a DOI that Crossref does not know, so a story cannot go up before the article. Text marked `<!-- repo-only -->` in the paper repository is left out, and the story page gives the full citation. `--remove SLUG` takes a story down.
+The script refuses a DOI that Crossref does not know, so a story cannot go up before the article, and it shows the reference the DOI points to and waits for a yes before adding anything. Text marked `<!-- repo-only -->` in the paper repository is left out, and the story page gives the full citation. `--remove SLUG` takes a story down.
 
 The "Latest research" page shows the six newest stories; the archive lists all of them by year, and each paper with a story links to it from the publication list. The menu link appears with the first story.
 
