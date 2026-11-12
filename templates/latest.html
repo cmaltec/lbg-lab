@@ -6,7 +6,10 @@
   <div class="sh-art">{{ banner_short }}</div>
 </section>
 <div class="wrap section">
-  <div class="prose"><p class="lede">Our recent papers, told for readers outside the field. Each story links to the article and to the code behind it.</p></div>
+  <div class="prose"><p class="lede">Our recent papers, told for readers outside the field. Each story gives the full reference of the article.</p></div>
+  {% if not stories %}
+  <p class="muted">The first stories will appear here as our current papers are published.</p>
+  {% endif %}
   <div class="stories">
   {% for st in stories %}
   <article class="story-card">
@@ -21,6 +24,6 @@
   </article>
   {% endfor %}
   </div>
-  <p class="bold-links single"><a href="archive.html">{% if more %}Earlier stories{% else %}All stories by year{% endif %} <span aria-hidden="true">&rarr;</span></a></p>
+  {% if stories %}<p class="bold-links single"><a href="archive.html">{% if more %}Earlier stories{% else %}All stories by year{% endif %} <span aria-hidden="true">&rarr;</span></a></p>{% endif %}
 </div>
 {% endblock %}

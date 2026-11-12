@@ -4,7 +4,8 @@
 
 Renders the static site into _site/ from content/ (themes, publications,
 team, site text, plain-language stories) and templates/. The "Latest
-research" page, its archive, and the menu link appear once there is at least one story. No network access; run
+research" page is always built (with a short note while it is empty); the
+archive appears with the first story. No network access; run
 01_fetch_publications.py first to refresh the publication list.
 
 Lab members (current and alumni) are set in bold in author lists. People who
@@ -288,11 +289,11 @@ def main():
                                   ensure_ascii=False).replace("</", "<\\/"))},
         "people.html": {"team": team, "alumni": merge_alumni(team)},
     }
+    pages["latest.html"] = {"stories": stories[:LATEST_STORIES], "more": len(stories) > LATEST_STORIES}
     if stories:
         by_year = {}
         for st in stories:
             by_year.setdefault(st["paper"]["year"], []).append(st)
-        pages["latest.html"] = {"stories": stories[:LATEST_STORIES], "more": len(stories) > LATEST_STORIES}
         pages["archive.html"] = {"by_year": sorted(by_year.items(), reverse=True), "n": len(stories)}
     for st in stories:
         html = env.get_template("story.html").render(page="latest.html", story=st, **common)

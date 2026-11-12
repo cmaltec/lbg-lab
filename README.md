@@ -45,7 +45,7 @@ git add content/stories && git commit -m "Story: <paper>" && git push
 
 The script refuses a DOI that Crossref does not know, so a story cannot go up before the article, and it shows the reference the DOI points to and waits for a yes before adding anything. Text marked `<!-- repo-only -->` in the paper repository is left out, and the story page gives the full citation. `--remove SLUG` takes a story down.
 
-The "Latest research" page shows the six newest stories; the archive lists all of them by year, and each paper with a story links to it from the publication list. The menu link appears with the first story.
+The "Latest research" page shows the six newest stories; the archive lists all of them by year, and each paper with a story links to it from the publication list. The menu link and the page are always there; until the first story the page carries a short note.
 
 ## NC State brand
 
