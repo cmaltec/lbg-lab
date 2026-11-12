@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Latest research · {{ site.name }}{% endblock %}
+{% block main %}
+<section class="split-hero split-hero-short">
+  <div class="sh-text"><h1>Latest research</h1></div>
+  <div class="sh-art">{{ banner_short }}</div>
+</section>
+<div class="wrap section">
+  <div class="prose"><p class="lede">Our recent papers, told for readers outside the field. Each story links to the article and to the code behind it.</p></div>
+  <div class="stories">
+  {% for st in stories %}
+  <article class="story-card">
+    {% if st.image %}<a class="sc-img" href="story-{{ st.slug }}.html"><img src="{{ st.image }}" alt="" loading="lazy"></a>{% endif %}
+    <div class="sc-text">
+      <p class="sc-date">{{ st.date|longdate if st.date|length == 10 else st.date }}</p>
+      <h3><a href="story-{{ st.slug }}.html">{{ st.title }}</a></h3>
+      <p>{{ st.summary }}</p>
+      {% if st.paper %}<p class="cc-meta"><em>{{ st.paper.venue }}</em> · {{ st.paper.year }}</p>{% endif %}
+      <a class="cc-cta" href="story-{{ st.slug }}.html">Read the story <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </article>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}

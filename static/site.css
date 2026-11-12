@@ -307,3 +307,21 @@ footer a, footer a:hover { color: #fff; }
 .share-donut .sd-on { fill: var(--red); }
 .share-donut text { font: 700 22px var(--sans); fill: var(--ink); text-anchor: middle; }
 .cmember { font-size: 14px; color: var(--muted); margin-top: 4px; }
+
+/* --- Latest research: plain-language stories of new papers --- */
+.stories { display: grid; gap: 32px; margin-top: 12px; }
+.story-card { display: grid; grid-template-columns: 2fr 3fr; gap: 28px; align-items: center; border-top: 1px solid var(--rule); padding-top: 28px; }
+.story-card img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
+.story-card h3 a { color: var(--black); text-decoration: none; }
+.story-card h3 a:hover { color: var(--red); }
+.sc-date { font: 700 13px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin: 0 0 6px; }
+.story h1 { font: 700 clamp(28px, 3vw, 38px)/1.2 var(--slab); max-width: 24em; margin: 8px 0 18px; }
+.story .back a { font-size: 16px; }
+.story-paper { background: var(--grey); padding: 16px 20px; margin-bottom: 24px; max-width: 52em; }
+.story-body { max-width: 52em; }
+.story-body h2 { font: 700 24px/1.3 var(--sans); color: var(--red); margin: 32px 0 12px; }
+.story-body img { width: 100%; height: auto; margin: 12px 0; }
+.story-body table { border-collapse: collapse; font-size: 15px; margin: 8px 0 16px; display: block; overflow-x: auto; }
+.story-body th, .story-body td { border-bottom: 1px solid var(--rule); padding: 6px 12px 6px 0; text-align: left; vertical-align: top; }
+.story-body code { font-size: 14px; background: var(--grey); padding: 1px 4px; }
+@media (max-width: 720px) { .story-card { grid-template-columns: 1fr; } }

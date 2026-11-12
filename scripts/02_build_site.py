@@ -3,7 +3,8 @@
 02_build_site.py
 
 Renders the static site into _site/ from content/ (themes, publications,
-team, site text) and templates/. No network access; run
+team, site text, plain-language stories) and templates/. The "Latest
+research" page and its menu link appear once there is at least one story. No network access; run
 01_fetch_publications.py first to refresh the publication list.
 
 Lab members (current and alumni) are set in bold in author lists. People who
@@ -173,6 +174,12 @@ def main():
     pubs = load(_paths.PUBLICATIONS)["papers"]
     team = load(_paths.PEOPLE / "team.json")
     credit_coadvisors(team)
+    stories_file = _paths.CONTENT / "stories" / "index.json"
+    stories = load(stories_file)["stories"] if stories_file.exists() else []
+    by_doi_all = {p["doi"].lower(): p for p in pubs}
+    for st in stories:  # plain-language accounts from 01b_fetch_stories.py
+        st["paper"] = by_doi_all.get(st["doi"])
+        st["body"] = Markup((_paths.CONTENT / "stories" / st["slug"] / "body.html").read_text(encoding="utf-8"))
 
     # Openings past their closing date drop off at the next build.
     today = date.today().isoformat()
@@ -249,11 +256,14 @@ def main():
     common = {"site": site, "themes": themes, "openings": openings, "art": art, "art_wide": art_wide, "art_band": art_band,
               "banner": _art.dna_banner(w=1030, h=270),
               "banner_short": _art.dna_banner(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
-              "paper_count": len(pubs), "shares": lab_shares(pubs)}
+              "paper_count": len(pubs), "shares": lab_shares(pubs), "has_stories": bool(stories)}
 
     if _paths.BUILD.exists():
         shutil.rmtree(_paths.BUILD)
     shutil.copytree(_paths.STATIC, _paths.BUILD / "static")
+    for st in stories:
+        shutil.copytree(_paths.CONTENT / "stories" / st["slug"], _paths.BUILD / "stories" / st["slug"],
+                        ignore=shutil.ignore_patterns("body.html"))
 
     pages = {
         "index.html": {"team": team},  # bands use art_wide and theme descriptions
@@ -266,12 +276,17 @@ def main():
                                   ensure_ascii=False).replace("</", "<\\/"))},
         "people.html": {"team": team, "alumni": merge_alumni(team)},
     }
+    if stories:
+        pages["latest.html"] = {"stories": stories}
+    for st in stories:
+        html = env.get_template("story.html").render(page="latest.html", story=st, **common)
+        (_paths.BUILD / f'story-{st["slug"]}.html').write_text(html, encoding="utf-8")
     for name, ctx in pages.items():
         html = env.get_template(name).render(page=name, **common, **ctx)
         (_paths.BUILD / name).write_text(html, encoding="utf-8")
     (_paths.BUILD / ".nojekyll").write_text("")
     print(f"Built {len(pages)} pages into {_paths.BUILD.relative_to(_paths.ROOT)}/ "
-          f"({len(pubs)} papers, {len(team['current'])} current members)")
+          f"({len(pubs)} papers, {len(team['current'])} current members, {len(stories)} stories)")
     return 0
 
 
