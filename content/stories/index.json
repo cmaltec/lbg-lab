@@ -2,7 +2,7 @@
  "stories": [
   {
    "slug": "sow-heat-guilds",
-   "title": "Heat stress changes what the sow gut microbiome does, and in the same way in tolerant and sensitive sows",
+   "title": "Under heat stress, sow gut function changes with time, not genotype",
    "summary": "Heat stress lowers milk production, feed intake, and piglet growth in lactating sows. We asked how the gut microbiome responds in sows that are genetically tolerant or sensitive to heat, reading its genes, their activity, and the metabolites it produces. Grouping thousands of these features into a few dozen functional guilds made the data analyzable in 25 animals. The gut's function reorganized steadily through the heat challenge, and it did so the same way in both genetic lines.",
    "image": "stories/sow-heat-guilds/docs/img/pl_overview.png",
    "doi": "10.1186/s12864-026-13410-6",
