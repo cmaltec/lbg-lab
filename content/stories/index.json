@@ -1,3 +1,34 @@
 {
- "stories": []
+ "stories": [
+  {
+   "slug": "sow-heat-enterosignatures",
+   "title": "Same function, different microbes: how the sow gut reorganizes under heat stress",
+   "summary": "Heat stress costs pig producers through lower feed intake, milk, and litter growth, and the gut microbiota is one of the systems it disrupts. We followed the gut communities of 25 lactating sows from two lines selected for heat tolerance or heat sensitivity, kept under a daily heat cycle. Instead of tracking hundreds of microbes one by one, we described each sample as a mix of a few enterosignatures, groups of microbes that tend to occur together. Over two weeks the two lines moved toward the same functional profile, but by different routes: tolerant sows toward diverse, balanced communities, sensitive sows less so.",
+   "image": "stories/sow-heat-enterosignatures/docs/img/pl_overview.png",
+   "doi": "10.3389/fmicb.2026.1797687",
+   "added": "2026-11-12",
+   "paper": {
+    "title": "Data-driven enterosignatures link gut microbiome reorganization to heat stress responses in lactating sows",
+    "authors": [
+     "Chiara Gini",
+     "Francesco Tiezzi",
+     "Jicai Jiang",
+     "MaryKate Harrod Byrd",
+     "Hui Wen",
+     "Jay Steven Johnson",
+     "Luiz F. Brito",
+     "Stephan van Vliet",
+     "Christian Maltecca"
+    ],
+    "year": 2026,
+    "date": "2026-04-10",
+    "venue": "Frontiers in Microbiology",
+    "volume": "17",
+    "issue": null,
+    "pages": "1797687",
+    "doi": "10.3389/fmicb.2026.1797687",
+    "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1797687/pdf"
+   }
+  }
+ ]
 }

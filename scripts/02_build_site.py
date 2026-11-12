@@ -256,7 +256,8 @@ def main():
         # Full reference: every author, year, title, journal, volume(issue): pages, DOI.
         names = [n.title() if n.isupper() else n for n in p["authors"]]
         who = Markup(", ").join(Markup("<b>%s</b>") % n if name_key(n) in members else escape(n) for n in names)
-        loc = (p.get("volume") or "") + (f'({p["issue"]})' if p.get("issue") else "") + (f': {p["pages"]}' if p.get("pages") else "")
+        pages = re.sub(r"^(\S+)–\1$", r"\1", p.get("pages") or "")   # "1797687–1797687" is an article number
+        loc = (p.get("volume") or "") + (f'({p["issue"]})' if p.get("issue") else "") + (f": {pages}" if pages else "")
         doi = f'https://doi.org/{p["doi"]}'
         return (Markup('{} ({}). {}. <em>{}</em>{}. <a href="{}">{}</a>')
                 .format(who, p["year"], p["title"].rstrip("."), p["venue"], " " + loc if loc else "", doi, doi))

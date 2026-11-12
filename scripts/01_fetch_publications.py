@@ -131,7 +131,7 @@ def main():
             "venue": source.get("display_name") or "",
             "volume": (w.get("biblio") or {}).get("volume"),
             "issue": (w.get("biblio") or {}).get("issue"),
-            "pages": "–".join(x for x in [(w.get("biblio") or {}).get("first_page"), (w.get("biblio") or {}).get("last_page")] if x) or None,
+            "pages": "–".join(dict.fromkeys(x for x in [(w.get("biblio") or {}).get("first_page"), (w.get("biblio") or {}).get("last_page")] if x)) or None,  # article numbers come as first = last
             "type": w.get("type"),
             "doi": doi,
             "oa_url": (w.get("open_access") or {}).get("oa_url"),
