@@ -5,9 +5,22 @@
    "name": "Jicai Jiang",
    "url": "https://compquantgen.github.io/",
    "people": [
-    {"name": "Junjian Wang", "role": "Postdoctoral researcher"},
-    {"name": "Hui Wen", "role": "Postdoctoral researcher"},
-    {"name": "Yuqing He", "role": "Postdoctoral researcher"}
+    {
+     "name": "Xue Wang",
+     "role": "Postdoctoral researcher"
+    },
+    {
+     "name": "Junjian Wang",
+     "role": "Postdoctoral researcher"
+    },
+    {
+     "name": "Hui Wen",
+     "role": "Postdoctoral researcher"
+    },
+    {
+     "name": "Yuqing He",
+     "role": "Postdoctoral researcher"
+    }
    ]
   }
  ]

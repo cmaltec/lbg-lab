@@ -5,6 +5,20 @@
  },
  "current": [
   {
+   "name": "Xue Wang",
+   "role": "Postdoctoral researcher",
+   "topic": "",
+   "years": "2026–present"
+  },
+  {
+   "name": "Seona Kwon",
+   "role": "PhD student",
+   "topic": "",
+   "co_advised": false
+  }
+ ],
+ "alumni": [
+  {
    "name": "Junjian Wang",
    "role": "Postdoctoral researcher",
    "topic": "Statistical Genomics",
@@ -17,25 +31,17 @@
    "years": "2025–2026"
   },
   {
-   "name": "Chiara Gini",
-   "role": "Postdoctoral researcher",
-   "topic": "Host Microbiome interactions",
-   "years": "2024–2026"
-  },
-  {
-   "name": "Seona Kwon",
-   "role": "PhD student",
-   "topic": "",
-   "co_advised": false
-  }
- ],
- "alumni": [
-  {
    "name": "Junjian Wang",
    "role": "PhD",
    "years": "2025",
    "topic": "Statistical and Computational Methods for Genomic Prediction, Fine-Mapping,and Functional Enrichment in Livestock",
    "co_advised": true
+  },
+  {
+   "name": "Chiara Gini",
+   "role": "Postdoctoral researcher",
+   "topic": "Host Microbiome interactions",
+   "years": "2024–2026"
   },
   {
    "name": "Yuqing He",

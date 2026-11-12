@@ -7,8 +7,8 @@ completed PhD students, MSc students, visiting scholars), so the team page
 and the CV come from one source. Runs on the machine that holds the CV
 folder; the GitHub build uses the committed team.json.
 
-Current members are postdocs whose end year has not passed and students in
-progress. Everyone else is listed as alumni. Chair/co-chair markers and
+Current members are postdocs with end date 'present' (or a future end year)
+and students in progress. Everyone else is listed as alumni. Chair/co-chair markers and
 titles are stripped; co-advised students are noted as such.
 
 Usage:
@@ -61,7 +61,7 @@ def main():
                  "topic": r.get("area", ""),
                  "years": f'{r["start_date"]}–{r["end_date"]}' if r["start_date"] != r["end_date"]
                  else r["start_date"]}
-        if r["end_date"] and int(r["end_date"]) >= year:
+        if r["end_date"].lower() in ("", "present") or int(r["end_date"]) > year:   # end year reached: former member
             team["current"].append(entry)
         else:
             team["alumni"].append(entry)
