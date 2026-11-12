@@ -31,6 +31,33 @@
    }
   },
   {
+   "slug": "roh-grm-penalty-simulation",
+   "title": "Genomic-relationship and runs-of-homozygosity penalties for future inbreeding in simulated dairy cattle selection",
+   "summary": "Genomic selection has sped up genetic progress in dairy cattle, and inbreeding has risen with it. North American evaluations already adjust breeding values for the inbreeding a bull's or cow's offspring are expected to carry, measured with the genomic relationship matrix (GRM). Runs of homozygosity (ROH), long stretches of chromosome inherited identical from both parents, may track recent inbreeding more closely. We simulated 20 generations of genomic selection to compare the two penalties. GRM penalties held inbreeding lower; ROH penalties kept more genetic gain.",
+   "image": "stories/roh-grm-penalty-simulation/docs/img/pl_overview.png",
+   "doi": "10.3168/jds.2026-28483",
+   "added": "2026-11-12",
+   "paper": {
+    "title": "Effects of runs of homozygosity-based versus genomic relationship matrix-based future inbreeding penalties on genetic gain, variance components, and inbreeding depression in dairy cattle",
+    "authors": [
+     "Christian Maltecca",
+     "Jicai Jiang",
+     "John B. Cole",
+     "Christine F. Baes",
+     "Li Ma",
+     "Francesco Tiezzi"
+    ],
+    "year": 2026,
+    "date": "2026-05-09",
+    "venue": "Journal of Dairy Science",
+    "volume": "109",
+    "issue": "8",
+    "pages": "8523–8537",
+    "doi": "10.3168/jds.2026-28483",
+    "oa_url": "https://www.journalofdairyscience.org/article/S0022-0302(26)02702-5/pdf"
+   }
+  },
+  {
    "slug": "sow-heat-enterosignatures",
    "title": "Enterosignatures of the sow gut microbiome under heat stress in two genetic lines",
    "summary": "Heat stress costs pig producers through lower feed intake, milk, and litter growth, and the gut microbiota is one of the systems it disrupts. We followed the gut communities of 25 lactating sows from two lines selected for heat tolerance or heat sensitivity, kept under a daily heat cycle. Instead of tracking hundreds of microbes one by one, we described each sample as a mix of a few enterosignatures, groups of microbes that tend to occur together. Over two weeks the two lines moved toward the same functional profile, but by different routes: tolerant sows toward diverse, balanced communities, sensitive sows less so.",

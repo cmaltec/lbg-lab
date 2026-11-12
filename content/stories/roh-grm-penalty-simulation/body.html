@@ -1,0 +1,26 @@
+<p><img alt="How the two inbreeding measures read the genome, how the simulation was set up, and the trade-off between gain and inbreeding" src="stories/roh-grm-penalty-simulation/docs/img/pl_overview.png" loading="lazy" /></p>
+<h2>In short</h2>
+<p>Genomic selection has sped up genetic progress in dairy cattle, and inbreeding has risen with it. North American evaluations already adjust breeding values for the inbreeding a bull's or cow's offspring are expected to carry, measured with the genomic relationship matrix (GRM). Runs of homozygosity (ROH), long stretches of chromosome inherited identical from both parents, may track recent inbreeding more closely. We simulated 20 generations of genomic selection to compare the two penalties. GRM penalties held inbreeding lower; ROH penalties kept more genetic gain.</p>
+<h2>The study</h2>
+<ul>
+<li><strong>A simulated dairy population</strong> in AlphaSimR: 12,000 markers and 12,000 QTL on six chromosomes; each generation, 200 sires and 5,000 dams chosen from 500 male and 9,500 female candidates.</li>
+<li><strong>A shared history</strong> of 130 generations of selection, which brought genomic inbreeding to about 0.55 and depleted additive variance, before the methods were compared for 20 generations with breeding values of accuracy 0.75.</li>
+<li><strong>Four ways to select</strong>: on true breeding values (the upper limit), on estimated breeding values (current practice), and on estimated values penalized for the expected inbreeding of offspring, computed from the GRM or from ROH, at 0.5×, 1×, and 2× strength.</li>
+<li><strong>Three trait architectures</strong>: additive only, low dominance (dominance variance 10% of additive; inbreeding depression 0.30 genetic SD per 10% inbreeding), and high dominance (50%; 1.20 genetic SD), each with 10 replicates.</li>
+</ul>
+<h2>What we found</h2>
+<p><img alt="Genetic gain against change in inbreeding for each selection method and penalty strength, in the low and high dominance scenarios" src="stories/roh-grm-penalty-simulation/docs/img/pl_gain_inbreeding.png" loading="lazy" /></p>
+<p><strong>GRM penalties held inbreeding lower.</strong> At matched strength, GRM-based selection ended 0.13 to 0.22 lower in genomic inbreeding than ROH-based selection, and often reduced inbreeding below its starting level. ROH-based selection kept inbreeding rising, though more slowly than selection without a penalty.</p>
+<p><strong>ROH penalties kept more genetic gain.</strong> GRM-based selection gained 0.6 to 1.7 genetic SD less than ROH-based selection. Under high dominance, GRM penalties brought gain close to or below zero (−0.10 to −0.59 genetic SD), while ROH penalties still gained 1.09 to 1.48.</p>
+<p><strong>GRM penalties kept more genetic variance.</strong> Across the two dominance scenarios, GRM-based selection retained 77 to 107% of the additive variance present at the start of the comparison, against 66 to 74% for ROH. Values above 100% mean that some variance lost during the shared history was recovered. Dominance variance followed the same pattern (105 to 114% against 93 to 98%).</p>
+<p><img alt="Inbreeding depression accumulated under GRM and ROH penalties at the 1x strength, with the change in inbreeding for each" src="stories/roh-grm-penalty-simulation/docs/img/pl_depression.png" loading="lazy" /></p>
+<p><strong>Lower inbreeding did not mean less inbreeding depression.</strong> At the 1× penalty, GRM-based selection accumulated more inbreeding depression than ROH-based selection (−1.24 against −0.95 genetic SD with low dominance; −2.08 against −0.85 with high dominance), although its inbreeding was lower. One possible explanation is that the stronger selection kept under ROH penalties purges harmful recessive variants more effectively. This remains a hypothesis.</p>
+<p><strong>Neither method is better in every respect.</strong> The differences between methods grew with the amount of dominance, so the choice depends on the goals of a breeding program and on the genetic architecture of the traits in its index.</p>
+<h2>What comes next</h2>
+<ul>
+<li><strong>Calibrating the penalty.</strong> How strong a penalty to use in populations with different effective sizes.</li>
+<li><strong>Penalties and mating plans.</strong> How penalty-based selection interacts with mate allocation in genomic mating programs.</li>
+<li><strong>Testing purging.</strong> Real breeding data can show whether purging explains the extra depression under GRM penalties.</li>
+<li><strong>More realistic genomes.</strong> Linkage between markers and QTL, epistasis, and breeding decisions spread across many farms and AI organizations could change how the methods compare.</li>
+<li><strong>Genome editing.</strong> If editing is used to remove recessive defects, ROH- and GRM-based measures may relate to genetic load differently than they do today.</li>
+</ul>
