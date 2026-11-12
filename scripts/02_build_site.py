@@ -249,6 +249,16 @@ def main():
     env.filters["links"] = lambda text: Markup(re.sub(
         r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
         r'<a class="inline-link" href="\2" target="_blank" rel="noopener">\1</a>', str(escape(text))))
+
+    def citation(p):
+        # Full reference: every author, year, title, journal, volume(issue): pages, DOI.
+        names = [n.title() if n.isupper() else n for n in p["authors"]]
+        who = Markup(", ").join(Markup("<b>%s</b>") % n if name_key(n) in members else escape(n) for n in names)
+        loc = (p.get("volume") or "") + (f'({p["issue"]})' if p.get("issue") else "") + (f': {p["pages"]}' if p.get("pages") else "")
+        doi = f'https://doi.org/{p["doi"]}'
+        return (Markup('{} ({}). {}. <em>{}</em>{}. <a href="{}">{}</a>')
+                .format(who, p["year"], p["title"].rstrip("."), p["venue"], " " + loc if loc else "", doi, doi))
+    env.filters["citation"] = citation
     env.filters["longdate"] = lambda iso: date.fromisoformat(iso).strftime("%B %-d, %Y") if iso else ""
     art = {k: f() for k, f in _art.THEME_ART.items()}
     art_wide = {k: f(w=900, h=150) for k, f in _art.THEME_ART.items()}

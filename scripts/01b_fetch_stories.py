@@ -4,7 +4,9 @@
 
 Collects the plain-language accounts of the lab's papers for the "Latest
 research" page. Every paper repository carries PLAIN_LANGUAGE.md at its root,
-with the article DOI in a hidden line, <!-- doi: 10.xxxx/yyyy -->. A story is
+with the article DOI in a hidden line, <!-- doi: 10.xxxx/yyyy -->. Text between
+<!-- repo-only --> and <!-- /repo-only --> (the scripts, notes about the
+repository) is left out on the site, which gives the full citation instead. A story is
 published here once both are true:
 
   1. the repository is public on GitHub (it is made public on acceptance), and
@@ -44,6 +46,7 @@ import _paths
 STORIES = _paths.CONTENT / "stories"
 FILE = "PLAIN_LANGUAGE.md"
 DOI_LINE = re.compile(r"<!--\s*doi:\s*(10\.\S+?)\s*-->", re.I)
+REPO_ONLY = re.compile(r"<!--\s*repo-only\s*-->.*?<!--\s*/repo-only\s*-->", re.S | re.I)
 USER_AGENT = f"lbg-lab/1.0 (mailto:{_paths.MAILTO})"
 
 
@@ -82,6 +85,7 @@ def render(text, slug, blob_base):
     title = re.search(r"^#\s+(.+)$", text, re.M).group(1).strip()
     text = re.sub(r"^#\s+.+\n", "", text, count=1, flags=re.M)
     text = DOI_LINE.sub("", text)
+    text = REPO_ONLY.sub("", text)   # parts meant for the repository only (scripts, "this page")
     images = re.findall(r"!\[[^\]]*\]\(([^)\s]+)\)", text)
     images = [i for i in images if not re.match(r"[a-z]+://", i)]
     html = markdown.markdown(text, extensions=["tables"])

@@ -325,3 +325,8 @@ footer a, footer a:hover { color: #fff; }
 .story-body th, .story-body td { border-bottom: 1px solid var(--rule); padding: 6px 12px 6px 0; text-align: left; vertical-align: top; }
 .story-body code { font-size: 14px; background: var(--grey); padding: 1px 4px; }
 @media (max-width: 720px) { .story-card { grid-template-columns: 1fr; } }
+.sp-label { font: 700 13px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+.sp-cite { font-size: 16px; line-height: 1.55; margin: 0 0 8px; overflow-wrap: anywhere; }
+.sp-links { margin: 0; font: 700 15px var(--sans); }
+.story-cite { max-width: 52em; border-top: 1px solid var(--rule); margin-top: 32px; }
+.story-cite h2 { font: 700 24px/1.3 var(--sans); color: var(--red); margin: 24px 0 8px; }
