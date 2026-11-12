@@ -192,6 +192,9 @@ def main():
     members = {name_key(team["pi"]["name"])}
     members |= {name_key(p["name"]) for p in team["current"]}
     members |= {name_key(p["name"]) for p in team["alumni"]}
+    coadv_file = _paths.PEOPLE / "coadvisors.json"   # co-advisors are set in bold too
+    if coadv_file.exists():
+        members |= {name_key(c["name"]) for c in load(coadv_file)["coadvisors"]}
 
     def authors(names):
         # Names given in capitals in the source are shown in title case. Long
