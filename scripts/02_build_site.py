@@ -4,7 +4,7 @@
 
 Renders the static site into _site/ from content/ (themes, publications,
 team, site text, plain-language stories) and templates/. The "Latest
-research" page and its menu link appear once there is at least one story. No network access; run
+research" page, its archive, and the menu link appear once there is at least one story. No network access; run
 01_fetch_publications.py first to refresh the publication list.
 
 Lab members (current and alumni) are set in bold in author lists. People who
@@ -35,6 +35,7 @@ import _paths
 
 ROTATION_POOL = 12      # papers per theme the research page rotates through
 ROTATION_YEARS = 10     # only papers from the last ten years join the pool
+LATEST_STORIES = 6      # stories on the "Latest research" page; all of them are in the archive
 
 
 
@@ -177,8 +178,8 @@ def main():
     stories_file = _paths.CONTENT / "stories" / "index.json"
     stories = load(stories_file)["stories"] if stories_file.exists() else []
     by_doi_all = {p["doi"].lower(): p for p in pubs}
-    for st in stories:  # plain-language accounts from 01b_fetch_stories.py
-        st["paper"] = by_doi_all.get(st["doi"])
+    for st in stories:  # plain-language accounts added by hand with 03_add_story.py
+        st["paper"] = by_doi_all.get(st["doi"]) or st["paper"]   # the refreshed record once ORCID lists the paper
         st["body"] = Markup((_paths.CONTENT / "stories" / st["slug"] / "body.html").read_text(encoding="utf-8"))
 
     # Openings past their closing date drop off at the next build.
@@ -266,7 +267,8 @@ def main():
     common = {"site": site, "themes": themes, "openings": openings, "art": art, "art_wide": art_wide, "art_band": art_band,
               "banner": _art.dna_banner(w=1030, h=270),
               "banner_short": _art.dna_banner(w=1030, h=170), "updated": date.today().strftime("%B %-d, %Y"),
-              "paper_count": len(pubs), "shares": lab_shares(pubs), "has_stories": bool(stories)}
+              "paper_count": len(pubs), "shares": lab_shares(pubs), "has_stories": bool(stories),
+              "story_of": {st["doi"]: st["slug"] for st in stories}}
 
     if _paths.BUILD.exists():
         shutil.rmtree(_paths.BUILD)
@@ -287,12 +289,16 @@ def main():
         "people.html": {"team": team, "alumni": merge_alumni(team)},
     }
     if stories:
-        pages["latest.html"] = {"stories": stories}
+        by_year = {}
+        for st in stories:
+            by_year.setdefault(st["paper"]["year"], []).append(st)
+        pages["latest.html"] = {"stories": stories[:LATEST_STORIES], "more": len(stories) > LATEST_STORIES}
+        pages["archive.html"] = {"by_year": sorted(by_year.items(), reverse=True), "n": len(stories)}
     for st in stories:
         html = env.get_template("story.html").render(page="latest.html", story=st, **common)
         (_paths.BUILD / f'story-{st["slug"]}.html').write_text(html, encoding="utf-8")
     for name, ctx in pages.items():
-        html = env.get_template(name).render(page=name, **common, **ctx)
+        html = env.get_template(name).render(page="latest.html" if name == "archive.html" else name, **common, **ctx)
         (_paths.BUILD / name).write_text(html, encoding="utf-8")
     (_paths.BUILD / ".nojekyll").write_text("")
     print(f"Built {len(pages)} pages into {_paths.BUILD.relative_to(_paths.ROOT)}/ "

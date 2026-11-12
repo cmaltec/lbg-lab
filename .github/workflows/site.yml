@@ -1,8 +1,8 @@
 # site.yml
 #
 # Rebuilds the site weekly and on every push: refreshes publications from
-# ORCID and OpenAlex, collects the plain-language stories of published
-# papers from their repositories, renders the pages, and deploys to GitHub Pages. The
+# ORCID and OpenAlex, renders the pages (stories of published papers are
+# added by hand with 03_add_story.py and only rendered here), and deploys to GitHub Pages. The
 # deploy job runs only once the repository is public (free GitHub plans do
 # not serve Pages from private repositories); until then the build still runs
 # and fails loudly if the fetch or the render breaks.
@@ -19,8 +19,6 @@ on:
   schedule:
     - cron: "17 6 * * 1"      # Mondays 06:17 UTC
   workflow_dispatch:
-  repository_dispatch:
-    types: [story]           # sent by a paper repository to publish its story at once
 
 permissions:
   contents: read
@@ -42,10 +40,6 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Refresh publications
         run: python scripts/01_fetch_publications.py
-      - name: Collect plain-language stories of published papers
-        run: python scripts/01b_fetch_stories.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Render site
         run: python scripts/02_build_site.py
       - uses: actions/upload-pages-artifact@v3

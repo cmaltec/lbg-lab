@@ -10,7 +10,7 @@ Static website for the Livestock Breeding and Genomics Lab, Department of Animal
 | Research themes and the keywords that assign papers to them | `content/themes.json` | Hand-edited |
 | Team, alumni, visiting scholars | `content/people/team.json` | `00_sync_people.py`, from the CV data folder |
 | Lab name, mission line, contact | `content/site.json` | Hand-edited |
-| Plain-language stories of published papers ("Latest research" page) | `content/stories/` | `01b_fetch_stories.py`, weekly on GitHub, from each paper repository's `PLAIN_LANGUAGE.md` |
+| Plain-language stories of published papers ("Latest research" page) | `content/stories/` | `03_add_story.py`, run by hand at publication, from the paper repository's `PLAIN_LANGUAGE.md` |
 | Papers to leave out | `content/exclude.json` (`{"dois": [...]}`) | Hand-edited, optional |
 
 The CV data folder is not in this repository. `00_sync_people.py` reads it from the `CV_DATA_DIR` environment variable.
@@ -21,13 +21,12 @@ The CV data folder is not in this repository. `00_sync_people.py` reads it from 
 |---|---|---|
 | 00 | `scripts/00_sync_people.py` | `content/people/team.json` (local only; needs `CV_DATA_DIR`) |
 | 01 | `scripts/01_fetch_publications.py` | `content/publications.json` |
-| 01b | `scripts/01b_fetch_stories.py` | `content/stories/` (stories of published papers) |
 | 02 | `scripts/02_build_site.py` | `_site/` (the website) |
+| 03 | `scripts/03_add_story.py` | One story in `content/stories/`; by hand, when a paper is published |
 
 ```
 CV_DATA_DIR=/path/to/CV_Rmd/data python scripts/00_sync_people.py
 python scripts/01_fetch_publications.py
-python scripts/01b_fetch_stories.py
 python scripts/02_build_site.py
 open _site/index.html
 ```
@@ -36,13 +35,17 @@ open _site/index.html
 
 ## Latest research
 
-Each paper repository carries `PLAIN_LANGUAGE.md` at its root, with the article DOI in a hidden first line after the title, `<!-- doi: 10.xxxx/yyyy -->`. A story goes on the site when the repository is public and the DOI is in the publication list, that is, when the paper is out. The weekly build picks it up; to publish at once, run the workflow by hand or send a `story` event:
+Stories go on the site only when Christian adds them, at publication. Each paper repository carries `PLAIN_LANGUAGE.md` at its root, with the article DOI in a hidden line, `<!-- doi: 10.xxxx/yyyy -->`. When the paper is out:
 
 ```
-gh api repos/cmaltec/lbg-lab/dispatches -f event_type=story
+python scripts/03_add_story.py /path/to/paper-repo     # or owner/repo if public
+python scripts/02_build_site.py && open _site/latest.html
+git add content/stories && git commit -m "Story: <paper>" && git push
 ```
 
-The "Latest research" menu link appears with the first story. To preview a story before publication, copy this repository to a scratch folder, add the paper to `content/publications.json` there, and run `01b_fetch_stories.py --local <paper repo>` then `02_build_site.py`.
+The script refuses a DOI that Crossref does not know, so a story cannot go up before the article. Text marked `<!-- repo-only -->` in the paper repository is left out, and the story page gives the full citation. `--remove SLUG` takes a story down.
+
+The "Latest research" page shows the six newest stories; the archive lists all of them by year, and each paper with a story links to it from the publication list. The menu link appears with the first story.
 
 ## NC State brand
 

@@ -12,14 +12,15 @@
   <article class="story-card">
     {% if st.image %}<a class="sc-img" href="story-{{ st.slug }}.html"><img src="{{ st.image }}" alt="" loading="lazy"></a>{% endif %}
     <div class="sc-text">
-      <p class="sc-date">{{ st.date|longdate if st.date|length == 10 else st.date }}</p>
+      <p class="sc-date">{{ st.paper.date|longdate if st.paper.date else st.paper.year }}</p>
       <h3><a href="story-{{ st.slug }}.html">{{ st.title }}</a></h3>
       <p>{{ st.summary }}</p>
-      {% if st.paper %}<p class="cc-meta"><em>{{ st.paper.venue }}</em> · {{ st.paper.year }}</p>{% endif %}
+      <p class="cc-meta"><em>{{ st.paper.venue }}</em> · {{ st.paper.year }}</p>
       <a class="cc-cta" href="story-{{ st.slug }}.html">Read the story <span aria-hidden="true">&rarr;</span></a>
     </div>
   </article>
   {% endfor %}
   </div>
+  <p class="bold-links single"><a href="archive.html">{% if more %}Earlier stories{% else %}All stories by year{% endif %} <span aria-hidden="true">&rarr;</span></a></p>
 </div>
 {% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Story archive · {{ site.name }}{% endblock %}
+{% block main %}
+<section class="split-hero split-hero-short">
+  <div class="sh-text"><h1>Story archive</h1></div>
+  <div class="sh-art">{{ banner_short }}</div>
+</section>
+<div class="wrap section">
+  <p class="bold-links single back"><a href="latest.html"><span aria-hidden="true">&larr;</span> Latest research</a></p>
+  <div class="prose"><p>All {{ n }} plain-language stories of our papers, by year of publication.</p></div>
+  {% for year, items in by_year %}
+  <h3 class="sub">{{ year }}</h3>
+  <ul class="papers">
+    {% for st in items %}
+    <li class="paper">
+      <a class="ptitle" href="story-{{ st.slug }}.html">{{ st.title }}</a>
+      <div class="pmeta">{{ st.paper.title }} · <em>{{ st.paper.venue }}</em></div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+{% endblock %}

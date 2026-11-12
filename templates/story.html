@@ -4,20 +4,16 @@
 <div class="wrap section story">
   <p class="bold-links single back"><a href="latest.html"><span aria-hidden="true">&larr;</span> Latest research</a></p>
   <h1>{{ story.title }}</h1>
-  {% if story.paper %}
   <div class="story-paper">
     <p class="sp-label">The article</p>
     <p class="sp-cite">{{ story.paper|citation }}</p>
     <p class="sp-links"><a href="https://doi.org/{{ story.doi }}">Read the article <span aria-hidden="true">&rarr;</span></a>{% if story.paper.oa_url %} · <a href="{{ story.paper.oa_url }}">Free to read</a>{% endif %}</p>
   </div>
-  {% endif %}
   <div class="prose story-body">{{ story.body }}</div>
-  {% if story.paper %}
   <div class="story-cite">
     <h2>How to cite</h2>
     <p>Please cite the article, not this page:</p>
     <p class="sp-cite">{{ story.paper|citation }}</p>
   </div>
-  {% endif %}
 </div>
 {% endblock %}
